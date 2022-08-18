@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="smartStore">
+			<child name="close" key="{46F57EC7-9337-4184-8FE0-E790F80BBDF6}" path="close.tcKDTest" />
+			<child name="contactUs" key="{556BAD4C-3C94-4397-B693-8B5944F2DF70}" path="contactUs.tcKDTest" />
+			<child name="contactUsFlow" key="{6F5D8442-BA69-436F-9280-EAE4F8A2B44E}" path="contactUsFlow.tcKDTest" />
+			<child name="login" key="{6B434AAA-5675-4852-B68B-9C916E71CF15}" path="login.tcKDTest" />
+			<child name="logout" key="{05245389-4007-4BD2-8A06-372C6A7AD769}" path="logout.tcKDTest" />
+			<child name="purchase" key="{A3C57169-53DF-4D26-BB63-DA55262FBCC5}" path="purchase.tcKDTest" />
+		</folder>
+		<folder name="OCR">
+			<child name="OCRCheck" key="{8B64DBC8-26D8-4B9B-A3CD-4BDEB1FA2AFE}" path="OCRCheck.tcKDTest" />
+			<child name="OCRAction" key="{AEA2E0A0-158F-4D4D-A7CE-3D3CB2C85894}" path="OCRAction.tcKDTest" />
+		</folder>
+		<child name="Test1" key="{35A9C738-C034-4A8F-AAF3-538885D89D09}" path="Test1.tcKDTest" />
+	</children>
+</Root>

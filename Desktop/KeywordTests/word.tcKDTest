@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{3B9848B5-ADD8-4915-9060-30677B5C1D9F}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.WINWORD" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC2C124DBADF9DE4FB417F84F2C06A9473685587DC8EA90F57BC873FCC78573F579B0BA6B6388D8FBBD5112FFF1E16D61E2607391ED85B1F1E943968BD3E5C16BC7A3EDB3FE83C0B9E6203006B14162303308E97F7FED2848CBFF7B6B7BFEDF5A540B6683C488D50FD2F0F9C195FFAF4E6F0763101B0488D10F7233085C9B91FFFFFBAB47FF7F7FFD086683C44072203332ED44FF5FAED1C6C02039907B417A0EA6A881B480C1D17C53B059203942FA416E86F915E46E901B407A4062203942FA41F2847081931886DB41FE2126FD1C8897FEFF6EA923568C9C7E71A9C1274E4DFDF767D9BCC76717BA1C483D00AB2F4646" />
+					<Bitmap Name="Aliases.WINWORD.formWord" Data="61717A697000000001000000360400007801A5934F4AC34014C6BF8007F008BAF304D90A2E856E3C831BCFE04DDC74E9C2A5221EC185A0A0146AB1AD586DEDBF34CD34994C2689EFA50D741C0AA94EF8260993DFCBCBF74D8E6AEE0E8AE1D27C40DA5DC9C11E5DD158AD2F6F96738EFF1FA7C72EB6D1D9C961F17CF9E687DB4B24C1146A3E86F24750B321626F8078DA473CF982FCEE22FA6C217C6F40BC3DC16F3DDABCF030A83B86C2C605EAED059CEBC850D079B1F9856FB05C6B132F3E9A16AFC3A0321FF53B361F89CABC1CF52C3E9561D12FF75C4A8D9FF1EA2D0A0FD88752927CE5BCD6FD4FE3085777BEA1765710DF23EEDE90A46C2C5E49ECD78686B81EB3B839371453BEBFF94C2B83E55A1B79DA23169FEACABC9A4F2C3ECFD2EA7C30B3F99CDCA41A19F591E90459A2909227EC2B67A3295FDE239AF659226C9EFF816DB4FEFD658E7F39FF00D1F3F683" />
+					<Bitmap Name="Aliases.WINWORD.formWord.panel" Data="61717A697000000001000000360400007801A5934F4AC34014C6BF8007F008BAF304D90A2E856E3C831BCFE04DDC74E9C2A5221EC185A0A0146AB1AD586DEDBF34CD34994C2689EFA50D741C0AA94EF8260993DFCBCBF74D8E6AEE0E8AE1D27C40DA5DC9C11E5DD158AD2F6F96738EFF1FA7C72EB6D1D9C961F17CF9E687DB4B24C1146A3E86F24750B321626F8078DA473CF982FCEE22FA6C217C6F40BC3DC16F3DDABCF030A83B86C2C605EAED059CEBC850D079B1F9856FB05C6B132F3E9A16AFC3A0321FF53B361F89CABC1CF52C3E9561D12FF75C4A8D9FF1EA2D0A0FD88752927CE5BCD6FD4FE3085777BEA1765710DF23EEDE90A46C2C5E49ECD78686B81EB3B839371453BEBFF94C2B83E55A1B79DA23169FEACABC9A4F2C3ECFD2EA7C30B3F99CDCA41A19F591E90459A2909227EC2B67A3295FDE239AF659226C9EFF816DB4FEFD658E7F39FF00D1F3F683" />
+					<Bitmap Name="Aliases.WINWORD.formWord.panel.pane" Data="61717A697000000001000000360400007801A5934F4AC34014C6BF8007F008BAF304D90A2E856E3C831BCFE04DDC74E9C2A5221EC185A0A0146AB1AD586DEDBF34CD34994C2689EFA50D741C0AA94EF8260993DFCBCBF74D8E6AEE0E8AE1D27C40DA5DC9C11E5DD158AD2F6F96738EFF1FA7C72EB6D1D9C961F17CF9E687DB4B24C1146A3E86F24750B321626F8078DA473CF982FCEE22FA6C217C6F40BC3DC16F3DDABCF030A83B86C2C605EAED059CEBC850D079B1F9856FB05C6B132F3E9A16AFC3A0321FF53B361F89CABC1CF52C3E9561D12FF75C4A8D9FF1EA2D0A0FD88752927CE5BCD6FD4FE3085777BEA1765710DF23EEDE90A46C2C5E49ECD78686B81EB3B839371453BEBFF94C2B83E55A1B79DA23169FEACABC9A4F2C3ECFD2EA7C30B3F99CDCA41A19F591E90459A2909227EC2B67A3295FDE239AF659226C9EFF816DB4FEFD658E7F39FF00D1F3F683" />
+					<Bitmap Name="Aliases.WINWORD.formWord.panel.pane.pane" Data="61717A697000000001000000360400007801A5934F4AC34014C6BF8007F008BAF304D90A2E856E3C831BCFE04DDC74E9C2A5221EC185A0A0146AB1AD586DEDBF34CD34994C2689EFA50D741C0AA94EF8260993DFCBCBF74D8E6AEE0E8AE1D27C40DA5DC9C11E5DD158AD2F6F96738EFF1FA7C72EB6D1D9C961F17CF9E687DB4B24C1146A3E86F24750B321626F8078DA473CF982FCEE22FA6C217C6F40BC3DC16F3DDABCF030A83B86C2C605EAED059CEBC850D079B1F9856FB05C6B132F3E9A16AFC3A0321FF53B361F89CABC1CF52C3E9561D12FF75C4A8D9FF1EA2D0A0FD88752927CE5BCD6FD4FE3085777BEA1765710DF23EEDE90A46C2C5E49ECD78686B81EB3B839371453BEBFF94C2B83E55A1B79DA23169FEACABC9A4F2C3ECFD2EA7C30B3F99CDCA41A19F591E90459A2909227EC2B67A3295FDE239AF659226C9EFF816DB4FEFD658E7F39FF00D1F3F683" />
+					<Bitmap Name="Aliases.WINWORD.formWord.panel.pane.paneBackstageView" Data="61717A697000000001000000360400007801A5934F4AC34014C6BF8007F008BAF304D90A2E856E3C831BCFE04DDC74E9C2A5221EC185A0A0146AB1AD586DEDBF34CD34994C2689EFA50D741C0AA94EF8260993DFCBCBF74D8E6AEE0E8AE1D27C40DA5DC9C11E5DD158AD2F6F96738EFF1FA7C72EB6D1D9C961F17CF9E687DB4B24C1146A3E86F24750B321626F8078DA473CF982FCEE22FA6C217C6F40BC3DC16F3DDABCF030A83B86C2C605EAED059CEBC850D079B1F9856FB05C6B132F3E9A16AFC3A0321FF53B361F89CABC1CF52C3E9561D12FF75C4A8D9FF1EA2D0A0FD88752927CE5BCD6FD4FE3085777BEA1765710DF23EEDE90A46C2C5E49ECD78686B81EB3B839371453BEBFF94C2B83E55A1B79DA23169FEACABC9A4F2C3ECFD2EA7C30B3F99CDCA41A19F591E90459A2909227EC2B67A3295FDE239AF659226C9EFF816DB4FEFD658E7F39FF00D1F3F683" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+				<Data Description="Runs the &quot;WINWORD&quot; tested application." TestedApp="WINWORD">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="1" />
+						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<CommonData Disabled="True" />
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.WINWORD.formWord.panel.pane.pane.client.listFile.listitemOpen;" />
+				</Data>
+			</Operation>
+			<Operation Type="{DCEB53DA-FEB9-4BC3-93B2-33BCD89569F5}">
+				<Data Description="Executes the specified code snippet." LangId="{90F89436-9452-4F95-9882-6B5210079F13}" CodeExpression="Aliases.WINWORD.formWord.panel.pane.pane.client.listFile.listitemOpen.Click();" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.WINWORD.formWord.panel.pane.paneBackstageView.client.paneOpen.groupingOpen.pane.client.menubarOpen.grouping.pagetabOnedriveSmartbearSoftware;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="44" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="9" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.WINWORD.formWord.panel.pane.paneBackstageView.client.paneOpen.pane.client.grouping.buttonSortByDateModified.textDateModified;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.WINWORD.formWord.panel.pane.paneBackstageView.client.paneOpen.pane.client.grouping.client.listItems.client.client.listitemTestingmswordDocx;" />
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.WINWORD.formTestingmswordDocxWord.panelMsodocktop.toolbar.panelRibbon.panel.propertypageRibbon.titlebarTestingmswordDocxSaved.button" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Description" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="testingMSWord.docx" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{80621872-6CB6-4D05-82FD-4D01B3CF0B5B}" />
+</Root>

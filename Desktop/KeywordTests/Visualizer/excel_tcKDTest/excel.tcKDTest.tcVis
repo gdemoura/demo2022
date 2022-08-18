@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{3F154D81-5AFD-426C-B088-6C26553CD276}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44788.6941203704" objectName="Aliases.EXCEL.wndExcel.panel.pane.pane.client.listFile" objectLeft="1" objectTop="339" objectRight="141" objectBottom="467" clickPointX="46" clickPointY="407" imageFileName="tcvi273088781147041.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44788.6941550926" objectName="Aliases.EXCEL.wndExcel.panel.pane.paneBackstageView.client.paneOpen.groupingOpen.pane.client.menubarOpen.grouping.pagetabOnedriveSmartbearSoftware" objectLeft="182" objectTop="217" objectRight="498" objectBottom="299" clickPointX="335" clickPointY="276" imageFileName="tcvi273091781147044.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44788.6941898148" objectName="Aliases.EXCEL.wndExcel.panel.pane.paneBackstageView.client.paneOpen.pane.client.grouping.client.listItems.client.client.listitemMsexceltestXlsx" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi273094531147047.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

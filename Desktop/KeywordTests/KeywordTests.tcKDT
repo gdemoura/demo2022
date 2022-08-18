@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Orders">
+			<child name="delete" key="{288C1CC6-DF09-4616-A3A2-FBA02240EB2E}" path="delete.tcKDTest" />
+			<child name="newOrder" key="{BFB68175-0FC0-4835-9609-990F433C723E}" path="newOrder.tcKDTest" />
+			<child name="newOrderData" key="{16AB14EE-DAE0-4F1C-884F-6911B4089385}" path="newOrderData.tcKDTest" />
+		</folder>
+		<folder name="MSoffice">
+			<child name="excel" key="{3F154D81-5AFD-426C-B088-6C26553CD276}" path="excel.tcKDTest" />
+			<child name="word" key="{B279C15B-59C8-4474-874F-72D5B4F7B938}" path="word.tcKDTest" />
+		</folder>
+	</children>
+</Root>
