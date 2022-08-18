@@ -13,6 +13,5 @@
 			<child name="OCRCheck" key="{8B64DBC8-26D8-4B9B-A3CD-4BDEB1FA2AFE}" path="OCRCheck.tcKDTest" />
 			<child name="OCRAction" key="{AEA2E0A0-158F-4D4D-A7CE-3D3CB2C85894}" path="OCRAction.tcKDTest" />
 		</folder>
-		<child name="Test1" key="{35A9C738-C034-4A8F-AAF3-538885D89D09}" path="Test1.tcKDTest" />
 	</children>
 </Root>

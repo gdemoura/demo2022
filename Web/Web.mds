@@ -8,7 +8,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{EBC18FC4-64C5-426D-AD7E-2CD739F27E72}" version="14">
 		<children>
-			<testItem name="smartstoreFlow" key="{72E456CF-6777-46D2-9309-AE13205E75F2}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="smartstoreFlow" key="{72E456CF-6777-46D2-9309-AE13205E75F2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="login" key="{C46F6DCA-F8FB-4419-AB44-F18E46E192D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -42,7 +42,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="headlessTests" key="{36753315-11B0-434E-AF4C-7D0D950F8A2D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="headlessTests" key="{36753315-11B0-434E-AF4C-7D0D950F8A2D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="contactUs" key="{FF6FE1AB-B16B-4DD4-9F3B-6CF34C2B4D87}" group="False" parallel="False" enabled="True" testMoniker="KDT\{556BAD4C-3C94-4397-B693-8B5944F2DF70}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">

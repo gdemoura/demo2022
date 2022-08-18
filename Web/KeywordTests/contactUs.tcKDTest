@@ -103,5 +103,14 @@
 			</Operation>
 		</Children>
 	</TestData>
+	<Variables Version="4" Key="{CFB1CF9B-62A6-4A14-9781-0740C56E2998}">
+		<Items>
+			<Variable Name="excelData" Type="DB Table" Local="False">
+				<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+					<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
 	<Parameters Key="{64E85BE2-ECD6-480C-89D6-328824B5E559}" />
 </Root>

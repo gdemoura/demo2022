@@ -295,30 +295,6 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textboxUsernameoremail" Key="{CE496F3D-A35A-4314-A430-3EAF9A58406C}">
-										<Image FileName="-1527126444" Left="1092" Top="488" Right="1475" Bottom="539" />
-										<TypeInfo Item0="{FD18DB97-BAC5-4C5A-9BD2-07A84D770A4A}" />
-										<Selectors>
-											<Selector>
-												<Value Value="css=#UsernameOrEmail" />
-											</Selector>
-											<Selector>
-												<Value Value="//input[@name=&apos;UsernameOrEmail&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//input[@type=&apos;text&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//input[contains(@class, &apos;username&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;content-center&apos;]//form/div//input" />
-											</Selector>
-											<Selector>
-												<Value Value="//form/div//input" />
-											</Selector>
-										</Selectors>
-									</Child>
 									<Child Name="passwordboxPassword" Key="{C0A01593-1462-4555-8705-4147CC5BA078}">
 										<Image FileName="-1542681389" Left="1092" Top="555" Right="1475" Bottom="606" />
 										<TypeInfo Item0="{FD18DB97-BAC5-4C5A-9BD2-07A84D770A4A}" />
@@ -343,12 +319,36 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonLogIn" Key="{F4BE3557-6EC3-40BD-A141-BDEF0EE79A68}">
-										<Image FileName="1415698291" Left="1092" Top="661" Right="1475" Bottom="712" />
-										<TypeInfo Item0="{062BF320-127B-46EA-949A-FF6ACFA35924}" />
+									<Child Name="textboxUsernameoremail" Key="{8476165A-1DBE-4EA9-ABB4-B20684AADF87}">
+										<Image FileName="1017597913" Left="1100" Top="496" Right="1483" Bottom="547" />
+										<TypeInfo Item0="{7E5DCF88-05AA-4F4B-AEFA-C2652E3C57A0}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//button[contains(text(), &apos;Login&apos;)]" />
+												<Value Value="#UsernameOrEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;UsernameOrEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;username&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//form/div//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogIn" Key="{D21C95B1-D980-4A2A-94F9-018155E45BAE}">
+										<Image FileName="232165028" Left="1100" Top="669" Right="1483" Bottom="720" />
+										<TypeInfo Item0="{2A3B1984-3041-4604-8E14-F0136A6EBC4B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Log in&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button[@type=&apos;submit&apos;]" />
@@ -1051,6 +1051,54 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="header" Key="{4F6372E8-468E-4A42-9F9B-77B91B2CE13C}">
+										<Image FileName="-10920086" Left="8" Top="111" Right="1928" Bottom="290" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{17FA0FB8-4F38-4A04-B7EE-5240B7D66999}">
+										<Image FileName="-10920086" Left="411" Top="180" Right="661" Bottom="225" />
+										<TypeInfo Item0="{EB196F12-0E79-4550-A8D7-320C4219CC9A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSmartstore" Key="{47F509A0-EE8E-431D-A7BB-E01FF0F8F24A}">
+										<Image FileName="-10920086" Left="411" Top="180" Right="661" Bottom="225" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageConsumerSalesAppOverviewQlik" Key="{4517D9BF-C9D8-43BE-8C51-2D6A34557D68}">
@@ -1394,9 +1442,9 @@
 			</Child>
 			<Child Name="pageLogin" Owner="{6ED106B0-56A7-407B-9509-741CD2E5F372}">
 				<Child Name="sectionContent" Owner="{63357D1F-82EB-40FA-A532-164E8F2AAE5E}">
-					<Child Name="textboxUsernameoremail" Owner="{CE496F3D-A35A-4314-A430-3EAF9A58406C}" />
 					<Child Name="passwordboxPassword" Owner="{C0A01593-1462-4555-8705-4147CC5BA078}" />
-					<Child Name="buttonLogIn" Owner="{F4BE3557-6EC3-40BD-A141-BDEF0EE79A68}" />
+					<Child Name="textboxUsernameoremail" Owner="{8476165A-1DBE-4EA9-ABB4-B20684AADF87}" />
+					<Child Name="buttonLogIn" Owner="{D21C95B1-D980-4A2A-94F9-018155E45BAE}" />
 				</Child>
 			</Child>
 			<Child Name="pageFurniture" Owner="{C6194A1D-76F7-413C-BE01-AFDF3A3090AE}">
@@ -1466,6 +1514,11 @@
 						<Child Name="emailinputYourEmail" Owner="{C0B6A360-E5D0-4509-B57F-D663D53F7708}" />
 					</Child>
 					<Child Name="panelYourEnquiryHasBeen" Owner="{CA9E87CF-6168-4D7C-8A01-E39C20D6F154}" />
+				</Child>
+				<Child Name="header" Owner="{4F6372E8-468E-4A42-9F9B-77B91B2CE13C}">
+					<Child Name="link" Owner="{17FA0FB8-4F38-4A04-B7EE-5240B7D66999}">
+						<Child Name="imageSmartstore" Owner="{47F509A0-EE8E-431D-A7BB-E01FF0F8F24A}" />
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageConsumerSalesAppOverviewQlik" Owner="{4517D9BF-C9D8-43BE-8C51-2D6A34557D68}">
