@@ -13,5 +13,9 @@
 			<child name="OCRCheck" key="{8B64DBC8-26D8-4B9B-A3CD-4BDEB1FA2AFE}" path="OCRCheck.tcKDTest" />
 			<child name="OCRAction" key="{AEA2E0A0-158F-4D4D-A7CE-3D3CB2C85894}" path="OCRAction.tcKDTest" />
 		</folder>
+		<folder name="AzureOutlook">
+			<child name="Azure" key="{9307F490-E464-46C3-90C4-73A1D4F9D902}" path="Azure.tcKDTest" />
+			<child name="Outlook" key="{18201ABC-40F5-42C7-90CF-5040B4D817EF}" path="Outlook.tcKDTest" />
+		</folder>
 	</children>
 </Root>
