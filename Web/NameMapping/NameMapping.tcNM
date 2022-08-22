@@ -261,6 +261,43 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="navBooks" Key="{C2D7E2B3-72BD-4BF1-B72D-8B6E9D2D18F1}">
+										<Image FileName="173051385" Left="0" Top="233" Right="1903" Bottom="283" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Books&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/div[3]/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCookAndEnjoy" Key="{D723D7E2-8125-4C33-9FF6-8E8DBC859E87}">
+										<Image FileName="173051385" Left="398" Top="324" Right="646" Bottom="358" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Cook and enjoy&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCookAndEnjoy" Key="{D1840463-6E32-4DEE-9B2D-B30E0E35969F}">
+										<Image FileName="173051385" Left="422" Top="331" Right="519" Bottom="350" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Cook and enjoy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;cook-and-enjoy&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/nav//div[2]//a[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{6ED106B0-56A7-407B-9509-741CD2E5F372}">
@@ -1210,6 +1247,56 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageCookAndEnjoy" Key="{90ADCA99-30C7-4C05-BFD5-C89B4AAC5DB0}">
+								<TypeInfo Item0="{FE8EEA9F-AF0D-418B-9E41-288310EEB51A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/cook-and-enjoy" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{B83B105A-2820-48CA-B44A-A7D1958B740B}">
+										<Image FileName="1798975663" Left="0" Top="103" Right="1903" Bottom="282" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navBooks" Key="{36F5A893-14C5-487F-8254-BF1E814515FF}">
+										<Image FileName="1798975663" Left="0" Top="233" Right="1903" Bottom="283" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Books&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/div[3]/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkGolf" Key="{1A3F44BB-AB33-492A-AE3C-35AD8E4E3A1C}">
+										<Image FileName="1798975663" Left="580" Top="324" Right="828" Bottom="358" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Golf&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{B78DAAA3-1D5F-4C22-BBDF-376E9A593728}">
@@ -1431,6 +1518,11 @@
 							<Child Name="linkContactUs" Owner="{1D68E689-0671-4DE3-A69B-2EAFAE6692A6}" />
 						</Child>
 					</Child>
+					<Child Name="navBooks" Owner="{C2D7E2B3-72BD-4BF1-B72D-8B6E9D2D18F1}">
+						<Child Name="linkCookAndEnjoy" Owner="{D723D7E2-8125-4C33-9FF6-8E8DBC859E87}">
+							<Child Name="textnodeCookAndEnjoy" Owner="{D1840463-6E32-4DEE-9B2D-B30E0E35969F}" />
+						</Child>
+					</Child>
 				</Child>
 				<Child Name="sectionContent" Owner="{64D35CFF-7AD3-45F5-A570-399516393C64}">
 					<Child Name="articleFurniture" Owner="{AAB73ED9-0CDA-4F95-91E5-227D353E585C}">
@@ -1533,6 +1625,13 @@
 					<Child Name="panelSales" Owner="{37EDCC1E-0DD9-4E76-B95B-D8E2DC7409AD}" />
 				</Child>
 				<Child Name="articleTable" Owner="{41C01362-B827-4F67-A14E-54C0A0B98C37}" />
+			</Child>
+			<Child Name="pageCookAndEnjoy" Owner="{90ADCA99-30C7-4C05-BFD5-C89B4AAC5DB0}">
+				<Child Name="header" Owner="{B83B105A-2820-48CA-B44A-A7D1958B740B}">
+					<Child Name="navBooks" Owner="{36F5A893-14C5-487F-8254-BF1E814515FF}">
+						<Child Name="linkGolf" Owner="{1A3F44BB-AB33-492A-AE3C-35AD8E4E3A1C}" />
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{B78DAAA3-1D5F-4C22-BBDF-376E9A593728}">

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{3773EF74-1BCB-4775-A827-6ED0FA70E7D7}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44795.5751157407" objectName="Aliases.browser.pageShop.header.navBooks.linkCookAndEnjoy.textnodeCookAndEnjoy" objectLeft="422" objectTop="331" objectRight="519" objectBottom="350" clickPointX="473" clickPointY="335" imageFileName="tcvi4428453128284.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44795.5751967593" objectName="Aliases.browser.pageCookAndEnjoy.header.navBooks.linkGolf" objectLeft="580" objectTop="324" objectRight="828" objectBottom="358" clickPointX="632" clickPointY="339" imageFileName="tcvi4435406128287.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
