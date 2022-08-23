@@ -298,6 +298,91 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="link" Key="{F02D7D38-15B8-4D86-8A6D-55B61E1137BB}">
+										<Image FileName="-1892409365" Left="403" Top="180" Right="653" Bottom="225" />
+										<TypeInfo Item0="{EB196F12-0E79-4550-A8D7-320C4219CC9A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a[contains(@class, &apos;brand&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageSmartstore" Key="{7CA54181-4EFB-4C8B-BD05-B988C1E6DDDF}">
+										<Image FileName="-1892409365" Left="403" Top="180" Right="653" Bottom="225" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@title=&apos;SmartStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img[contains(@class, &apos;img-fluid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navNews" Key="{F685A29A-F6D7-4BB4-97FF-5EB5C678BC94}">
+										<Image FileName="87214608" Left="1220" Top="103" Right="1404" Bottom="155" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;menubar-group--special&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNews" Key="{2A8CB3D8-B86F-4CB0-ABD8-AD5419A9EC3E}">
+										<Image FileName="87214608" Left="1220" Top="103" Right="1277" Bottom="155" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;News&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//nav[3]/a" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[3]/a" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDigitalProducts" Key="{6BBCFA9F-9DA6-46FD-89E2-9438D9FB3B1D}">
+										<Image FileName="1639049647" Left="843" Top="233" Right="978" Bottom="281" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Digital Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//li[6]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDigitalProducts" Key="{64F43AEC-42F3-44FD-9212-8E1676AEEE32}">
+										<Image FileName="1639049647" Left="852" Top="246" Right="968" Bottom="267" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Digital Products&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{6ED106B0-56A7-407B-9509-741CD2E5F372}">
@@ -1295,6 +1380,365 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeBooks" Key="{7617C9C6-10B0-4986-B272-9C11F667D00C}">
+										<Image FileName="-73486397" Left="405" Top="241" Right="484" Bottom="291" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Books&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;expanded&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBooks" Key="{7700490E-B961-466C-B69F-53CA7EE740C3}">
+										<Image FileName="-73486397" Left="405" Top="241" Right="484" Bottom="291" />
+										<TypeInfo Item0="{EB196F12-0E79-4550-A8D7-320C4219CC9A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Books&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageShopBooks" Key="{571E70A5-45D5-4C87-B4B7-C41966D3ED0F}">
+								<Image FileName="-981655459" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/books" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{7EF5639B-217D-4119-BE16-F9A9C8AA3034}">
+										<Image FileName="-981655459" Left="0" Top="103" Right="1903" Bottom="282" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navBooks" Key="{EB9D46CC-FB48-4E6D-9DFF-5FBE1DD41402}">
+										<Image FileName="-981655459" Left="0" Top="233" Right="1903" Bottom="283" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Books&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/div[3]/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMenuMain" Key="{0EBB393E-E87E-46E4-9DB7-26218999A0A2}">
+										<Image FileName="-981655459" Left="397" Top="233" Right="1507" Bottom="283" />
+										<Selectors>
+											<Selector>
+												<Value Value="#menu-main" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Books&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//nav//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBooks" Key="{E33FFD49-AE08-49A7-AA8B-221DC95FF62C}">
+										<Image FileName="-981655459" Left="397" Top="233" Right="476" Bottom="283" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Books&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCookAndEnjoy" Key="{6F331D1E-43C8-4CD4-AF24-98097DB219BC}">
+										<Image FileName="-653037626" Left="398" Top="324" Right="646" Bottom="358" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Cook and enjoy&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCookAndEnjoy" Key="{CB76FE93-07F8-4BCE-AED3-865A5BCD752A}">
+										<Image FileName="-653037626" Left="422" Top="331" Right="519" Bottom="350" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Cook and enjoy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//nav//div[2]//a[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/nav//div[2]//a[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageNews" Key="{119870F1-FBB1-4780-9848-FFA176D20857}">
+								<TypeInfo Item0="{FE8EEA9F-AF0D-418B-9E41-288310EEB51A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/news" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{9CAA61F1-C44F-47E6-8340-0D6D6EE86432}">
+										<Image FileName="-365815237" Left="382" Top="306" Right="1522" Bottom="1435" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;News&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleTheZ3ZuseZ3" Key="{3AAA6B7C-ED96-4940-B559-20662D504E73}">
+										<Image FileName="-365815237" Left="382" Top="424" Right="762" Bottom="840" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;The Z3 (Zuse Z3)&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkReadMore" Key="{8998E598-1B28-43BF-BBFB-1C382263C341}">
+										<Image FileName="-365815237" Left="397" Top="795" Right="505" Bottom="840" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Read more&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//article//div/a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//article/div[2]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//article/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDigitalProducts" Key="{F91D987E-641C-4B7C-A3A5-44E708E83C5A}">
+								<TypeInfo Item0="{FE8EEA9F-AF0D-418B-9E41-288310EEB51A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/digital-products" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{42DDC871-AAF7-40C9-AB5C-C661BA78776B}">
+										<Image FileName="1871878924" Left="382" Top="206" Right="1522" Bottom="1669" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Digital Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShowDetailsForEbookStoneOf" Key="{1BF03BA1-BD82-4AF2-8860-BD6B22C06419}">
+										<Image FileName="1871878924" Left="697" Top="436" Right="871" Bottom="610" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@title=&quot;Show details for Ebook &apos;Stone of the Wise&apos; in &apos;Lorem ipsum&apos;&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//article//a[contains(@class, &apos;art-picture&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//article/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-body&apos;]/div[@id=&apos;content-center&apos;]//div[2]/article//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageShowDetailsForEbookStoneOf" Key="{A92BEC6C-70D9-491A-96B4-2087A26FDA02}">
+										<Image FileName="1871878924" Left="697" Top="439" Right="871" Bottom="608" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//img[@title=&quot;Show details for Ebook&apos;&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;ebook-stone-of-the-wise-in-lorem-ipsum&apos;)]/img" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//article//a/img" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEbookStoneOfTheWiseInLoremIp" Key="{9D0BC405-6C64-4B9E-A236-E6868B0514DD}">
+								<Image FileName="1871878924" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{FE8EEA9F-AF0D-418B-9E41-288310EEB51A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/ebook-stone-of-the-wise-in-lorem-ipsum" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{A8321C12-D57A-4A39-9C05-AEB65A1F14E6}">
+										<Image FileName="362660207" Left="382" Top="306" Right="1522" Bottom="1680" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Digital Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleEbookStoneOfTheWiseIn" Key="{4D31218E-FE68-4927-B57C-C297572B7FE5}">
+										<Image FileName="362660207" Left="397" Top="357" Right="1507" Bottom="1270" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &quot;Ebook &apos;Stone of the Wise&apos; in &apos;Lorem ipsum&apos;&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[contains(@class, &apos;pd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAddToCart" Key="{4D69B103-6548-48FE-9467-83D5E48B6D22}">
+										<Image FileName="1083100741" Left="1196" Top="610" Right="1491" Bottom="661" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Add to cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main-update-container&apos;]/form/section/aside//div[3]//a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//section/aside/div[4]/div[3]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/section/aside/div[4]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAddToCart" Key="{87F4E741-EFB9-408E-BDBB-1314A7A2EE41}">
+										<Image FileName="1083100741" Left="1314" Top="625" Right="1396" Bottom="646" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Add to cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//div/div[2]/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-body&apos;]//div[3]/div/div[2]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="asideOffcanvasCart" Key="{FF2D75E3-CE4E-4B2F-9B47-F18EFC396E80}">
+										<Image FileName="-782589826" Left="1440" Top="103" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="#offcanvas-cart" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(., &apos;Shopping Cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(@class, &apos;offcanvas-lg&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkGoToCart" Key="{91651EA2-B373-4C03-BBA1-F9D5DC2C45DF}">
+										<Image FileName="-782589826" Left="1661" Top="980" Right="1763" Bottom="1025" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[contains(text(), &apos;Go&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;btn-success&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -1517,11 +1961,20 @@
 						<Child Name="navContactUs" Owner="{07D7A0D7-7463-4F78-9CF0-520EBD770B49}">
 							<Child Name="linkContactUs" Owner="{1D68E689-0671-4DE3-A69B-2EAFAE6692A6}" />
 						</Child>
+						<Child Name="navNews" Owner="{F685A29A-F6D7-4BB4-97FF-5EB5C678BC94}">
+							<Child Name="linkNews" Owner="{2A8CB3D8-B86F-4CB0-ABD8-AD5419A9EC3E}" />
+						</Child>
 					</Child>
 					<Child Name="navBooks" Owner="{C2D7E2B3-72BD-4BF1-B72D-8B6E9D2D18F1}">
 						<Child Name="linkCookAndEnjoy" Owner="{D723D7E2-8125-4C33-9FF6-8E8DBC859E87}">
 							<Child Name="textnodeCookAndEnjoy" Owner="{D1840463-6E32-4DEE-9B2D-B30E0E35969F}" />
 						</Child>
+						<Child Name="linkDigitalProducts" Owner="{6BBCFA9F-9DA6-46FD-89E2-9438D9FB3B1D}">
+							<Child Name="textnodeDigitalProducts" Owner="{64F43AEC-42F3-44FD-9212-8E1676AEEE32}" />
+						</Child>
+					</Child>
+					<Child Name="link" Owner="{F02D7D38-15B8-4D86-8A6D-55B61E1137BB}">
+						<Child Name="imageSmartstore" Owner="{7CA54181-4EFB-4C8B-BD05-B988C1E6DDDF}" />
 					</Child>
 				</Child>
 				<Child Name="sectionContent" Owner="{64D35CFF-7AD3-45F5-A570-399516393C64}">
@@ -1630,7 +2083,48 @@
 				<Child Name="header" Owner="{B83B105A-2820-48CA-B44A-A7D1958B740B}">
 					<Child Name="navBooks" Owner="{36F5A893-14C5-487F-8254-BF1E814515FF}">
 						<Child Name="linkGolf" Owner="{1A3F44BB-AB33-492A-AE3C-35AD8E4E3A1C}" />
+						<Child Name="textnodeBooks" Owner="{7617C9C6-10B0-4986-B272-9C11F667D00C}">
+							<Child Name="linkBooks" Owner="{7700490E-B961-466C-B69F-53CA7EE740C3}" />
+						</Child>
 					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageShopBooks" Owner="{571E70A5-45D5-4C87-B4B7-C41966D3ED0F}">
+				<Child Name="header" Owner="{7EF5639B-217D-4119-BE16-F9A9C8AA3034}">
+					<Child Name="navBooks" Owner="{EB9D46CC-FB48-4E6D-9DFF-5FBE1DD41402}">
+						<Child Name="textnodeMenuMain" Owner="{0EBB393E-E87E-46E4-9DB7-26218999A0A2}">
+							<Child Name="linkBooks" Owner="{E33FFD49-AE08-49A7-AA8B-221DC95FF62C}" />
+						</Child>
+						<Child Name="linkCookAndEnjoy" Owner="{6F331D1E-43C8-4CD4-AF24-98097DB219BC}">
+							<Child Name="textnodeCookAndEnjoy" Owner="{CB76FE93-07F8-4BCE-AED3-865A5BCD752A}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageNews" Owner="{119870F1-FBB1-4780-9848-FFA176D20857}">
+				<Child Name="sectionContent" Owner="{9CAA61F1-C44F-47E6-8340-0D6D6EE86432}">
+					<Child Name="articleTheZ3ZuseZ3" Owner="{3AAA6B7C-ED96-4940-B559-20662D504E73}">
+						<Child Name="linkReadMore" Owner="{8998E598-1B28-43BF-BBFB-1C382263C341}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageDigitalProducts" Owner="{F91D987E-641C-4B7C-A3A5-44E708E83C5A}">
+				<Child Name="sectionContent" Owner="{42DDC871-AAF7-40C9-AB5C-C661BA78776B}">
+					<Child Name="linkShowDetailsForEbookStoneOf" Owner="{1BF03BA1-BD82-4AF2-8860-BD6B22C06419}">
+						<Child Name="imageShowDetailsForEbookStoneOf" Owner="{A92BEC6C-70D9-491A-96B4-2087A26FDA02}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageEbookStoneOfTheWiseInLoremIp" Owner="{9D0BC405-6C64-4B9E-A236-E6868B0514DD}">
+				<Child Name="sectionContent" Owner="{A8321C12-D57A-4A39-9C05-AEB65A1F14E6}">
+					<Child Name="articleEbookStoneOfTheWiseIn" Owner="{4D31218E-FE68-4927-B57C-C297572B7FE5}">
+						<Child Name="linkAddToCart" Owner="{4D69B103-6548-48FE-9467-83D5E48B6D22}">
+							<Child Name="textnodeAddToCart" Owner="{87F4E741-EFB9-408E-BDBB-1314A7A2EE41}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="asideOffcanvasCart" Owner="{FF2D75E3-CE4E-4B2F-9B47-F18EFC396E80}">
+					<Child Name="linkGoToCart" Owner="{91651EA2-B373-4C03-BBA1-F9D5DC2C45DF}" />
 				</Child>
 			</Child>
 		</Child>

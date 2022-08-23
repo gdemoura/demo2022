@@ -9,14 +9,15 @@
 			<child name="logout" key="{05245389-4007-4BD2-8A06-372C6A7AD769}" path="logout.tcKDTest" />
 			<child name="purchase" key="{A3C57169-53DF-4D26-BB63-DA55262FBCC5}" path="purchase.tcKDTest" />
 		</folder>
-		<folder name="OCR">
+		<folder name="IQ">
 			<child name="OCRCheck" key="{8B64DBC8-26D8-4B9B-A3CD-4BDEB1FA2AFE}" path="OCRCheck.tcKDTest" />
 			<child name="OCRAction" key="{AEA2E0A0-158F-4D4D-A7CE-3D3CB2C85894}" path="OCRAction.tcKDTest" />
+			<child name="PDF" key="{18D3091D-E4CB-4BD1-B575-172143BAB874}" path="PDF.tcKDTest" />
+			<child name="selfHeal" key="{2A0F59FA-A664-497F-9B75-997A36FC6CED}" path="selfHeal.tcKDTest" />
 		</folder>
 		<folder name="AzureOutlook">
 			<child name="Azure" key="{9307F490-E464-46C3-90C4-73A1D4F9D902}" path="Azure.tcKDTest" />
 			<child name="Outlook" key="{18201ABC-40F5-42C7-90CF-5040B4D817EF}" path="Outlook.tcKDTest" />
 		</folder>
-		<child name="hoover" key="{3773EF74-1BCB-4775-A827-6ED0FA70E7D7}" path="hoover.tcKDTest" />
 	</children>
 </Root>

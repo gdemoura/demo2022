@@ -4,6 +4,7 @@
 		<child name="Script" key="{233C039B-09C6-4494-AF36-67F00B50DD89}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
 		<child name="KeywordTests" key="{78B18800-D883-4E42-8141-00A90CA983DF}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="NameMapping" key="{03D1C69F-29BD-48D8-A496-2272ED1D4D49}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="Stores" key="{CE3236AD-A049-468C-9791-FF17F4C43866}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{EBC18FC4-64C5-426D-AD7E-2CD739F27E72}" version="14">
@@ -13,7 +14,7 @@
 				<children>
 					<testItem name="login" key="{C46F6DCA-F8FB-4419-AB44-F18E46E192D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="LocalHeadlessBrowser" />
+						<environments activeCloud="SWT" />
 						<children>
 							<testItem name="purchase" key="{DC226A7A-76C0-4BE0-9608-8FE6ABBB0569}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A3C57169-53DF-4D26-BB63-DA55262FBCC5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
@@ -45,7 +46,7 @@
 			<testItem name="headlessTests" key="{36753315-11B0-434E-AF4C-7D0D950F8A2D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="contactUs" key="{FF6FE1AB-B16B-4DD4-9F3B-6CF34C2B4D87}" group="False" parallel="False" enabled="True" testMoniker="KDT\{556BAD4C-3C94-4397-B693-8B5944F2DF70}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="contactUs" key="{FF6FE1AB-B16B-4DD4-9F3B-6CF34C2B4D87}" group="False" parallel="False" enabled="False" testMoniker="KDT\{556BAD4C-3C94-4397-B693-8B5944F2DF70}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="LocalHeadlessBrowser">
 							<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
