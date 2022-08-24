@@ -43,20 +43,6 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="headlessTests" key="{36753315-11B0-434E-AF4C-7D0D950F8A2D}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="contactUs" key="{FF6FE1AB-B16B-4DD4-9F3B-6CF34C2B4D87}" group="False" parallel="False" enabled="False" testMoniker="KDT\{556BAD4C-3C94-4397-B693-8B5944F2DF70}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="LocalHeadlessBrowser">
-							<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/">
-								<capabilities Enabled="True" Browser="Edge" Resolution="1920x1200" CustomJSON="" />
-							</cloud>
-						</environments>
-						<children />
-					</testItem>
-				</children>
-			</testItem>
 		</children>
 	</testItems>
 	<variables key="{1B741AED-ABF4-4494-B058-AD9444DEDD63}">
