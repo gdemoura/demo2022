@@ -10,5 +10,6 @@
 			<child name="excel" key="{3F154D81-5AFD-426C-B088-6C26553CD276}" path="excel.tcKDTest" />
 			<child name="word" key="{B279C15B-59C8-4474-874F-72D5B4F7B938}" path="word.tcKDTest" />
 		</folder>
+		<child name="Test1" key="{D93C1B5A-FB88-46E7-ABB2-945963A1E325}" path="Test1.tcKDTest" />
 	</children>
 </Root>

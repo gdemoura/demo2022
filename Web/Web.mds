@@ -12,7 +12,7 @@
 			<testItem name="smartstoreFlow" key="{72E456CF-6777-46D2-9309-AE13205E75F2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="login" key="{C46F6DCA-F8FB-4419-AB44-F18E46E192D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="login" key="{C46F6DCA-F8FB-4419-AB44-F18E46E192D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children>
@@ -415,7 +415,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="True" />
-		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="37" colIndex="9">
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="37" colIndex="4">
 			<columns>
 				<column type="2" enabled="True" />
 				<column type="2" enabled="True" />
