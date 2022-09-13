@@ -2055,7 +2055,7 @@
 					<Child Name="formYourName" Owner="{A7E18750-88E0-4575-94E7-B9DF443201F8}">
 						<Child Name="textareaEnquiry" Owner="{2311A174-35C7-46A8-B198-35644CA530D5}" />
 						<Child Name="buttonSendEmail" Owner="{EA199655-AE07-4D24-9092-D437AB999E94}" />
-						<Child Name="textboxYourName" Owner="{8B775207-B255-4894-9FDA-51998E746B48}" />
+						<Child Name="Name" Owner="{8B775207-B255-4894-9FDA-51998E746B48}" />
 						<Child Name="emailinputYourEmail" Owner="{C0B6A360-E5D0-4509-B57F-D663D53F7708}" />
 					</Child>
 					<Child Name="panelYourEnquiryHasBeen" Owner="{CA9E87CF-6168-4D7C-8A01-E39C20D6F154}" />

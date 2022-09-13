@@ -38,11 +38,11 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="" />
-		<setting name="BitBar_APIKey" type="5" value="" />
+		<setting name="BitBar_APIKey" type="5" value="3A02A0411CAE82DD0C431B1E39316925DCB0B92D4306819475DF7392B570428B4ED2BF475D81E451FB1F344AFC9519C6AAEECD60E33ECC97535D008DFEC30350623506" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
-		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
+		<setting name="BitBar_HUBURL" type="5" value="https://appium-us.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
 		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
 			<columns>
