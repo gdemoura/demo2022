@@ -20,5 +20,6 @@
 			<child name="Outlook" key="{18201ABC-40F5-42C7-90CF-5040B4D817EF}" path="Outlook.tcKDTest" />
 		</folder>
 		<child name="Test1" key="{787EB64E-692C-4638-B78D-6163245A93AE}" path="Test1.tcKDTest" />
+		<child name="Test2" key="{ED266811-D8BD-4497-85D1-ADD4DC908A6B}" path="Test2.tcKDTest" />
 	</children>
 </Root>

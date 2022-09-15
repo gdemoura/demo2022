@@ -16,36 +16,61 @@
 						<testParameters />
 						<environments activeCloud="SWT">
 							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
-								<CapabilityItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;10&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;104&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 10" Browser="Firefox 104" Resolution="1920x1080" CustomCapabilitiesInfo="" />
-								<CapabilityItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Linux&quot;,&quot;osVersion&quot;:&quot;18.04&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;104&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="Linux 18.04" Browser="Firefox 104" Resolution="2560x1920" CustomCapabilitiesInfo="" />
+								<CapabilityItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;10&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;103&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 10" Browser="Chrome 103" Resolution="1920x1080" CustomCapabilitiesInfo="" />
+								<CapabilityItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Linux&quot;,&quot;osVersion&quot;:&quot;18.04&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;104&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="Linux 18.04" Browser="Chrome 104" Resolution="2560x1920" CustomCapabilitiesInfo="" />
 							</cloud>
 						</environments>
 						<children>
 							<testItem name="purchase" key="{DC226A7A-76C0-4BE0-9608-8FE6ABBB0569}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A3C57169-53DF-4D26-BB63-DA55262FBCC5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
-								<environments activeCloud="SWT">
-									<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
-										<CapabilityItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;10&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;104&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 10" Browser="Firefox 104" Resolution="1920x1080" CustomCapabilitiesInfo="" />
-										<CapabilityItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Linux&quot;,&quot;osVersion&quot;:&quot;18.04&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;104&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="Linux 18.04" Browser="Firefox 104" Resolution="2560x1920" CustomCapabilitiesInfo="" />
-									</cloud>
-								</environments>
+								<environments activeCloud="SWT" />
 								<children>
 									<testItem name="contactUsFlow" key="{A43AEAC1-DBDD-4DAC-8782-7DEDE2071CF3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F5D8442-BA69-436F-9280-EAE4F8A2B44E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<environments activeCloud="SWT" />
-										<children>
-											<testItem name="logout" key="{2C2464AE-F53B-4D72-8FA8-3E8489E38A16}" group="False" parallel="False" enabled="True" testMoniker="KDT\{05245389-4007-4BD2-8A06-372C6A7AD769}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-												<testParameters />
-												<environments activeCloud="SWT" />
-												<children>
-													<testItem name="close" key="{FC7A7CA4-BF37-4A58-9EFE-B90BC056BA1E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{46F57EC7-9337-4184-8FE0-E790F80BBDF6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-														<testParameters />
-														<environments activeCloud="SWT" />
-														<children />
-													</testItem>
-												</children>
-											</testItem>
-										</children>
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+							<testItem name="logout" key="{2C2464AE-F53B-4D72-8FA8-3E8489E38A16}" group="False" parallel="False" enabled="True" testMoniker="KDT\{05245389-4007-4BD2-8A06-372C6A7AD769}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children>
+									<testItem name="close" key="{FC7A7CA4-BF37-4A58-9EFE-B90BC056BA1E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{46F57EC7-9337-4184-8FE0-E790F80BBDF6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="SWT" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+						</children>
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Flow2" key="{78EB59AA-1CF8-45AE-A05C-7E341065A7BB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="login_2" key="{3730F216-A4EB-4DB7-9B90-889B858FCB0F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT">
+							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
+								<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;12&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;103&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="macOS 12" Browser="Firefox 103" Resolution="2560x1920" CustomCapabilitiesInfo="" />
+							</cloud>
+						</environments>
+						<children>
+							<testItem name="purchase_2" key="{9525CCC9-8F9B-4010-ADC7-EC2BEB7EBEDC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A3C57169-53DF-4D26-BB63-DA55262FBCC5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children />
+							</testItem>
+							<testItem name="logout_2" key="{0F9E47E4-7E84-4AFC-9FDC-95DDCC0E4BF8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{05245389-4007-4BD2-8A06-372C6A7AD769}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children>
+									<testItem name="close_2" key="{34C0C6FA-EFB1-4EFE-98D5-632967E11B59}" group="False" parallel="False" enabled="True" testMoniker="KDT\{46F57EC7-9337-4184-8FE0-E790F80BBDF6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="SWT" />
+										<children />
 									</testItem>
 								</children>
 							</testItem>
@@ -65,7 +90,7 @@
 		</data>
 	</variables>
 	<settings key="{1D944617-E4C9-49D6-83FE-E3CD25D152A3}">
-		<settingsVersion value="15.42" />
+		<settingsVersion value="15.43" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
