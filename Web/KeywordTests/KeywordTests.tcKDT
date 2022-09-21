@@ -19,7 +19,11 @@
 			<child name="Azure" key="{9307F490-E464-46C3-90C4-73A1D4F9D902}" path="Azure.tcKDTest" />
 			<child name="Outlook" key="{18201ABC-40F5-42C7-90CF-5040B4D817EF}" path="Outlook.tcKDTest" />
 		</folder>
-		<child name="Test1" key="{787EB64E-692C-4638-B78D-6163245A93AE}" path="Test1.tcKDTest" />
-		<child name="Test2" key="{ED266811-D8BD-4497-85D1-ADD4DC908A6B}" path="Test2.tcKDTest" />
+		<folder name="Zillow">
+			<child name="search" key="{8845AC89-57B5-4D4D-B343-B989265C07A8}" path="search.tcKDTest" />
+			<child name="zoom" key="{92B4E37B-34A6-4131-8292-F15DDDD45919}" path="zoom.tcKDTest" />
+			<child name="propertySelection" key="{A23D6170-834B-4755-B96D-5ED2F67287E6}" path="propertySelection.tcKDTest" />
+		</folder>
+		<child name="Test1" key="{82974A66-3417-42BF-AFAC-97083C7ABD2B}" path="Test1.tcKDTest" />
 	</children>
 </Root>

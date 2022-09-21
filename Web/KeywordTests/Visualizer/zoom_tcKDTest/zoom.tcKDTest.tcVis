@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{92B4E37B-34A6-4131-8292-F15DDDD45919}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44820.6167361111" objectName="Aliases.browser.pageSanFranciscoCaRealEstateSanF.buttonZoomIn" objectLeft="1112" objectTop="949" objectRight="1146" objectBottom="983" clickPointX="1128" clickPointY="960" imageFileName="tcvi82386000198560.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44820.6167592593" objectName="Aliases.browser.pageSanFranciscoCaRealEstateSanF.buttonZoomIn" objectLeft="1112" objectTop="949" objectRight="1146" objectBottom="983" clickPointX="1128" clickPointY="959" imageFileName="tcvi82388796198561.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

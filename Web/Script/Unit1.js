@@ -20,3 +20,10 @@
   aqObject.CheckProperty(Aliases.browser.pageContactus.sectionContent.panelYourEnquiryHasBeen, "contentText", cmpEqual, "Your enquiry has been successfully sent to the store owner.");
 }
 
+function close()
+{
+  //Closes the 'BrowserWindow' window.
+  Aliases.browser.BrowserWindow.Close();
+  //Delays the test execution for the specified time period.
+  Delay(500);
+}

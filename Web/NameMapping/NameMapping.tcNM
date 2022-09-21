@@ -1741,6 +1741,353 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageZillowRealEstateApartmentsMo" Key="{E6B295DC-CA70-4F49-AFF0-13303C1482E1}">
+								<Image FileName="760418029" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.zillow.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSearch" Key="{276B044E-A4F0-477E-9897-6B9DA6C05F98}">
+										<Image FileName="-272977151" Left="618" Top="326" Right="1286" Bottom="396" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@role=&apos;search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;react-autosuggest__container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-bar&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSearchSuggestionsAppearBe" Key="{0825D121-0244-4F65-82EC-DCCE15F92594}">
+										<Image FileName="-272977151" Left="618" Top="326" Right="1231" Bottom="396" />
+										<TypeInfo Item0="{FD18DB97-BAC5-4C5A-9BD2-07A84D770A4A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#search-box-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;StyledFormControl-c11n-8-69-2__sc-18qgis1-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-bar&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSanFranciscoCa" Key="{516A2552-491F-4537-9C65-965CB2038BE0}">
+										<Image FileName="-663093881" Left="619" Top="396" Right="1285" Bottom="676" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;San Francisco, CA&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;react-autosuggest__suggestions-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;react-autowhatever-1&apos;]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeReactAutowhatever1Item0" Key="{0BF89E71-D7BC-4B2B-A0CD-04A3E2D2B730}">
+										<Image FileName="-663093881" Left="619" Top="396" Right="1285" Bottom="452" />
+										<Selectors>
+											<Selector>
+												<Value Value="#react-autowhatever-1--item-0" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;San Francisco, CA&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;react-autosuggest__suggestion--first&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSanFranciscoCa" Key="{985C5ECE-426D-43BD-A264-EF7ECA32A99D}">
+										<Image FileName="-663093881" Left="643" Top="396" Right="1261" Bottom="446" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;Flex-c11n-8-69-2__sc-n94bjd-0&apos;)]/form//ul/li[@id=&apos;react-autowhatever-1--item-0&apos;]//div[contains(@class, &apos;Flex-c11n-8-69-2__sc-n94bjd-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;react-autowhatever-1--item-0&apos;]//div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//div/ul/li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeForSale" Key="{98E0AF0C-019A-4654-B7F5-FADEDBF467AE}">
+										<Image FileName="1889585279" Left="860" Top="505" Right="1060" Bottom="635" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Skip this question&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;sc-14dvu6m-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonForSale" Key="{7C814009-37EE-44C2-B0D9-C91FD122F983}">
+										<Image FileName="1889585279" Left="860" Top="505" Right="1060" Bottom="549" />
+										<TypeInfo Item0="{062BF320-127B-46EA-949A-FF6ACFA35924}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;For sale&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/button[contains(@class, &apos;StyledButton-c11n-8-69-2__sc-wpcbcc-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/ul/li/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSanFrancisco" Key="{4610D20C-9D0C-42E8-BB22-A634CA832E2F}">
+										<Image FileName="1036672833" Left="643" Top="410" Right="745" Bottom="432" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;San Francisco&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//ul/li[@id=&apos;react-autowhatever-1--item-0&apos;]//span[contains(@class, &apos;sc-vs3hx-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[@id=&apos;react-autowhatever-1&apos;]/ul/li//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSanFranciscoCaRealEstateSanF" Key="{056E5673-FFC7-4DC9-B414-57D85CC6521B}">
+								<Image FileName="-124898045" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.zillow.com/homes/San-Francisco,-CA_rb/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonZoomIn" Key="{2FF53142-043C-4990-B573-82F628482BCA}">
+										<Image FileName="-124898045" Left="1112" Top="949" Right="1146" Bottom="983" />
+										<TypeInfo Item0="{062BF320-127B-46EA-949A-FF6ACFA35924}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Plus&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/button[contains(@class, &apos;StyledButton-c11n-8-69-2__sc-wpcbcc-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSanFranciscoCaRealEstateSanF2" Key="{5EE35666-0168-4DB8-B804-A1AD7FB7755C}">
+								<Image FileName="-124898045" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{FE8EEA9F-AF0D-418B-9E41-288310EEB51A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.zillow.com/san-francisco-ca/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel350m" Key="{F67257BA-9FBA-4167-B56C-4C48B21F60B1}">
+										<Image FileName="-225916007" Left="261" Top="643" Right="293" Bottom="658" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[contains(., &apos;$888K&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel888k" Key="{0FC71A18-DB42-49BB-B4B9-186F473A2A8A}">
+										<Image FileName="-1351349297" Left="343" Top="489" Right="383" Bottom="507" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;888K&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel379m" Key="{5942F48B-2BC0-4F1D-8920-12C88529C40D}">
+										<Image FileName="281327850" Left="347" Top="469" Right="393" Bottom="487" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;3.79M&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel280m" Key="{44C44E6B-207E-4BC6-96EF-169B853A0FBA}">
+										<Image FileName="-109476102" Left="458" Top="391" Right="504" Bottom="409" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;2.80M&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="page2608FultonStSanFranciscoCa94" Key="{D4E41D7B-97E3-4473-8C7A-CE87859273B6}">
+								<Image FileName="-1443082030" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.zillow.com/homedetails/2608-Fulton-St-San-Francisco-CA-94118/15098616_zpid/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode3500000" Key="{9AF02C8E-918E-4578-BB70-9FD05B42657B}">
+										<Image FileName="-805806348" Left="1100" Top="182" Right="1285" Bottom="231" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;$3,500,000&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;details-page-container&apos;]//div/span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;home-detail-lightbox-container&apos;]//div/div/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2608FultonSt" Key="{8B042B10-976D-4ADB-A81B-40B3333DB372}">
+										<Image FileName="-805806348" Left="1100" Top="259" Right="1568" Bottom="283" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[text()=&apos;2608 Fulton St,&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;Text-c11n-8-65-2__sc-aiai24-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;details-page-container&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonClose" Key="{52EDE5FF-335F-45FF-8F34-CEF42F138D7F}">
+										<Image FileName="-1784252216" Left="1600" Top="119" Right="1624" Bottom="144" />
+										<TypeInfo Item0="{062BF320-127B-46EA-949A-FF6ACFA35924}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-label=&apos;close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ds-close-lightbox-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;details-page-container&apos;]//div/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;home-detail-lightbox-container&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="page1502GoldenGateAveSanFrancisc" Key="{A948147B-9190-45A0-B70F-AD5EC3E53370}">
+								<Image FileName="677649252" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.zillow.com/homedetails/1502-Golden-Gate-Ave-San-Francisco-CA-94115/59779254_zpid/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode1502GoldenGateAve" Key="{41E6BD52-4305-4B24-8F01-F2F62E4824E7}">
+										<Image FileName="677649252" Left="1100" Top="235" Right="1568" Bottom="259" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[text()=&apos;1502 Golden Gate Ave,&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;Text-c11n-8-65-2__sc-aiai24-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;details-page-container&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2466" Key="{10612DD2-5CAA-43C7-BE94-A056F147F746}">
+										<Image FileName="677649252" Left="1400" Top="203" Right="1441" Bottom="225" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//strong[.=&apos;2,466&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;details-page-container&apos;]//span[4]/strong" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[4]/strong" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{7DD64F64-55CA-402F-8AB4-ED3D5305265D}">
+										<Image FileName="677649252" Left="0" Top="103" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;home-detail-lightbox-mask&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{B78DAAA3-1D5F-4C22-BBDF-376E9A593728}">
@@ -1775,6 +2122,41 @@
 													</Property>
 													<Property Name="WndCaption">
 														<Value Value="FolderView" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{ECC0B6C7-251C-403E-BDBF-48590E0D92E6}">
+								<Image FileName="-1910190623" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WorkerW" Key="{CCDEAE88-EC8A-4776-A22E-A103E3BF9E81}">
+										<Image FileName="-1910190623" Left="192" Top="0" Right="1856" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskListWClass" Key="{C63DC6C0-40EE-4793-9C43-9B33ED448C95}">
+												<Image FileName="-1910190623" Left="192" Top="0" Right="1856" Bottom="40" />
+												<TypeInfo Item0="{2523311D-E679-4235-B2CF-489FEA474DAD}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskListWClass" />
 													</Property>
 												</Properties>
 											</Child>
@@ -2127,11 +2509,49 @@
 					<Child Name="linkGoToCart" Owner="{91651EA2-B373-4C03-BBA1-F9D5DC2C45DF}" />
 				</Child>
 			</Child>
+			<Child Name="pageZillowRealEstateApartmentsMo" Owner="{E6B295DC-CA70-4F49-AFF0-13303C1482E1}">
+				<Child Name="formSearch" Owner="{276B044E-A4F0-477E-9897-6B9DA6C05F98}">
+					<Child Name="textboxSearchSuggestionsAppearBe" Owner="{0825D121-0244-4F65-82EC-DCCE15F92594}" />
+					<Child Name="textnodeSanFranciscoCa" Owner="{516A2552-491F-4537-9C65-965CB2038BE0}">
+						<Child Name="textnodeReactAutowhatever1Item0" Owner="{0BF89E71-D7BC-4B2B-A0CD-04A3E2D2B730}">
+							<Child Name="panelSanFranciscoCa" Owner="{985C5ECE-426D-43BD-A264-EF7ECA32A99D}" />
+							<Child Name="textnodeSanFrancisco" Owner="{4610D20C-9D0C-42E8-BB22-A634CA832E2F}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="textnodeForSale" Owner="{98E0AF0C-019A-4654-B7F5-FADEDBF467AE}">
+					<Child Name="buttonForSale" Owner="{7C814009-37EE-44C2-B0D9-C91FD122F983}" />
+				</Child>
+			</Child>
+			<Child Name="pageSanFranciscoCaRealEstateSanF" Owner="{056E5673-FFC7-4DC9-B414-57D85CC6521B}">
+				<Child Name="buttonZoomIn" Owner="{2FF53142-043C-4990-B573-82F628482BCA}" />
+			</Child>
+			<Child Name="pageSanFranciscoCaRealEstateSanF2" Owner="{5EE35666-0168-4DB8-B804-A1AD7FB7755C}">
+				<Child Name="panel350m" Owner="{F67257BA-9FBA-4167-B56C-4C48B21F60B1}" />
+				<Child Name="panel888k" Owner="{0FC71A18-DB42-49BB-B4B9-186F473A2A8A}" />
+				<Child Name="panel379m" Owner="{5942F48B-2BC0-4F1D-8920-12C88529C40D}" />
+				<Child Name="panel280m" Owner="{44C44E6B-207E-4BC6-96EF-169B853A0FBA}" />
+			</Child>
+			<Child Name="page2608FultonStSanFranciscoCa94" Owner="{D4E41D7B-97E3-4473-8C7A-CE87859273B6}">
+				<Child Name="textnode3500000" Owner="{9AF02C8E-918E-4578-BB70-9FD05B42657B}" />
+				<Child Name="textnode2608FultonSt" Owner="{8B042B10-976D-4ADB-A81B-40B3333DB372}" />
+				<Child Name="buttonClose" Owner="{52EDE5FF-335F-45FF-8F34-CEF42F138D7F}" />
+			</Child>
+			<Child Name="page1502GoldenGateAveSanFrancisc" Owner="{A948147B-9190-45A0-B70F-AD5EC3E53370}">
+				<Child Name="textnode1502GoldenGateAve" Owner="{41E6BD52-4305-4B24-8F01-F2F62E4824E7}" />
+				<Child Name="textnode2466" Owner="{10612DD2-5CAA-43C7-BE94-A056F147F746}" />
+				<Child Name="panel" Owner="{7DD64F64-55CA-402F-8AB4-ED3D5305265D}" />
+			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{B78DAAA3-1D5F-4C22-BBDF-376E9A593728}">
 			<Child Name="wndProgman" Owner="{1CF4EB22-AD24-4D10-ACE1-B02502EF331D}">
 				<Child Name="SHELLDLL_DefView" Owner="{932E69B1-2A76-4BE6-BE09-8DECBF242378}">
 					<Child Name="FolderView" Owner="{B7DF49AC-7C79-42B7-BEB1-96920C664BA3}" />
+				</Child>
+			</Child>
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{ECC0B6C7-251C-403E-BDBF-48590E0D92E6}">
+				<Child Name="WorkerW" Owner="{CCDEAE88-EC8A-4776-A22E-A103E3BF9E81}">
+					<Child Name="MSTaskListWClass" Owner="{C63DC6C0-40EE-4793-9C43-9B33ED448C95}" />
 				</Child>
 			</Child>
 		</Child>

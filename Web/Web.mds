@@ -14,12 +14,7 @@
 				<children>
 					<testItem name="login" key="{C46F6DCA-F8FB-4419-AB44-F18E46E192D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT">
-							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
-								<CapabilityItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;10&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;103&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 10" Browser="Chrome 103" Resolution="1920x1080" CustomCapabilitiesInfo="" />
-								<CapabilityItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Linux&quot;,&quot;osVersion&quot;:&quot;18.04&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;104&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="Linux 18.04" Browser="Chrome 104" Resolution="2560x1920" CustomCapabilitiesInfo="" />
-							</cloud>
-						</environments>
+						<environments activeCloud="SWT" />
 						<children>
 							<testItem name="purchase" key="{DC226A7A-76C0-4BE0-9608-8FE6ABBB0569}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A3C57169-53DF-4D26-BB63-DA55262FBCC5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
@@ -47,7 +42,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Flow2" key="{78EB59AA-1CF8-45AE-A05C-7E341065A7BB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Flow2" key="{78EB59AA-1CF8-45AE-A05C-7E341065A7BB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="login_2" key="{3730F216-A4EB-4DB7-9B90-889B858FCB0F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -68,6 +63,28 @@
 								<environments activeCloud="SWT" />
 								<children>
 									<testItem name="close_2" key="{34C0C6FA-EFB1-4EFE-98D5-632967E11B59}" group="False" parallel="False" enabled="True" testMoniker="KDT\{46F57EC7-9337-4184-8FE0-E790F80BBDF6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+										<testParameters />
+										<environments activeCloud="SWT" />
+										<children />
+									</testItem>
+								</children>
+							</testItem>
+						</children>
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Zillow Project" key="{B6685747-FE68-4D85-9897-D48722B64AFB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="search" key="{26B7EEB8-F178-4396-BDF3-738BB6EBEF9D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8845AC89-57B5-4D4D-B343-B989265C07A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children>
+							<testItem name="zoom" key="{1E8F9C43-CCBF-4BE6-A276-FD185C1A2A1A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{92B4E37B-34A6-4131-8292-F15DDDD45919}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+								<testParameters />
+								<environments activeCloud="SWT" />
+								<children>
+									<testItem name="propertySelection" key="{2D3752EF-0299-450E-B73A-A7429B19050A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A23D6170-834B-4755-B96D-5ED2F67287E6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<environments activeCloud="SWT" />
 										<children />
