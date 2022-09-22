@@ -71,6 +71,11 @@
 							</testItem>
 						</children>
 					</testItem>
+					<testItem name="Test1" key="{42D67AEF-21EE-450B-B12E-5CBBEDE293C1}" group="False" parallel="False" enabled="True" testMoniker="{D030A9E9-0ED0-4C5E-ABC1-BA23D47E3179}Test1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
 				</children>
 			</testItem>
 			<testItem name="Zillow Project" key="{B6685747-FE68-4D85-9897-D48722B64AFB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
