@@ -5,6 +5,7 @@
 		<child name="KeywordTests" key="{78B18800-D883-4E42-8141-00A90CA983DF}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="NameMapping" key="{03D1C69F-29BD-48D8-A496-2272ED1D4D49}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Stores" key="{CE3236AD-A049-468C-9791-FF17F4C43866}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
+		<child name="UnitTesting3" key="{554A194A-54E8-4802-98DC-D25CBCDA2C0A}" type="Selenium or Unit Testing" typeId="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" pluginName="Unit Testing" path="UnitTesting3\UnitTesting3.tcUT" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{EBC18FC4-64C5-426D-AD7E-2CD739F27E72}" version="14">
@@ -107,6 +108,21 @@
 			<Items>
 				<Variable Name="Password1" Type="Password" Local="False">
 					<DefValue StrValue="380039003600310039003300440030004600340044003800340042004600350045004300390038003200370046003600440030004500340043004400350041004200380035004100440034003700420038003200370031003100410033004600360038004200420046004400440034003300370038003500" />
+				</Variable>
+				<Variable Name="excelData" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="excelldata" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="excellData2" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
+					</DefValue>
 				</Variable>
 			</Items>
 		</data>
