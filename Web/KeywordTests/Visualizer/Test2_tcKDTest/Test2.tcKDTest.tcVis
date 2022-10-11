@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{BF77229A-3F42-4D4F-8A3E-7CACE209E328}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44844.6926157407" objectName="Aliases.browser.pagePaymentmethod.sectionContent.textnodeCashOnDelivery.textnodePayInStore.radiobuttonPayInStore" objectLeft="418" objectTop="597" objectRight="431" objectBottom="610" clickPointX="424" clickPointY="603" imageFileName="tcvi431090531190161.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44844.7321296296" objectName="Aliases.browser.pageShop.header.navBooks.linkChairs" objectLeft="478" objectTop="290" objectRight="726" objectBottom="324" clickPointX="565" clickPointY="311" imageFileName="tcvi434504265190162.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

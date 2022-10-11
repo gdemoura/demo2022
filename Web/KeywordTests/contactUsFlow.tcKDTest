@@ -104,5 +104,12 @@
 			</Operation>
 		</Children>
 	</TestData>
+	<Variables Version="4" Key="{F993034A-5F89-48B8-8217-6258AED32A61}">
+		<Items>
+			<Variable Name="Var1" Type="String" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
 	<Parameters Key="{71DEF7E7-3989-4F6A-B156-6411253C1457}" />
 </Root>

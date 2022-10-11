@@ -383,6 +383,90 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="formSearch" Key="{C1AA4DDF-621D-4993-82E4-61B789075999}">
+										<Image FileName="283289397" Left="665" Top="180" Right="1195" Bottom="225" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;instasearch-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxQ" Key="{0D1EA407-F764-4279-B9BC-19385AA37AA8}">
+										<Image FileName="283289397" Left="665" Top="180" Right="1195" Bottom="225" />
+										<TypeInfo Item0="{7E5DCF88-05AA-4F4B-AEFA-C2652E3C57A0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;instasearch-term&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFurniture" Key="{D09008A6-DB56-473D-AF8A-0D98CC085E60}">
+										<Image FileName="1804662651" Left="484" Top="241" Right="586" Bottom="291" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Furniture&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkFurniture" Key="{725D0CF7-4AB5-4A4D-B8FE-D823BE7D98CB}">
+										<Image FileName="1804662651" Left="484" Top="241" Right="586" Bottom="291" />
+										<TypeInfo Item0="{EB196F12-0E79-4550-A8D7-320C4219CC9A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Furniture&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkChairs" Key="{7D5EA424-2141-42B5-B34F-2E03879A3A15}">
+										<Image FileName="-2055256589" Left="478" Top="290" Right="726" Bottom="324" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Chairs&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/a[contains(@class, &apos;dropdown-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//nav//div[2]/div[2]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{6ED106B0-56A7-407B-9509-741CD2E5F372}">
@@ -889,6 +973,79 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContentWrapper" Key="{8C66CFE4-DE2A-406A-9D5F-B10AA5FEE32E}">
+										<Image FileName="317682008" Left="8" Top="323" Right="1895" Bottom="909" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content-wrapper" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCashOnDelivery" Key="{4ADD4B7E-0263-490A-9EC7-DA9472870D7B}">
+										<Image FileName="993487777" Left="397" Top="475" Right="1507" Bottom="834" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Cash on delivery&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePayInStore" Key="{A3742D00-C982-48E9-860F-969558776410}">
+										<Image FileName="993487777" Left="397" Top="573" Right="1507" Bottom="672" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Pay in store&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonPayInStore" Key="{D16D7FC7-450C-4D10-A2BF-51638C3A7883}">
+										<Image FileName="993487777" Left="418" Top="597" Right="431" Bottom="610" />
+										<TypeInfo Item0="{CF827F7C-3150-4567-9757-BF175DBB3785}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Pay in store&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;Payments.PayInStore&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#paymentmethod_1" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/ul/li[2]//input[@name=&apos;paymentmethod&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/ul/li[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrepayment" Key="{F299692A-AE9B-41B6-8841-7454BF24395B}">
+										<Image FileName="778390672" Left="397" Top="671" Right="1507" Bottom="770" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Prepayment&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCashOnDelivery2" Key="{5CDD6051-58F2-4079-AE45-706B0EB82FB3}">
+										<Image FileName="778390672" Left="397" Top="475" Right="1507" Bottom="574" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Cash on delivery&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -1963,7 +2120,16 @@
 										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[.=&apos;2.80M&apos;]" />
+												<Value Value="xpath=//div[.=&apos;2.8M&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel280m2" Key="{DF07B7F8-15FD-4C10-A282-A7B73AA5DF04}">
+										<Image FileName="740205287" Left="466" Top="399" Right="512" Bottom="417" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[.=&apos;%propertyValue%&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -2040,19 +2206,16 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://www.zillow.com/homedetails/1502-Golden-Gate-Ave-San-Francisco-CA-94115/59779254_zpid/" />
+										<Value Value="https://www.zillow.com/homedetails/*" />
 									</Property>
 								</Properties>
 								<Children>
 									<Child Name="textnode1502GoldenGateAve" Key="{41E6BD52-4305-4B24-8F01-F2F62E4824E7}">
-										<Image FileName="677649252" Left="1100" Top="235" Right="1568" Bottom="259" />
+										<Image FileName="1371011467" Left="1108" Top="243" Right="1576" Bottom="267" />
 										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//h1[text()=&apos;1502 Golden Gate Ave,&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//h1[contains(@class, &apos;Text-c11n-8-65-2__sc-aiai24-0&apos;)]" />
+												<Value Value="//h1[contains(@class, &apos;Text-c11n-8-73-0__sc-aiai24-0&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;details-page-container&apos;]//h1" />
@@ -2060,20 +2223,23 @@
 											<Selector>
 												<Value Value="//h1" />
 											</Selector>
+											<Selector>
+												<Value Value="//h1[text()=&apos;40 Buchanan St,&apos;]" Enabled="False" />
+											</Selector>
 										</Selectors>
 									</Child>
 									<Child Name="textnode2466" Key="{10612DD2-5CAA-43C7-BE94-A056F147F746}">
-										<Image FileName="677649252" Left="1400" Top="203" Right="1441" Bottom="225" />
+										<Image FileName="-589097695" Left="1410" Top="211" Right="1451" Bottom="233" />
 										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//strong[.=&apos;2,466&apos;]" />
+												<Value Value="xpath=//div[@id=&apos;details-page-container&apos;]//span[*]/strong" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;details-page-container&apos;]//span[4]/strong" />
+												<Value Value="//span[5]/strong" />
 											</Selector>
 											<Selector>
-												<Value Value="//span[4]/strong" />
+												<Value Value="//strong[.=&apos;7,380&apos;]" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -2083,6 +2249,33 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;home-detail-lightbox-mask&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{3D207B44-3805-4827-8223-E2FB8D4BACA6}">
+										<Image FileName="-672487380" Left="344" Top="111" Right="1079" Bottom="4320" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;hdp__sc-1wi9vqt-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;details-page-container&apos;]//div//div//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;home-detail-lightbox-container&apos;]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{015BDC69-8A92-4DC2-88B3-32DBD9440678}">
+										<Image FileName="-672487380" Left="344" Top="111" Right="1079" Bottom="687" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;media-stream-tile--prominent&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;home-detail-lightbox-container&apos;]//ul/li" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -2354,9 +2547,16 @@
 						<Child Name="linkDigitalProducts" Owner="{6BBCFA9F-9DA6-46FD-89E2-9438D9FB3B1D}">
 							<Child Name="textnodeDigitalProducts" Owner="{64F43AEC-42F3-44FD-9212-8E1676AEEE32}" />
 						</Child>
+						<Child Name="textnodeFurniture" Owner="{D09008A6-DB56-473D-AF8A-0D98CC085E60}">
+							<Child Name="linkFurniture" Owner="{725D0CF7-4AB5-4A4D-B8FE-D823BE7D98CB}" />
+						</Child>
+						<Child Name="linkChairs" Owner="{7D5EA424-2141-42B5-B34F-2E03879A3A15}" />
 					</Child>
 					<Child Name="link" Owner="{F02D7D38-15B8-4D86-8A6D-55B61E1137BB}">
 						<Child Name="imageSmartstore" Owner="{7CA54181-4EFB-4C8B-BD05-B988C1E6DDDF}" />
+					</Child>
+					<Child Name="formSearch" Owner="{C1AA4DDF-621D-4993-82E4-61B789075999}">
+						<Child Name="textboxQ" Owner="{0D1EA407-F764-4279-B9BC-19385AA37AA8}" />
 					</Child>
 				</Child>
 				<Child Name="sectionContent" Owner="{64D35CFF-7AD3-45F5-A570-399516393C64}">
@@ -2417,7 +2617,15 @@
 			<Child Name="pagePaymentmethod" Owner="{73DBEEA2-0A1F-47AF-A969-73E88427F1FD}">
 				<Child Name="sectionContent" Owner="{7E045646-73E5-470E-83B2-5F1922046B7C}">
 					<Child Name="buttonNext" Owner="{479AB768-3EBE-4DB4-AA11-5F299D780E10}" />
+					<Child Name="textnodeCashOnDelivery" Owner="{4ADD4B7E-0263-490A-9EC7-DA9472870D7B}">
+						<Child Name="textnodePayInStore" Owner="{A3742D00-C982-48E9-860F-969558776410}">
+							<Child Name="radiobuttonPayInStore" Owner="{D16D7FC7-450C-4D10-A2BF-51638C3A7883}" />
+						</Child>
+						<Child Name="textnodePrepayment" Owner="{F299692A-AE9B-41B6-8841-7454BF24395B}" />
+						<Child Name="textnodeCashOnDelivery2" Owner="{5CDD6051-58F2-4079-AE45-706B0EB82FB3}" />
+					</Child>
 				</Child>
+				<Child Name="panelContentWrapper" Owner="{8C66CFE4-DE2A-406A-9D5F-B10AA5FEE32E}" />
 			</Child>
 			<Child Name="pageConfirm" Owner="{D08901D4-FB76-4CB6-BBD7-40597251E210}">
 				<Child Name="sectionContent" Owner="{44E9793C-4234-4267-A41B-F4AFE58F9346}">
@@ -2531,6 +2739,7 @@
 				<Child Name="panel888k" Owner="{0FC71A18-DB42-49BB-B4B9-186F473A2A8A}" />
 				<Child Name="panel379m" Owner="{5942F48B-2BC0-4F1D-8920-12C88529C40D}" />
 				<Child Name="panel280m" Owner="{44C44E6B-207E-4BC6-96EF-169B853A0FBA}" />
+				<Child Name="panel280m2" Owner="{DF07B7F8-15FD-4C10-A282-A7B73AA5DF04}" />
 			</Child>
 			<Child Name="page2608FultonStSanFranciscoCa94" Owner="{D4E41D7B-97E3-4473-8C7A-CE87859273B6}">
 				<Child Name="textnode3500000" Owner="{9AF02C8E-918E-4578-BB70-9FD05B42657B}" />
@@ -2538,9 +2747,12 @@
 				<Child Name="buttonClose" Owner="{52EDE5FF-335F-45FF-8F34-CEF42F138D7F}" />
 			</Child>
 			<Child Name="page1502GoldenGateAveSanFrancisc" Owner="{A948147B-9190-45A0-B70F-AD5EC3E53370}">
-				<Child Name="textnode1502GoldenGateAve" Owner="{41E6BD52-4305-4B24-8F01-F2F62E4824E7}" />
+				<Child Name="address" Owner="{41E6BD52-4305-4B24-8F01-F2F62E4824E7}" />
 				<Child Name="textnode2466" Owner="{10612DD2-5CAA-43C7-BE94-A056F147F746}" />
 				<Child Name="panel" Owner="{7DD64F64-55CA-402F-8AB4-ED3D5305265D}" />
+				<Child Name="textnode" Owner="{3D207B44-3805-4827-8223-E2FB8D4BACA6}">
+					<Child Name="textnode2" Owner="{015BDC69-8A92-4DC2-88B3-32DBD9440678}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{B78DAAA3-1D5F-4C22-BBDF-376E9A593728}">
