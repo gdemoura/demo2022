@@ -6,5 +6,6 @@
 		<child name="zillowNamemapping" key="{B373D09A-3998-42B0-8E0C-D887AAD5BAAB}" path="zillowNamemapping.js" />
 		<child name="login" key="{8E6A2457-5520-47EE-95E5-80473CAD29C8}" path="login.js" />
 		<child name="Unit2" key="{26F9CD9E-8457-4127-A2EA-A85DCC13DE2A}" path="Unit2.js" />
+		<child name="Unit3" key="{A9B13F64-CF00-4E60-9C6F-6959DAE8AFDA}" path="Unit3.js" />
 	</children>
 </Root>

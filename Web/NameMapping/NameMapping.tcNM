@@ -1487,6 +1487,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelGrid" Key="{84E2842D-EA6B-476F-A1A8-BC2381015AEE}">
+										<Image FileName="1195375597" Left="13" Top="243" Right="1923" Bottom="1043" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#grid" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageCookAndEnjoy" Key="{90ADCA99-30C7-4C05-BFD5-C89B4AAC5DB0}">
@@ -2569,7 +2578,7 @@
 			</Child>
 			<Child Name="pageLogin" Owner="{6ED106B0-56A7-407B-9509-741CD2E5F372}">
 				<Child Name="sectionContent" Owner="{63357D1F-82EB-40FA-A532-164E8F2AAE5E}">
-					<Child Name="passwordboxPassword" Owner="{C0A01593-1462-4555-8705-4147CC5BA078}" />
+					<Child Name="Password" Owner="{C0A01593-1462-4555-8705-4147CC5BA078}" />
 					<Child Name="textboxUsernameoremail" Owner="{8476165A-1DBE-4EA9-ABB4-B20684AADF87}" />
 					<Child Name="buttonLogIn" Owner="{D21C95B1-D980-4A2A-94F9-018155E45BAE}" />
 				</Child>
@@ -2668,6 +2677,7 @@
 					<Child Name="panelSales" Owner="{37EDCC1E-0DD9-4E76-B95B-D8E2DC7409AD}" />
 				</Child>
 				<Child Name="articleTable" Owner="{41C01362-B827-4F67-A14E-54C0A0B98C37}" />
+				<Child Name="panelGrid" Owner="{84E2842D-EA6B-476F-A1A8-BC2381015AEE}" />
 			</Child>
 			<Child Name="pageCookAndEnjoy" Owner="{90ADCA99-30C7-4C05-BFD5-C89B4AAC5DB0}">
 				<Child Name="header" Owner="{B83B105A-2820-48CA-B44A-A7D1958B740B}">

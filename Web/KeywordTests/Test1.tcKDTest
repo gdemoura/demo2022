@@ -6,6 +6,11 @@
 				<NodeBitmaps />
 			</Extenders>
 		</Data>
+		<Children>
+			<Operation Type="{29FFF95E-2F7A-4F60-9DCD-35FFD1DD1716}">
+				<Data Description="Compares the %n Stores item with the contents of the control." Checkpoint="panelGrid" />
+			</Operation>
+		</Children>
 	</TestData>
 	<Parameters Key="{5EDBDD53-5D69-4592-9F12-D5679C244269}" />
 </Root>
