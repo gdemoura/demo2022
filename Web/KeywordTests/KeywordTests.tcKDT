@@ -25,7 +25,5 @@
 			<child name="propertySelection" key="{A23D6170-834B-4755-B96D-5ED2F67287E6}" path="propertySelection.tcKDTest" />
 		</folder>
 		<child name="Test1" key="{82974A66-3417-42BF-AFAC-97083C7ABD2B}" path="Test1.tcKDTest" />
-		<child name="Test2" key="{BF77229A-3F42-4D4F-8A3E-7CACE209E328}" path="Test2.tcKDTest" />
-		<child name="Test3" key="{5B746EE4-92E9-45D4-939F-413B22BA4CA4}" path="Test3.tcKDTest" />
 	</children>
 </Root>

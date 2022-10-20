@@ -77,6 +77,7 @@
 					</Operation>
 					<Operation Type="{51174C35-4DFC-4F13-A144-D3A20C0172D9}">
 						<Data Description="Puts the value of a variable to an Excel cell.">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="FileName" DefVarType="0" ParamType="{A6C17AFB-EA54-4E23-8160-6C3EF6C97F0F}" FileName="C:\Users\gabriel.demoura\OneDrive - SmartBear Software, Inc\Desktop\propValues.xlsx" Filter="All Excel files|*.xls;*.xlsx|All files|*.*" />
 								<Parameter Name="Cell" DefVarType="0" VarType="8" ValueType="6" ValueValue="Sheet1!B1" />
@@ -105,6 +106,7 @@
 					</Operation>
 					<Operation Type="{51174C35-4DFC-4F13-A144-D3A20C0172D9}">
 						<Data Description="Puts the value of a variable to an Excel cell.">
+							<CommonData Disabled="True" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 								<Parameter Name="FileName" DefVarType="0" ParamType="{A6C17AFB-EA54-4E23-8160-6C3EF6C97F0F}" FileName="C:\Users\gabriel.demoura\OneDrive - SmartBear Software, Inc\Desktop\propValues.xlsx" Filter="All Excel files|*.xls;*.xlsx|All files|*.*" />
 								<Parameter Name="Cell" DefVarType="0" VarType="8" ValueType="6" ValueValue="Sheet1!C1" />

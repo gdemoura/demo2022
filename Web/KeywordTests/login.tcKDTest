@@ -106,5 +106,7 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{D7C27DDE-1EA3-442A-B2B8-2006FCFD3108}" />
+	<Parameters Key="{D7C27DDE-1EA3-442A-B2B8-2006FCFD3108}">
+		<Parameter0 Name="Param1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+	</Parameters>
 </Root>
