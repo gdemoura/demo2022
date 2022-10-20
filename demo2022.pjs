@@ -4,14 +4,12 @@
 		<child name="Web" key="{CC3B5F51-F555-49FF-BE0B-FC94F4AADAC8}" path="Web\Web.mds" />
 		<child name="Desktop" key="{D78801A6-A503-4B25-B4E2-63E0DD7C82A3}" path="Desktop\Desktop.mds" />
 		<child name="Mobile" key="{530F4B6B-3751-4ECD-8FAC-F7D3754A3445}" path="Mobile\Mobile.mds" />
-		<child name="demo10202022" key="{C1055D3D-D80C-427A-9E12-B924C697C675}" path="demo10202022\demo10202022.mds" />
 	</children>
 	<testItems key="{ACA92A0C-50D2-44C4-B957-83046F10109B}">
 		<children>
 			<testItem key="{CC3B5F51-F555-49FF-BE0B-FC94F4AADAC8}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{D78801A6-A503-4B25-B4E2-63E0DD7C82A3}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{530F4B6B-3751-4ECD-8FAC-F7D3754A3445}" enabled="True" timeout="0" stopOnError="True" description="" />
-			<testItem key="{C1055D3D-D80C-427A-9E12-B924C697C675}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{C7FBF2AF-E3F2-4C6C-99A8-DE84823BEFAE}" />

@@ -7,5 +7,12 @@
 			</Extenders>
 		</Data>
 	</TestData>
+	<Variables Version="4" Key="{1EE71CD6-3ADD-4061-95E7-B66D2F59F19D}">
+		<Items>
+			<Variable Name="data" Type="String" Local="False">
+				<DefValue />
+			</Variable>
+		</Items>
+	</Variables>
 	<Parameters Key="{5EDBDD53-5D69-4592-9F12-D5679C244269}" />
 </Root>
