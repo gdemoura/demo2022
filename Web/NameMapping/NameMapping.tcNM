@@ -2386,6 +2386,182 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="OUTLOOK" Key="{49835CE3-F7E5-4052-B110-6CDE8238C743}">
+						<TypeInfo Item0="{0598D614-6E4E-4AFB-8949-A53BE322867F}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="OUTLOOK" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="formInboxGabrielDemouraSmartbear" Key="{87805C24-6319-4E89-AF49-A5D619493389}">
+								<Image FileName="593907498" Left="0" Top="0" Right="1936" Bottom="1176" />
+								<TypeInfo Item0="{31CC6FBD-D4F5-416B-9779-1B77E2481DD9}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Form" />
+									</Property>
+									<Property Name="WndClass">
+										<Value Value="rctrl_renwnd32" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelMsodocktop" Key="{79FCB2C3-9571-4920-B118-629423D3FD21}">
+										<Image FileName="593907498" Left="8" Top="8" Right="1928" Bottom="169" />
+										<TypeInfo Item0="{7F12F873-4431-48AA-9642-28AE7886CB5D}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="MsoDockTop" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="toolbar" Key="{19297BAB-CF0B-473F-A9D8-B0E2C70E2E02}">
+												<Image FileName="593907498" Left="8" Top="8" Right="1928" Bottom="169" />
+												<TypeInfo Item0="{7F12F873-4431-48AA-9642-28AE7886CB5D}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MsoCommandBar" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Ribbon" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelRibbon" Key="{977AC6C1-8082-4CE6-B05F-840C5FE99F22}">
+														<Image FileName="593907498" Left="8" Top="8" Right="1928" Bottom="169" />
+														<TypeInfo Item0="{7F12F873-4431-48AA-9642-28AE7886CB5D}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Ribbon" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{F737AE29-15C7-4042-BFF4-BC469BEEF272}">
+																<Image FileName="593907498" Left="8" Top="8" Right="1928" Bottom="169" />
+																<TypeInfo Item0="{7F12F873-4431-48AA-9642-28AE7886CB5D}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="NUIPane" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="propertypageRibbon" Key="{D92F8485-3C3A-4520-B14D-0BE67B8409B2}">
+																		<Image FileName="593907498" Left="8" Top="8" Right="1928" Bottom="169" />
+																		<TypeInfo Item0="{7F12F873-4431-48AA-9642-28AE7886CB5D}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="PropertyPage" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Ribbon" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="paneLowerRibbon" Key="{4674EFD8-1A1A-46FF-A9A6-B0BF3365A22B}">
+																				<Image FileName="593907498" Left="8" Top="72" Right="1903" Bottom="169" />
+																				<TypeInfo Item0="{7054CD15-AA37-4846-B89E-4A245E12ED7F}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Pane" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Lower Ribbon" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndrctrl_renwnd32" Key="{70278CC2-1735-49F3-8233-4A3B9858FAF1}">
+								<Image FileName="-369811205" Left="0" Top="0" Right="760" Bottom="1026" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="rctrl_renwnd32" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="SmartBear / Avalon HCS : TestComplete Best Practice session with Liam Flood and Gabe De Moura - Meeting&#32;&#32;" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="AfxWndW" Key="{9A4F026E-D9BA-4AE3-A00B-08889995EE5A}">
+										<Image FileName="-369811205" Left="1" Top="162" Right="759" Bottom="1025" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="AfxWndW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="AfxWndW" Key="{70A42D54-219C-40CD-B694-3551C45F0306}">
+												<Image FileName="-369811205" Left="1" Top="162" Right="759" Bottom="1025" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="AfxWndW" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="page32770" Key="{08E6439C-3C72-45F0-8B80-8434709421E8}">
+														<Image FileName="-369811205" Left="1" Top="162" Right="759" Bottom="1025" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="#32770" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="editTitle" Key="{98213B59-0C0C-4E55-96D0-2033CF4D2A3A}">
+																<Image FileName="-369811205" Left="185" Top="206" Right="596" Bottom="254" />
+																<TypeInfo Item0="{B720AEEB-F7A3-46AC-A155-650DFFBE8539}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="RichEdit20WPT" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="6" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 			<Child Name="Mobile" Key="{F0351607-8661-4E34-8E18-D3399CCF0CA0}">
@@ -2809,6 +2985,30 @@
 				<Child Name="linearLayout" Owner="{7A9B3BEB-879D-4C83-BF49-0EB27663B45E}" />
 				<Child Name="listView" Owner="{BE1C7B8E-DDF4-4225-8C72-F5D8EB446C74}">
 					<Child Name="textViewText12" Owner="{E0BC85C6-2BF6-4C34-BDF3-9AE182B56AF5}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="OUTLOOK" Owner="{49835CE3-F7E5-4052-B110-6CDE8238C743}">
+			<Child Name="formInboxGabrielDemouraSmartbear" Owner="{87805C24-6319-4E89-AF49-A5D619493389}">
+				<Child Name="panelMsodocktop" Owner="{79FCB2C3-9571-4920-B118-629423D3FD21}">
+					<Child Name="toolbar" Owner="{19297BAB-CF0B-473F-A9D8-B0E2C70E2E02}">
+						<Child Name="panelRibbon" Owner="{977AC6C1-8082-4CE6-B05F-840C5FE99F22}">
+							<Child Name="panel" Owner="{F737AE29-15C7-4042-BFF4-BC469BEEF272}">
+								<Child Name="propertypageRibbon" Owner="{D92F8485-3C3A-4520-B14D-0BE67B8409B2}">
+									<Child Name="paneLowerRibbon" Owner="{4674EFD8-1A1A-46FF-A9A6-B0BF3365A22B}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndrctrl_renwnd32" Owner="{70278CC2-1735-49F3-8233-4A3B9858FAF1}">
+				<Child Name="AfxWndW" Owner="{9A4F026E-D9BA-4AE3-A00B-08889995EE5A}">
+					<Child Name="AfxWndW" Owner="{70A42D54-219C-40CD-B694-3551C45F0306}">
+						<Child Name="page32770" Owner="{08E6439C-3C72-45F0-8B80-8434709421E8}">
+							<Child Name="editTitle" Owner="{98213B59-0C0C-4E55-96D0-2033CF4D2A3A}" />
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 		</Child>

@@ -9,6 +9,7 @@
 		<folder name="MSoffice">
 			<child name="excel" key="{3F154D81-5AFD-426C-B088-6C26553CD276}" path="excel.tcKDTest" />
 			<child name="word" key="{B279C15B-59C8-4474-874F-72D5B4F7B938}" path="word.tcKDTest" />
+			<child name="outlook" key="{C11C3E4E-7B8D-4F76-BCE7-A526AD6CD527}" path="outlook.tcKDTest" />
 		</folder>
 	</children>
 </Root>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{02A196D2-2C1E-455F-81B1-B40CE416A87E}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.OUTLOOK" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC241256FCF557DFF6A85C67F62F18B65EAFF4F754ABD879942AC3E90BABB3315FE9F6A16FE7FB15DF83F4C7F6F2CFF7F5CB83444E4FF863AB9FF8FE629FF3FD721F6FF5CABF0FFDBBD22FFEF4F10F97FAC80E1FD950A86FFF8F0B932C6FF996E3CFF4F370BFDBFD12D0CD607D20BC2F8F421CB653873A1E843D77F67A2C1FF5FEFEEFF8701101B24063323CC84E7FF911A710C3360F220F57FBEBFFFFF7051001883D85FEEEE87EBCFF713FEBFB35CF6FFFA1C89FFE79AC5E0E6C0F483EC7DB5A701AE1EC40601983C280C41617F758AF2FF0DF9D2FFB7154AFC3F5923049707A925463F2C9ECFF628FE4FD4E4BC0F331FE45698FBEFCF72008705C84F30F9FA1C8DFFFF6F06A06050DCC3E44161F5FDD9799033C0003DFC08E9879973BD41E0FFCD4E05B8BD30F1F6626D14BB416E01D94F4CFAB95EC78AA117A61F64060CC0C2069D46F7378C0FD307A3D1F5C1F830F5E8344C1F8CDE91C7F3FE6829CF7F747CAA51EC3F3ADE572506CEBB00AD2867B4" />
+					<Bitmap Name="Aliases.OUTLOOK.wndrctrl_renwnd32" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+					<Bitmap Name="Aliases.OUTLOOK.wndrctrl_renwnd32.Table_View" Data="61717A697000000001000000360400007801A5934F4AC34014C6BF8007F008BAF304D90A2E856E3C831BCFE04DDC74E9C2A5221EC185A0A0146AB1AD586DEDBF34CD34994C2689EFA50D741C0AA94EF8260993DFCBCBF74D8E6AEE0E8AE1D27C40DA5DC9C11E5DD158AD2F6F96738EFF1FA7C72EB6D1D9C961F17CF9E687DB4B24C1146A3E86F24750B321626F8078DA473CF982FCEE22FA6C217C6F40BC3DC16F3DDABCF030A83B86C2C605EAED059CEBC850D079B1F9856FB05C6B132F3E9A16AFC3A0321FF53B361F89CABC1CF52C3E9561D12FF75C4A8D9FF1EA2D0A0FD88752927CE5BCD6FD4FE3085777BEA1765710DF23EEDE90A46C2C5E49ECD78686B81EB3B839371453BEBFF94C2B83E55A1B79DA23169FEACABC9A4F2C3ECFD2EA7C30B3F99CDCA41A19F591E90459A2909227EC2B67A3295FDE239AF659226C9EFF816DB4FEFD658E7F39FF00D1F3F683" />
+					<Bitmap Name="Aliases.OUTLOOK.wndrctrl_renwnd32.Table_View.Group_By_Expanded_Date_Last_Week" Data="61717A697000000001000000360400007801A5934F4AC34014C6BF8007F008BAF304D90A2E856E3C831BCFE04DDC74E9C2A5221EC185A0A0146AB1AD586DEDBF34CD34994C2689EFA50D741C0AA94EF8260993DFCBCBF74D8E6AEE0E8AE1D27C40DA5DC9C11E5DD158AD2F6F96738EFF1FA7C72EB6D1D9C961F17CF9E687DB4B24C1146A3E86F24750B321626F8078DA473CF982FCEE22FA6C217C6F40BC3DC16F3DDABCF030A83B86C2C605EAED059CEBC850D079B1F9856FB05C6B132F3E9A16AFC3A0321FF53B361F89CABC1CF52C3E9561D12FF75C4A8D9FF1EA2D0A0FD88752927CE5BCD6FD4FE3085777BEA1765710DF23EEDE90A46C2C5E49ECD78686B81EB3B839371453BEBFF94C2B83E55A1B79DA23169FEACABC9A4F2C3ECFD2EA7C30B3F99CDCA41A19F591E90459A2909227EC2B67A3295FDE239AF659226C9EFF816DB4FEFD658E7F39FF00D1F3F683" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+				<Data Description="Runs the &quot;OUTLOOK&quot; tested application." TestedApp="OUTLOOK">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="1" />
+						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="daily" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.OUTLOOK.wndrctrl_renwnd32.Table_View.Group_By_Expanded_Date_Today.From_Microsoft_Viva_Subject_Your_daily_briefing_Received_8_11_AM_Size_725_KB_Flag_Status_Unflagged_;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="111" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="20" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.OUTLOOK.wndrctrl_renwnd32.Table_View.Group_By_Expanded_Date_Last_Week.From_Gong_Subject_Your_calls_with_Oakridge_Interactive_ISNetworld_and_more_Received_Sat_10_22_Size_191_KB_Flag_Status_Unflagged_;" />
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="EXTERNAL MESSAGE - USE" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.OUTLOOK.wndrctrl_renwnd32.Table_View.Group_By_Expanded_Date_Last_Week.From_Mark_Robson_Subject_Automatic_reply_Run_Your_First_Test_with_TestComplete_Received_Fri_10_21_Size_73_KB_Flag_Status_Unflagged_;" />
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.OUTLOOK.wndrctrl_renwnd32.rctrl_renwnd32.AfxWndW.AfxWndW.page32770.editSubject" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="wText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Automatic reply: Run Your First Test with TestComplete!" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{365A42E7-23ED-4DF1-86AE-07880C47CBF4}" />
+</Root>

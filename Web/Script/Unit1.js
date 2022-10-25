@@ -1,5 +1,7 @@
 ﻿function contactUsFlow()
 {
+  var Var1;
+  Var1 = "";
   //Opens the specified URL in a running instance of the specified browser.
   Browsers.Item(btChrome).Navigate("https://bearstore-testsite.smartbear.com/");
   //Maximizes the specified Window object.

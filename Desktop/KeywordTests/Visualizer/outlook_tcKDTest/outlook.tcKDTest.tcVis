@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{C11C3E4E-7B8D-4F76-BCE7-A526AD6CD527}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44858.5755787037" objectName="Aliases.OUTLOOK.wndrctrl_renwnd32.Table_View.Group_By_Expanded_Date_Today.From_Microsoft_Viva_Subject_Your_daily_briefing_Received_8_11_AM_Size_725_KB_Flag_Status_Unflagged_" objectLeft="96" objectTop="317" objectRight="121" objectBottom="328" clickPointX="114" clickPointY="324" imageFileName="tcvi5432015204083.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44858.577025463" objectName="Aliases.OUTLOOK.wndrctrl_renwnd32.Table_View.Group_By_Expanded_Date_Last_Week.From_Gong_Subject_Your_calls_with_Oakridge_Interactive_ISNetworld_and_more_Received_Sat_10_22_Size_191_KB_Flag_Status_Unflagged_" objectLeft="44" objectTop="465" objectRight="338" objectBottom="526" clickPointX="155" clickPointY="485" imageFileName="tcvi5557031143281.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44858.5772916667" objectName="Aliases.OUTLOOK.wndrctrl_renwnd32.Table_View.Group_By_Expanded_Date_Last_Week.From_Mark_Robson_Subject_Automatic_reply_Run_Your_First_Test_with_TestComplete_Received_Fri_10_21_Size_73_KB_Flag_Status_Unflagged_" objectLeft="71" objectTop="816" objectRight="204" objectBottom="826" clickPointX="182" clickPointY="820" imageFileName="tcvi5579656143286.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

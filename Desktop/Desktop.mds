@@ -29,7 +29,7 @@
 	</testItems>
 	<variables key="{EDA6C14E-93AE-439F-A3BC-E25F319D63FC}" />
 	<settings key="{339AC2CF-A382-41CB-B5E2-B13199DA079A}">
-		<settingsVersion value="15.42" />
+		<settingsVersion value="15.44" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -303,13 +303,13 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="12" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="True" val1="*" />
+				<row val0="False" val1="*" />
 				<row val0="True" val1="MsoCommandBar*" />
 				<row val0="True" val1="_Ww*" />
 				<row val0="True" val1="OpusApp" />
@@ -321,6 +321,7 @@
 				<row val0="True" val1="XTPTaskPanel" />
 				<row val0="True" val1="XTPReport" />
 				<row val0="True" val1="XTPPopupBar" />
+				<row val0="True" val1="NetUIHWND" />
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
@@ -364,7 +365,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="3" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -373,6 +374,7 @@
 				<row val0="False" val1="*" />
 				<row val0="True" val1="DirectUIHWND" />
 				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
+				<row val0="True" val1="OutlookGrid" />
 			</data>
 		</setting>
 		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />

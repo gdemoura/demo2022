@@ -10,14 +10,16 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{EBC18FC4-64C5-426D-AD7E-2CD739F27E72}" version="14">
 		<children>
-			<testItem name="smartstoreFlow" key="{72E456CF-6777-46D2-9309-AE13205E75F2}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="smartstoreFlow" key="{72E456CF-6777-46D2-9309-AE13205E75F2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="login" key="{C46F6DCA-F8FB-4419-AB44-F18E46E192D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters>
 							<param0 name="Param1" type="1" localVarName="" value="" />
 						</testParameters>
-						<environments activeCloud="SWT" />
+						<environments activeCloud="LocalHeadlessBrowser">
+							<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/" />
+						</environments>
 						<children>
 							<testItem name="contactUsFlow" key="{A43AEAC1-DBDD-4DAC-8782-7DEDE2071CF3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F5D8442-BA69-436F-9280-EAE4F8A2B44E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
@@ -72,7 +74,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Zillow Project" key="{B6685747-FE68-4D85-9897-D48722B64AFB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Zillow Project" key="{B6685747-FE68-4D85-9897-D48722B64AFB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="search" key="{26B7EEB8-F178-4396-BDF3-738BB6EBEF9D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8845AC89-57B5-4D4D-B343-B989265C07A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -83,7 +85,7 @@
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children>
-									<testItem name="propertySelection" key="{2D3752EF-0299-450E-B73A-A7429B19050A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A23D6170-834B-4755-B96D-5ED2F67287E6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="propertySelection" key="{2D3752EF-0299-450E-B73A-A7429B19050A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A23D6170-834B-4755-B96D-5ED2F67287E6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 										<testParameters />
 										<environments activeCloud="SWT" />
 										<children />
@@ -93,6 +95,11 @@
 						</children>
 					</testItem>
 				</children>
+			</testItem>
+			<testItem name="Test1" key="{55F3D12F-3922-481C-BD7A-61BAFB11998E}" group="False" parallel="False" enabled="True" testMoniker="{D030A9E9-0ED0-4C5E-ABC1-BA23D47E3179}Test1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
 			</testItem>
 		</children>
 	</testItems>
@@ -434,7 +441,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="12" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -452,6 +459,7 @@
 				<row val0="True" val1="XTPTaskPanel" />
 				<row val0="True" val1="XTPReport" />
 				<row val0="True" val1="XTPPopupBar" />
+				<row val0="True" val1="NetUIHWND" />
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
@@ -495,7 +503,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="3" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -504,6 +512,7 @@
 				<row val0="False" val1="*" />
 				<row val0="True" val1="DirectUIHWND" />
 				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
+				<row val0="True" val1="OutlookGrid" />
 			</data>
 		</setting>
 		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />

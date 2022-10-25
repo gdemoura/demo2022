@@ -94,6 +94,9 @@
 													<Property Name="WinFormsControlName">
 														<Value Value="Street" />
 													</Property>
+													<Property Name="AutoCompleteMode">
+														<Value Value="None" />
+													</Property>
 												</Properties>
 											</Child>
 											<Child Name="City" Key="{CD648F9F-A7BF-483D-B0A5-B936F1FEE4C9}">
@@ -1219,6 +1222,327 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="explorer" Key="{0B4CFCEC-C5A7-4FE9-B5D1-1C398FDFAF70}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="toolwindowTaskbar" Key="{B9EF4B08-4D81-443A-B7E3-DCFF412B9D9E}">
+								<Image FileName="347496632" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="ToolWindow" />
+									</Property>
+									<Property Name="Caption">
+										<Value Value="Taskbar" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="toolwindow" Key="{6D19B9A8-8A95-45BD-9C08-E6845AF06C75}">
+										<Image FileName="347496632" Left="486" Top="0" Right="1707" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelRunningApplications" Key="{C137EC62-C975-4572-9CC7-4DAAD9C7F84C}">
+												<Image FileName="347496632" Left="488" Top="0" Right="1707" Bottom="40" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Running applications" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="toolbarRunningApplications" Key="{1229449B-98DD-43F3-A286-F49CD797EB50}">
+														<Image FileName="347496632" Left="488" Top="0" Right="1707" Bottom="40" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ToolBar" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Running applications" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="buttonOutlook1RunningWindow" Key="{9BD82B7B-099B-445B-AC29-C8A9FA875F0E}">
+																<Image FileName="1448898731" Left="834" Top="0" Right="883" Bottom="40" />
+																<TypeInfo Item0="{C465A7EE-4A7A-4189-9543-97B18BE710A8}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="Outlook - 1 running window" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="2" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="OUTLOOK" Key="{AA43C5D2-7636-4FC5-9624-A6627ED98979}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="OUTLOOK" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="formOpeningOutlook" Key="{EEA26630-76EC-481B-963C-BC0B754FB205}">
+								<Image FileName="-455846502" Left="0" Top="0" Right="439" Bottom="248" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Form" />
+									</Property>
+									<Property Name="WndClass">
+										<Value Value="MsoSplash" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="clientOpeningOutlook" Key="{91DEF8E2-6FD0-49EE-A793-EB5FE1A01292}">
+										<Image FileName="-455846502" Left="0" Top="0" Right="439" Bottom="248" />
+										<TypeInfo Item0="{C465A7EE-4A7A-4189-9543-97B18BE710A8}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Client" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Opening - Outlook" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="formInboxGabrielDemouraSmartbear" Key="{1FCD92D2-68C8-4C00-810C-44C2562DE757}">
+								<Image FileName="-2075941720" Left="0" Top="0" Right="1936" Bottom="1176" />
+								<TypeInfo Item0="{A5EB5B48-C9FA-432F-9388-C28E9F6EB721}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Form" />
+									</Property>
+									<Property Name="WndClass">
+										<Value Value="rctrl_renwnd32" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="listTableView" Key="{8221CC5C-EA86-4EF9-99EF-7F6096CC52C0}">
+										<Image FileName="-2075941720" Left="52" Top="212" Right="370" Bottom="1146" />
+										<TypeInfo Item0="{C25928CF-1A45-44EC-9829-7D2E0790FEA8}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="List" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Table View" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndrctrl_renwnd32" Key="{D64744B4-8B7B-4319-9311-5BEC74F07E85}">
+								<Image FileName="-1588814030" Left="-8" Top="-8" Right="1928" Bottom="1168" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="rctrl_renwnd32" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Inbox - gabriel.demoura@smartbear.com - Outlook" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Table_View" Key="{9AC595E3-725F-4182-B69D-240C7C463807}">
+										<Image FileName="-1588814030" Left="44" Top="204" Right="362" Bottom="1138" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="SuperGrid" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="table" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Table_View" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Group_By_Expanded_Date_Today" Key="{18C30118-B166-4B90-BDE2-E3E4C145077E}">
+												<Image FileName="-1588814030" Left="44" Top="204" Right="338" Bottom="228" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="GroupHeader" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="group" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Group_By_Expanded_Date_Today" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="From_Microsoft_Viva_Subject_Your_daily_briefing_Received_8_11_AM_Size_725_KB_Flag_Status_Unflagged_" Key="{1FB456D7-3122-47FC-8C25-B06A8788DF83}">
+														<Image FileName="-1588814030" Left="44" Top="291" Right="338" Bottom="352" />
+														<TypeInfo Item0="{FC57F3D8-A62E-4820-AA10-3413927FAC09}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="LeafRow" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="From_Microsoft_Viva_Subject_Your_daily_briefing_Received_8_11_AM_Size_725_KB_Flag_Status_Unflagged_" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="Group_By_Expanded_Date_Last_Week" Key="{A04F1F36-987C-4A99-9BC7-98BFC02F73A3}">
+												<Image FileName="919937573" Left="44" Top="440" Right="338" Bottom="464" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="GroupHeader" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="group" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Group_By_Expanded_Date_Last_Week" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="From_Gong_Subject_Your_calls_with_Oakridge_Interactive_ISNetworld_and_more_Received_Sat_10_22_Size_191_KB_Flag_Status_Unflagged_" Key="{67381FAF-3B1F-4BAB-B1F7-019701E09EB7}">
+														<Image FileName="919937573" Left="44" Top="465" Right="338" Bottom="526" />
+														<TypeInfo Item0="{FC57F3D8-A62E-4820-AA10-3413927FAC09}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="LeafRow" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="From_Gong_Subject_Your_calls_with_Oakridge_Interactive_ISNetworld_and_more_Received_Sat_10_22_Size_191_KB_Flag_Status_Unflagged_" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="From_Mark_Robson_Subject_Automatic_reply_Run_Your_First_Test_with_TestComplete_Received_Fri_10_21_Size_73_KB_Flag_Status_Unflagged_" Key="{D683EE39-FADA-4F55-8308-644BF927E458}">
+														<Image FileName="1976258750" Left="44" Top="775" Right="338" Bottom="836" />
+														<TypeInfo Item0="{FC57F3D8-A62E-4820-AA10-3413927FAC09}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="LeafRow" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="From_Mark_Robson_Subject_Automatic_reply_Run_Your_First_Test_with_TestComplete_Received_Fri_10_21_Size_73_KB_Flag_Status_Unflagged_" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="rctrl_renwnd32" Key="{98654335-56AB-4B27-AEB9-6A3D9F4FD626}">
+										<Image FileName="349613210" Left="373" Top="162" Right="1660" Bottom="1137" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="rctrl_renwnd32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="AfxWndW" Key="{38FA6727-96D0-4DB9-B7FF-DFD2FF23F244}">
+												<Image FileName="349613210" Left="373" Top="162" Right="1660" Bottom="1137" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="AfxWndW" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="AfxWndW" Key="{EE60782B-DC4B-4454-828B-ED39D049C368}">
+														<Image FileName="349613210" Left="373" Top="162" Right="1660" Bottom="1137" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="AfxWndW" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="page32770" Key="{ECCCD81E-BF52-4A89-8869-651CA0195537}">
+																<Image FileName="349613210" Left="373" Top="162" Right="1660" Bottom="1137" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="#32770" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="editSubject" Key="{42434F0D-947F-4477-AB3D-78865E6DCE9E}">
+																		<Image FileName="1394125264" Left="391" Top="178" Right="1637" Bottom="204" />
+																		<TypeInfo Item0="{7403C351-D09D-463D-90E9-74CC86035482}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="RichEdit20WPT" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -1366,6 +1690,45 @@
 										</Child>
 									</Child>
 								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{0B4CFCEC-C5A7-4FE9-B5D1-1C398FDFAF70}">
+			<Child Name="toolwindowTaskbar" Owner="{B9EF4B08-4D81-443A-B7E3-DCFF412B9D9E}">
+				<Child Name="toolwindow" Owner="{6D19B9A8-8A95-45BD-9C08-E6845AF06C75}">
+					<Child Name="panelRunningApplications" Owner="{C137EC62-C975-4572-9CC7-4DAAD9C7F84C}">
+						<Child Name="toolbarRunningApplications" Owner="{1229449B-98DD-43F3-A286-F49CD797EB50}">
+							<Child Name="buttonOutlook1RunningWindow" Owner="{9BD82B7B-099B-445B-AC29-C8A9FA875F0E}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="OUTLOOK" Owner="{AA43C5D2-7636-4FC5-9624-A6627ED98979}">
+			<Child Name="formOpeningOutlook" Owner="{EEA26630-76EC-481B-963C-BC0B754FB205}">
+				<Child Name="clientOpeningOutlook" Owner="{91DEF8E2-6FD0-49EE-A793-EB5FE1A01292}" />
+			</Child>
+			<Child Name="formInboxGabrielDemouraSmartbear" Owner="{1FCD92D2-68C8-4C00-810C-44C2562DE757}">
+				<Child Name="listTableView" Owner="{8221CC5C-EA86-4EF9-99EF-7F6096CC52C0}" />
+			</Child>
+			<Child Name="wndrctrl_renwnd32" Owner="{D64744B4-8B7B-4319-9311-5BEC74F07E85}">
+				<Child Name="Table_View" Owner="{9AC595E3-725F-4182-B69D-240C7C463807}">
+					<Child Name="Group_By_Expanded_Date_Today" Owner="{18C30118-B166-4B90-BDE2-E3E4C145077E}">
+						<Child Name="From_Microsoft_Viva_Subject_Your_daily_briefing_Received_8_11_AM_Size_725_KB_Flag_Status_Unflagged_" Owner="{1FB456D7-3122-47FC-8C25-B06A8788DF83}" />
+					</Child>
+					<Child Name="Group_By_Expanded_Date_Last_Week" Owner="{A04F1F36-987C-4A99-9BC7-98BFC02F73A3}">
+						<Child Name="From_Gong_Subject_Your_calls_with_Oakridge_Interactive_ISNetworld_and_more_Received_Sat_10_22_Size_191_KB_Flag_Status_Unflagged_" Owner="{67381FAF-3B1F-4BAB-B1F7-019701E09EB7}" />
+						<Child Name="From_Mark_Robson_Subject_Automatic_reply_Run_Your_First_Test_with_TestComplete_Received_Fri_10_21_Size_73_KB_Flag_Status_Unflagged_" Owner="{D683EE39-FADA-4F55-8308-644BF927E458}" />
+					</Child>
+				</Child>
+				<Child Name="rctrl_renwnd32" Owner="{98654335-56AB-4B27-AEB9-6A3D9F4FD626}">
+					<Child Name="AfxWndW" Owner="{38FA6727-96D0-4DB9-B7FF-DFD2FF23F244}">
+						<Child Name="AfxWndW" Owner="{EE60782B-DC4B-4454-828B-ED39D049C368}">
+							<Child Name="page32770" Owner="{ECCCD81E-BF52-4A89-8869-651CA0195537}">
+								<Child Name="editSubject" Owner="{42434F0D-947F-4477-AB3D-78865E6DCE9E}" />
 							</Child>
 						</Child>
 					</Child>
