@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" version="15.0">
+	<children>
+		<child name="DUnit1" key="{81A073D2-5AD6-4BEC-934E-E8A3AC5419CD}" type="DUnit" typeId="{9D8941CB-BF2F-4F66-BFF6-A8E647CE92B0}" pluginName="DUnit Runner" path="DUnit1\DUnit1.tcDUnit" />
+		<child name="TestNG1" key="{11CEE4CF-F2BD-406A-AA81-CEB9F153F735}" type="TestNG" typeId="{98B9825D-FAE6-48D5-83C2-A52AAEC31276}" pluginName="TestNG Runner" path="TestNG1\TestNG1.tcTestNG" />
+	</children>
+</Root>

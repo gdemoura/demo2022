@@ -6,6 +6,7 @@
 		<child name="NameMapping" key="{03D1C69F-29BD-48D8-A496-2272ED1D4D49}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Stores" key="{CE3236AD-A049-468C-9791-FF17F4C43866}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 		<child name="TestedApps" key="{11776294-AB29-4AF5-98CA-0B95EC89B46D}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="UnitTesting4" key="{CC9C08B1-1158-41B4-89F1-81E5DD325F9B}" type="Selenium or Unit Testing" typeId="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" pluginName="Unit Testing" path="UnitTesting4\UnitTesting4.tcUT" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{EBC18FC4-64C5-426D-AD7E-2CD739F27E72}" version="14">
