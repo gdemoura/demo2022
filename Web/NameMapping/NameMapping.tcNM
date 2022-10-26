@@ -485,6 +485,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="articleSports" Key="{21ED06DA-4A5F-490A-97A3-5C914C40CD53}">
+										<Image FileName="-143641284" Left="405" Top="458" Right="577" Bottom="661" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Sports&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin" Key="{6ED106B0-56A7-407B-9509-741CD2E5F372}">
@@ -2308,6 +2317,49 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageFlightawareFlightTrackerFlig" Key="{99D470A3-56E4-43B2-9EB1-A211BD419A2B}">
+								<Image FileName="1087249161" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://flightaware.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkZoomIn" Key="{CB0B0BE4-2527-4890-BA9F-B05FCC90CAA2}">
+										<Image FileName="1358490093" Left="213" Top="357" Right="236" Bottom="380" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-describedby=(//div[.=&apos;Zoom in&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;home-container&apos;]/div/div/div/div[3]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkZoomOut" Key="{9D0DC787-E73D-4159-81E7-41942734CAAB}">
+										<Image FileName="610056984" Left="213" Top="388" Right="236" Bottom="411" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-describedby=(//div[.=&apos;Zoom out&apos;]/@id)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBaseLayer" Key="{71A79168-9A0D-4AE6-A338-E19D07786F64}">
+										<Image FileName="1087249161" Left="203" Top="347" Right="1396" Bottom="945" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ol-overlaycontainer-stopevent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{B78DAAA3-1D5F-4C22-BBDF-376E9A593728}">
@@ -2562,6 +2614,40 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="TestExecute" Key="{2D3DF91B-58DE-48B1-AD6F-38D97432BB46}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="TestExecute" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="TMessageForm" Key="{C2259EF0-3ECD-4C7D-A2FC-48CB040EA5F0}">
+								<Image FileName="-525852381" Left="0" Top="0" Right="818" Bottom="185" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TMessageForm" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="TestExecute" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Yes" Key="{CEE00D5D-9522-4BF6-AAD2-893259A22753}">
+										<Image FileName="-525852381" Left="250" Top="143" Right="325" Bottom="166" />
+										<TypeInfo Item0="{3C37896C-08C1-48A2-943A-C936EB04BD39}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TcxButton" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Yes" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 			<Child Name="Mobile" Key="{F0351607-8661-4E34-8E18-D3399CCF0CA0}">
@@ -2769,6 +2855,7 @@
 						</Child>
 					</Child>
 					<Child Name="textnodeWelcomeToOurStore" Owner="{1F8DBB83-D372-4BFE-83A3-9F6F90472F0C}" />
+					<Child Name="articleSports" Owner="{21ED06DA-4A5F-490A-97A3-5C914C40CD53}" />
 				</Child>
 			</Child>
 			<Child Name="pageLogin" Owner="{6ED106B0-56A7-407B-9509-741CD2E5F372}">
@@ -2959,6 +3046,11 @@
 					<Child Name="textnode2" Owner="{015BDC69-8A92-4DC2-88B3-32DBD9440678}" />
 				</Child>
 			</Child>
+			<Child Name="pageFlightawareFlightTrackerFlig" Owner="{99D470A3-56E4-43B2-9EB1-A211BD419A2B}">
+				<Child Name="linkZoomIn" Owner="{CB0B0BE4-2527-4890-BA9F-B05FCC90CAA2}" />
+				<Child Name="linkZoomOut" Owner="{9D0DC787-E73D-4159-81E7-41942734CAAB}" />
+				<Child Name="panelBaseLayer" Owner="{71A79168-9A0D-4AE6-A338-E19D07786F64}" />
+			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{B78DAAA3-1D5F-4C22-BBDF-376E9A593728}">
 			<Child Name="wndProgman" Owner="{1CF4EB22-AD24-4D10-ACE1-B02502EF331D}">
@@ -3010,6 +3102,11 @@
 						</Child>
 					</Child>
 				</Child>
+			</Child>
+		</Child>
+		<Child Name="TestExecute" Owner="{2D3DF91B-58DE-48B1-AD6F-38D97432BB46}">
+			<Child Name="TMessageForm" Owner="{C2259EF0-3ECD-4C7D-A2FC-48CB040EA5F0}">
+				<Child Name="Yes" Owner="{CEE00D5D-9522-4BF6-AAD2-893259A22753}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

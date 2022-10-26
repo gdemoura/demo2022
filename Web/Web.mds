@@ -96,11 +96,6 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Test1" key="{55F3D12F-3922-481C-BD7A-61BAFB11998E}" group="False" parallel="False" enabled="True" testMoniker="{D030A9E9-0ED0-4C5E-ABC1-BA23D47E3179}Test1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
 		</children>
 	</testItems>
 	<variables key="{1B741AED-ABF4-4494-B058-AD9444DEDD63}">
