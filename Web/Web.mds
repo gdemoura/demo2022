@@ -6,6 +6,7 @@
 		<child name="NameMapping" key="{03D1C69F-29BD-48D8-A496-2272ED1D4D49}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Stores" key="{CE3236AD-A049-468C-9791-FF17F4C43866}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 		<child name="TestedApps" key="{11776294-AB29-4AF5-98CA-0B95EC89B46D}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="ReadyAPI4" key="{BB85D491-D611-41C1-8813-0ED41A60E576}" type="ReadyAPI or SoapUI" typeId="{D5F2AF2E-BADF-483C-AB3E-DE7F0B6FBB55}" pluginName="ReadyAPI Runner" path="ReadyAPI4\ReadyAPI4.tcReadyAPI" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{EBC18FC4-64C5-426D-AD7E-2CD739F27E72}" version="14">

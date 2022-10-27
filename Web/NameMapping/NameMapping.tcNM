@@ -2360,6 +2360,50 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageConsumerSalesSalesRepPerform" Key="{5ACE777F-20C0-450C-9B1C-937733E0D4BA}">
+								<Image FileName="1420627327" Left="8" Top="111" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{9733A62E-9916-4055-B6BB-6274CC6314B1}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://sense-demo.qlik.com/sense/app/372cbc85-f7fb-4db6-a620-9a5367845dce/sheet/xjXHDyD/state/analysis" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="articleScatterPlot" Key="{3C4CBAE2-F25D-4BF5-9C05-53D1B476B781}">
+										<Image FileName="1420627327" Left="495" Top="247" Right="1283" Bottom="639" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Scatter plot&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/article[contains(@class, &apos;qv-object&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;grid-wrap&apos;]//div[3]/div/div/div/article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="canvas" Key="{9A1DA701-ABC2-435F-B4E7-8892CB5C470F}">
+										<Image FileName="1420627327" Left="560" Top="292" Right="1270" Bottom="590" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;grid&apos;]//div[5]/canvas" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/canvas" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{B78DAAA3-1D5F-4C22-BBDF-376E9A593728}">
@@ -3050,6 +3094,11 @@
 				<Child Name="linkZoomIn" Owner="{CB0B0BE4-2527-4890-BA9F-B05FCC90CAA2}" />
 				<Child Name="linkZoomOut" Owner="{9D0DC787-E73D-4159-81E7-41942734CAAB}" />
 				<Child Name="panelBaseLayer" Owner="{71A79168-9A0D-4AE6-A338-E19D07786F64}" />
+			</Child>
+			<Child Name="pageConsumerSalesSalesRepPerform" Owner="{5ACE777F-20C0-450C-9B1C-937733E0D4BA}">
+				<Child Name="articleScatterPlot" Owner="{3C4CBAE2-F25D-4BF5-9C05-53D1B476B781}">
+					<Child Name="canvas" Owner="{9A1DA701-ABC2-435F-B4E7-8892CB5C470F}" />
+				</Child>
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{B78DAAA3-1D5F-4C22-BBDF-376E9A593728}">
