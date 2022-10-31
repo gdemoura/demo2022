@@ -23,9 +23,6 @@
 					</Parameters>
 				</Data>
 			</Operation>
-			<Operation Type="{16DC8186-4DEC-41AF-80A0-F8C655838299}">
-				<Data Description="Runs a test from the project." TestName="DUnit1" FullName="UnitTesting4 - DUnit1" Path="UnitTesting4|DUnit1" />
-			</Operation>
 		</Children>
 	</TestData>
 	<Parameters Key="{D6499BED-CCCF-4F53-886F-57FA938E9BF2}" />

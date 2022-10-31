@@ -662,6 +662,38 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkShowDetailsForBallChair" Key="{E9DF916F-1A03-4426-8AFB-63931BBFEB51}">
+										<Image FileName="1341281981" Left="1312" Top="602" Right="1486" Bottom="776" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//article//a[@title=&apos;Show details for Ball Chair&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//article[4]//a[contains(@class, &apos;art-picture&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div[2]/div[2]/article[4]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-body&apos;]/div[@id=&apos;content-center&apos;]//div[2]/div[2]/article[4]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageShowDetailsForBallChair" Key="{6C47202D-FA85-4517-A70C-98D4698E77BC}">
+										<Image FileName="1341281981" Left="1323" Top="602" Right="1475" Bottom="776" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//article//a/img[@title=&apos;Show details for Ball Chair&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//div[2]//article[4]//a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//article[4]//a/img" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageEeroAarnioBallChair1966" Key="{B394DE84-7189-4C08-A442-338FFDFB977C}">
@@ -1166,6 +1198,36 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode259900ExclTax" Key="{7321B76F-0113-4038-A854-27BA08E89C4E}">
+										<Image FileName="-1287938887" Left="1199" Top="638" Right="1315" Bottom="658" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;$2,599.00 excl tax&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/span[contains(@class, &apos;price&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div/div/div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode259900" Key="{618BE39E-F321-4612-892D-60D2182F01D1}">
+										<Image FileName="-359149109" Left="1428" Top="815" Right="1498" Bottom="836" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;$2,599.00&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;order-totals&apos;]//tr[4]/td/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[4]/td/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageCompleted" Key="{B66A9533-EBC9-4C16-B5F2-C85108B0C3C0}">
@@ -1520,6 +1582,18 @@
 										<Selectors>
 											<Selector>
 												<Value Value="#grid" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQsToolbarContainer" Key="{50881076-4E56-40E4-B61F-E44272A5D5DA}">
+										<Image FileName="-1145563538" Left="8" Top="111" Right="1928" Bottom="153" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#qs-toolbar-container" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;qs-toolbar-container&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -2404,6 +2478,141 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageBallChair" Key="{C026ACFE-2661-4094-8D82-C4062FC11374}">
+								<Image FileName="-1296345570" Left="8" Top="111" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{9733A62E-9916-4055-B6BB-6274CC6314B1}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/ball-chair" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{D091B144-2EC6-41BE-A38D-985D47EDE8AE}">
+										<Image FileName="-1296345570" Left="390" Top="314" Right="1530" Bottom="2342" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Furniture&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleBallChair" Key="{BD3C1932-B655-47E0-9C3E-B86440E13886}">
+										<Image FileName="-1296345570" Left="405" Top="365" Right="1515" Bottom="1950" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Ball Chair&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[contains(@class, &apos;pd&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="asideBallChair" Key="{06E9C95B-45FF-49D3-8959-0D44C640B0BD}">
+										<Image FileName="-1296345570" Left="1054" Top="365" Right="1529" Bottom="1250" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//aside[contains(., &apos;Ball Chair&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside[contains(@class, &apos;col-12&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//aside" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/aside" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode259900ExclTax" Key="{BA0164CD-CBDE-4B09-9BFD-5B4818A8D5CC}">
+										<Image FileName="-1296345570" Left="1084" Top="466" Right="1316" Bottom="504" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;$2,599.00 excl tax&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//div[4]/div//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside/div[4]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAddToCart" Key="{6A444798-2884-48F3-A8AF-3110C9BA93D4}">
+										<Image FileName="1436703773" Left="1196" Top="974" Right="1491" Bottom="1025" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Add to cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main-update-container&apos;]/form/section/aside//a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//section/aside/div[4]/div[4]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/section/aside/div[4]/div[4]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAddToCart" Key="{7064F139-8F07-448E-8242-421115A33C3D}">
+										<Image FileName="1436703773" Left="1314" Top="989" Right="1396" Bottom="1010" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Add to cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-body&apos;]//div[4]/div/div[2]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="asideOffcanvasCart" Key="{9F1837A4-FD2A-414D-93F7-3CF348066234}">
+										<Image FileName="-1362627654" Left="1440" Top="103" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="#offcanvas-cart" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(., &apos;Shopping Cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="aside[contains(@class, &apos;offcanvas-lg&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCheckout" Key="{5AB27C73-47FA-4095-B5D8-2084A314C53F}">
+										<Image FileName="-1362627654" Left="1669" Top="980" Right="1904" Bottom="1025" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Checkout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside//div[2]//div[2]/a[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{B78DAAA3-1D5F-4C22-BBDF-376E9A593728}">
@@ -2914,6 +3123,9 @@
 					<Child Name="link" Owner="{A67B6D27-BA02-4037-9C9D-1609DA17C1FF}">
 						<Child Name="imageBallChairWhiteJpg" Owner="{2AF4CA15-3BBA-4A90-A728-AC215C002D01}" />
 					</Child>
+					<Child Name="linkShowDetailsForBallChair" Owner="{E9DF916F-1A03-4426-8AFB-63931BBFEB51}">
+						<Child Name="imageShowDetailsForBallChair" Owner="{6C47202D-FA85-4517-A70C-98D4698E77BC}" />
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageEeroAarnioBallChair1966" Owner="{B394DE84-7189-4C08-A442-338FFDFB977C}">
@@ -2968,6 +3180,8 @@
 						<Child Name="checkboxIAgreeWithThe" Owner="{3B549466-06E8-4C02-9B45-CE2ADE8001DC}" />
 					</Child>
 					<Child Name="buttonConfirm" Owner="{681EC3CD-55B9-40F5-918B-03265EA1D019}" />
+					<Child Name="textnode259900ExclTax" Owner="{7321B76F-0113-4038-A854-27BA08E89C4E}" />
+					<Child Name="textnode259900" Owner="{618BE39E-F321-4612-892D-60D2182F01D1}" />
 				</Child>
 			</Child>
 			<Child Name="pageCompleted" Owner="{B66A9533-EBC9-4C16-B5F2-C85108B0C3C0}">
@@ -3004,6 +3218,7 @@
 				</Child>
 				<Child Name="articleTable" Owner="{41C01362-B827-4F67-A14E-54C0A0B98C37}" />
 				<Child Name="panelGrid" Owner="{84E2842D-EA6B-476F-A1A8-BC2381015AEE}" />
+				<Child Name="panelQsToolbarContainer" Owner="{50881076-4E56-40E4-B61F-E44272A5D5DA}" />
 			</Child>
 			<Child Name="pageCookAndEnjoy" Owner="{90ADCA99-30C7-4C05-BFD5-C89B4AAC5DB0}">
 				<Child Name="header" Owner="{B83B105A-2820-48CA-B44A-A7D1958B740B}">
@@ -3098,6 +3313,21 @@
 			<Child Name="pageConsumerSalesSalesRepPerform" Owner="{5ACE777F-20C0-450C-9B1C-937733E0D4BA}">
 				<Child Name="articleScatterPlot" Owner="{3C4CBAE2-F25D-4BF5-9C05-53D1B476B781}">
 					<Child Name="canvas" Owner="{9A1DA701-ABC2-435F-B4E7-8892CB5C470F}" />
+				</Child>
+			</Child>
+			<Child Name="pageBallChair" Owner="{C026ACFE-2661-4094-8D82-C4062FC11374}">
+				<Child Name="sectionContent" Owner="{D091B144-2EC6-41BE-A38D-985D47EDE8AE}">
+					<Child Name="articleBallChair" Owner="{BD3C1932-B655-47E0-9C3E-B86440E13886}">
+						<Child Name="asideBallChair" Owner="{06E9C95B-45FF-49D3-8959-0D44C640B0BD}">
+							<Child Name="textnode259900ExclTax" Owner="{BA0164CD-CBDE-4B09-9BFD-5B4818A8D5CC}" />
+						</Child>
+						<Child Name="linkAddToCart" Owner="{6A444798-2884-48F3-A8AF-3110C9BA93D4}">
+							<Child Name="textnodeAddToCart" Owner="{7064F139-8F07-448E-8242-421115A33C3D}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="asideOffcanvasCart" Owner="{9F1837A4-FD2A-414D-93F7-3CF348066234}">
+					<Child Name="linkCheckout" Owner="{5AB27C73-47FA-4095-B5D8-2084A314C53F}" />
 				</Child>
 			</Child>
 		</Child>

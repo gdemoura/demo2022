@@ -6,7 +6,6 @@
 		<child name="NameMapping" key="{03D1C69F-29BD-48D8-A496-2272ED1D4D49}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
 		<child name="Stores" key="{CE3236AD-A049-468C-9791-FF17F4C43866}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 		<child name="TestedApps" key="{11776294-AB29-4AF5-98CA-0B95EC89B46D}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
-		<child name="ReadyAPI4" key="{BB85D491-D611-41C1-8813-0ED41A60E576}" type="ReadyAPI or SoapUI" typeId="{D5F2AF2E-BADF-483C-AB3E-DE7F0B6FBB55}" pluginName="ReadyAPI Runner" path="ReadyAPI4\ReadyAPI4.tcReadyAPI" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{EBC18FC4-64C5-426D-AD7E-2CD739F27E72}" version="14">
@@ -15,10 +14,11 @@
 				<testParameters />
 				<children>
 					<testItem name="login" key="{C46F6DCA-F8FB-4419-AB44-F18E46E192D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters>
-							<param0 name="Param1" type="1" localVarName="" value="" />
-						</testParameters>
-						<environments activeCloud="LocalHeadlessBrowser">
+						<testParameters />
+						<environments activeCloud="SWT">
+							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
+								<CapabilityItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;12&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;102&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="macOS 12" Browser="Firefox 102" Resolution="2560x1920" CustomCapabilitiesInfo="" />
+							</cloud>
 							<cloud name="LocalHeadlessBrowser" testedURL="https://bearstore-testsite.smartbear.com/" />
 						</environments>
 						<children>
@@ -46,9 +46,7 @@
 				<testParameters />
 				<children>
 					<testItem name="login_2" key="{3730F216-A4EB-4DB7-9B90-889B858FCB0F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters>
-							<param0 name="Param1" type="1" localVarName="" value="" />
-						</testParameters>
+						<testParameters />
 						<environments activeCloud="SWT">
 							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/">
 								<CapabilityItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;macOS&quot;,&quot;osVersion&quot;:&quot;12&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;103&quot;,&quot;resolution&quot;:&quot;2560x1920&quot;}" Platform="Desktop" OS="macOS 12" Browser="Firefox 103" Resolution="2560x1920" CustomCapabilitiesInfo="" />
@@ -158,6 +156,9 @@
 					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
 						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
 					</DefValue>
+				</Variable>
+				<Variable Name="firstPrice" Type="String" Local="True">
+					<DefValue StrValue="0" />
 				</Variable>
 			</Items>
 		</data>
