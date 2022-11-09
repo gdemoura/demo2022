@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{96E19ACB-E84C-4992-8006-83742972C24B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{29FFF95E-2F7A-4F60-9DCD-35FFD1DD1716}">
+				<Data Description="Compares the %n Stores item with the contents of the control." Checkpoint="articleTable" />
+			</Operation>
+			<Operation Type="{29FFF95E-2F7A-4F60-9DCD-35FFD1DD1716}">
+				<Data Description="Compares the %n Stores item with the contents of the control." Checkpoint="articleTable" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{F739236D-BD0B-4042-9942-D45318633E82}" />
+</Root>

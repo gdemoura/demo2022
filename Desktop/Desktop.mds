@@ -5,6 +5,7 @@
 		<child name="KeywordTests" key="{08E77BAE-0A94-4FF4-BD04-B814A7B62B2A}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="TestedApps" key="{AD20C70A-DEFC-4C5B-89C2-13B130BA94DC}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 		<child name="NameMapping" key="{8C38F4EF-C413-4ABC-913A-CE94AAA30CE6}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="Stores" key="{1D99DB9A-E270-4662-BCD7-425093BA8C0A}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{3FA81462-DC37-41A6-8902-DB73610F9BA9}" version="14">
@@ -27,9 +28,20 @@
 			</testItem>
 		</children>
 	</testItems>
-	<variables key="{EDA6C14E-93AE-439F-A3BC-E25F319D63FC}" />
+	<variables key="{EDA6C14E-93AE-439F-A3BC-E25F319D63FC}">
+		<data Version="4">
+			<Items>
+				<Variable Name="value1" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="value2" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
 	<settings key="{339AC2CF-A382-41CB-B5E2-B13199DA079A}">
-		<settingsVersion value="15.44" />
+		<settingsVersion value="15.45" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -151,6 +163,8 @@
 		</setting>
 		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
 		<setting name="Gherkin_ShowHiddenStepDefinitionWarn" type="1" value="True" />
+		<setting name="Gherkin_StopFeatureIfScenarioFailss" type="1" value="False" />
+		<setting name="Gherkin_StopScenarioIfStepFails" type="1" value="False" />
 		<setting name="Gherkin_StopScenarioOutlineIfExampleFails" type="1" value="False" />
 		<setting name="Gherkin_UseStepDuringDefinitionsGeneration" type="1" value="False" />
 		<setting name="HipTest_ProjectID" type="2" value="-1" />
@@ -365,7 +379,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="3" colIndex="0">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -624,12 +638,14 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="1">
+		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
 			</columns>
-			<data />
+			<data>
+				<row val0="False" val1="*" />
+			</data>
 		</setting>
 		<setting name="Visualizer_AutoUpdate" type="1" value="False" />
 		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">

@@ -1482,6 +1482,75 @@
 													</Child>
 												</Children>
 											</Child>
+											<Child Name="Group_By_Expanded_Date_Today2" Key="{E7F38FED-8BB1-4DEF-852C-E933CB10561D}">
+												<Image FileName="-437781121" Left="45" Top="200" Right="344" Bottom="224" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="GroupHeader" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="group" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Group_By_Expanded_Date_Today" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="To_Byron_Caine_Subject_Test_Sent_9_52_AM_Size_27_KB_Flag_Status_Unflagged_" Key="{EFEA9EE6-F7B7-437F-BC0B-F1612ED485A0}">
+														<Image FileName="-437781121" Left="45" Top="225" Right="344" Bottom="286" />
+														<TypeInfo Item0="{FC57F3D8-A62E-4820-AA10-3413927FAC09}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="LeafRow" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="To_Byron_Caine_Subject_Test_Sent_9_52_AM_Size_27_KB_Flag_Status_Unflagged_" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="Group_By_Expanded_Date_Last_Week2" Key="{26690F1C-F705-4E9B-A397-E5D4144BD943}">
+												<Image FileName="-290012963" Left="45" Top="336" Right="344" Bottom="360" />
+												<TypeInfo Item0="{71C4B2FD-09FF-46D6-A2F1-EF46CA90584B}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="0" Type="0" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="GroupHeader" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="group" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Group_By_Expanded_Date_Last_Week" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="To_Ella_Biestek_Subject_Accepted_Mareana_SmartBear_TestComplete_Sync_Sent_Fri_11_4_Size_29_KB_Flag_Status_Unflagged_" Key="{BBF6D764-F9F4-4712-9C8A-9D0D31D071A1}">
+														<Image FileName="-290012963" Left="45" Top="596" Right="344" Bottom="644" />
+														<TypeInfo Item0="{5CD2E84D-A871-4709-8091-BB58799435FE}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="0" Type="0" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="LeafRow" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="item" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="To_Ella_Biestek_Subject_Accepted_Mareana_SmartBear_TestComplete_Sync_Sent_Fri_11_4_Size_29_KB_Flag_Status_Unflagged_" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="rctrl_renwnd32" Key="{98654335-56AB-4B27-AEB9-6A3D9F4FD626}">
@@ -1531,6 +1600,21 @@
 																			</Property>
 																		</Properties>
 																	</Child>
+																	<Child Name="editTo" Key="{0AC87E4E-B2C7-4AAC-9FD7-D68886AC6CAE}">
+																		<Image FileName="1842834989" Left="478" Top="246" Right="1049" Bottom="261" />
+																		<TypeInfo Item0="{7403C351-D09D-463D-90E9-74CC86035482}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="RichEdit20WPT" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value Value="4" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
 																</Children>
 															</Child>
 														</Children>
@@ -1538,6 +1622,583 @@
 												</Children>
 											</Child>
 										</Children>
+									</Child>
+									<Child Name="NUIDocumentWindow" Key="{18651D13-118C-47AC-BB65-38415FD3C383}">
+										<Image FileName="144074028" Left="1" Top="162" Right="43" Bottom="702" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="NetUINativeHWNDHost" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="NUIDocumentWindow" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{C3742AAA-F85D-429F-B346-F54035A10E2E}">
+												<Image FileName="144074028" Left="1" Top="162" Right="43" Bottom="702" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="NetUIHWND" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="buttonSentItems" Key="{AB92C17B-2524-4AEA-AF65-0BD6A1459AB0}">
+														<Image FileName="144074028" Left="2" Top="264" Right="44" Bottom="335" />
+														<TypeInfo Item0="{C465A7EE-4A7A-4189-9543-97B18BE710A8}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Sent Items" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndrctrl_renwnd322" Key="{2124595A-D38B-4D43-B6E1-EBA705F97018}">
+								<Image FileName="695340322" Left="0" Top="0" Right="1116" Bottom="1014" />
+								<TypeInfo Item0="{EC3C4E4F-FFCF-4B38-8FBA-5A2F967964AE}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="rctrl_renwnd32" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Test - Message (HTML) " />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="AfxWndW" Key="{3808F430-EAF7-4698-8425-20294BF39040}">
+										<Image FileName="695340322" Left="1" Top="162" Right="1115" Bottom="1013" />
+										<TypeInfo Item0="{B428A463-D357-43AF-9F6E-17F3203CCEAC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="AfxWndW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="AfxWndW" Key="{BF9CB99B-27AA-4759-B9FE-DAD3DE00AAD6}">
+												<Image FileName="695340322" Left="1" Top="162" Right="1115" Bottom="1013" />
+												<TypeInfo Item0="{B428A463-D357-43AF-9F6E-17F3203CCEAC}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="AfxWndW" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="page32770" Key="{1C78A3AA-7149-417F-8EB3-D2AE0A7FAAF1}">
+														<Image FileName="695340322" Left="1" Top="162" Right="1115" Bottom="1013" />
+														<TypeInfo Item0="{B428A463-D357-43AF-9F6E-17F3203CCEAC}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="#32770" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="AfxWndA" Key="{DE37D30D-578A-41BA-A7AB-A88987909251}">
+																<Image FileName="695340322" Left="1" Top="269" Right="1115" Bottom="1013" />
+																<TypeInfo Item0="{B428A463-D357-43AF-9F6E-17F3203CCEAC}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="AfxWndA" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelDocument9" Key="{DB4BCE5A-9811-4255-82D7-FB9D934F8023}">
+																		<Image FileName="695340322" Left="1" Top="269" Right="1115" Bottom="1013" />
+																		<TypeInfo Item0="{1EF50370-799B-46BE-966F-05E6C07D2D85}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Document9" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panelMessage" Key="{3EB29ABA-A5C7-47C0-B1E9-9BD816B8004D}">
+																				<Image FileName="695340322" Left="1" Top="269" Right="1098" Bottom="1013" />
+																				<TypeInfo Item0="{1EF50370-799B-46BE-966F-05E6C07D2D85}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Message" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndrctrl_renwnd323" Key="{8582DBDB-87FB-49DA-AAD9-42B158210AE6}">
+								<Image FileName="1869429266" Left="0" Top="0" Right="1453" Bottom="1023" />
+								<TypeInfo Item0="{EC3C4E4F-FFCF-4B38-8FBA-5A2F967964AE}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="rctrl_renwnd32" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Sent Items - gabriel.demoura@smartbear.com - Outlook" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="rctrl_renwnd32" Key="{EF816944-7D9B-434C-A712-05A65F9FAAAD}">
+										<Image FileName="1869429266" Left="379" Top="163" Right="1192" Bottom="999" />
+										<TypeInfo Item0="{B428A463-D357-43AF-9F6E-17F3203CCEAC}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="rctrl_renwnd32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="AfxWndW" Key="{06466DF6-6DD7-4217-9DB9-49ED9D20661D}">
+												<Image FileName="1869429266" Left="379" Top="163" Right="1192" Bottom="999" />
+												<TypeInfo Item0="{B428A463-D357-43AF-9F6E-17F3203CCEAC}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="AfxWndW" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="AfxWndW" Key="{608F8B08-BA2B-48F7-A852-6CBAA23A3A89}">
+														<Image FileName="1869429266" Left="379" Top="163" Right="1192" Bottom="999" />
+														<TypeInfo Item0="{B428A463-D357-43AF-9F6E-17F3203CCEAC}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="AfxWndW" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="page32770" Key="{5D8BAE10-1427-4C77-88E7-1EFBB27A6EC1}">
+																<Image FileName="1869429266" Left="379" Top="163" Right="1192" Bottom="999" />
+																<TypeInfo Item0="{B428A463-D357-43AF-9F6E-17F3203CCEAC}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="#32770" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="AfxWndA" Key="{EB571FB7-AF34-40D3-990F-258C070E7F8A}">
+																		<Image FileName="1869429266" Left="379" Top="271" Right="1192" Bottom="999" />
+																		<TypeInfo Item0="{B428A463-D357-43AF-9F6E-17F3203CCEAC}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="AfxWndA" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panelUntitledMessage" Key="{57B5D608-D130-4F57-AC5A-8154F204F311}">
+																				<Image FileName="1869429266" Left="379" Top="271" Right="1192" Bottom="999" />
+																				<TypeInfo Item0="{1EF50370-799B-46BE-966F-05E6C07D2D85}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Untitled Message" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panelMessage" Key="{BB38293E-FF63-4A06-AE52-45084D69A836}">
+																						<Image FileName="1869429266" Left="379" Top="271" Right="1175" Bottom="999" />
+																						<TypeInfo Item0="{1EF50370-799B-46BE-966F-05E6C07D2D85}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																							<Property Name="Caption">
+																								<Value Value="Message" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Microsoft_WindowsCalculator" Key="{DADADD87-E58B-4E53-896C-54EF16C4B7E3}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Microsoft.WindowsCalculator" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Calculator" Key="{04F0BBE6-F7A8-49A3-AB98-33BA234F20D6}">
+								<Image FileName="-925988095" Left="8" Top="1" Right="328" Bottom="533" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="XAML" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="Windows.UI.Core.CoreWindow" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="window" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Calculator" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="LandmarkTarget" Key="{7AF63CEA-EC70-4310-B716-D5B0342113D9}">
+										<Image FileName="-925988095" Left="8" Top="33" Right="328" Bottom="529" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="XAML" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="LandmarkTarget" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="group" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="LandmarkTarget" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Number_pad" Key="{0B5C458E-A543-484A-8088-BD4110268B7A}">
+												<Image FileName="-925988095" Left="12" Top="314" Right="245" Bottom="528" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="NamedContainerAutomationPeer" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="group" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Number_pad" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Eight" Key="{1D8FE53F-9F68-4488-8076-55D48BF75C9A}">
+														<Image FileName="1383172498" Left="90" Top="314" Right="166" Bottom="366" />
+														<TypeInfo Item0="{FC57F3D8-A62E-4820-AA10-3413927FAC09}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Eight" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Five" Key="{D00D2B63-3417-45BA-9CFA-E9CF3A299E45}">
+														<Image FileName="1457163292" Left="90" Top="368" Right="166" Bottom="420" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Five" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Nine2" Key="{C057644C-EF61-430A-8083-1A7249E0D1DA}">
+														<Image FileName="-981826142" Left="169" Top="314" Right="245" Bottom="366" />
+														<TypeInfo Item0="{FC57F3D8-A62E-4820-AA10-3413927FAC09}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Nine" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Four" Key="{65DCB8B8-103F-4B6D-BC48-5D6F0657FD38}">
+														<Image FileName="993740993" Left="12" Top="368" Right="88" Bottom="420" />
+														<TypeInfo Item0="{FC57F3D8-A62E-4820-AA10-3413927FAC09}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Four" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Six" Key="{187FE3ED-A9A5-45CB-B726-DA957250DDA3}">
+														<Image FileName="-170103325" Left="169" Top="368" Right="245" Bottom="420" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Six" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="One" Key="{B118E742-050C-4E4C-91FD-5C04AD69DC42}">
+														<Image FileName="-1220196580" Left="12" Top="422" Right="88" Bottom="474" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="One" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="Standard_operators" Key="{0B2CF19C-81BB-4C49-A9FD-115B5CF3535E}">
+												<Image FileName="447743760" Left="247" Top="260" Right="323" Bottom="528" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="NamedContainerAutomationPeer" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="group" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Standard_operators" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Plus" Key="{F3398434-3B2A-4570-8517-D4D16E441CE8}">
+														<Image FileName="447743760" Left="247" Top="422" Right="323" Bottom="474" />
+														<TypeInfo Item0="{FC57F3D8-A62E-4820-AA10-3413927FAC09}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Plus" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Equals" Key="{D58D324B-899A-4066-AFF5-294745D44315}">
+														<Image FileName="-1192812140" Left="247" Top="476" Right="323" Bottom="528" />
+														<TypeInfo Item0="{FC57F3D8-A62E-4820-AA10-3413927FAC09}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Equals" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Multiply_by" Key="{5FF0A1D2-53F7-4E4D-9CC9-0D6CABA193D4}">
+														<Image FileName="-777559115" Left="247" Top="314" Right="323" Bottom="366" />
+														<TypeInfo Item0="{FC57F3D8-A62E-4820-AA10-3413927FAC09}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Multiply_by" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="Display_is_0" Key="{D5B85C03-7542-477D-86F8-D587CC3F128B}">
+												<Image FileName="590464029" Left="8" Top="94" Right="328" Bottom="171" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="text" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Display_is_0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TextContainer" Key="{62108D00-8DBB-42A0-8F0C-4418FDB19110}">
+														<Image FileName="590464029" Left="20" Top="94" Right="316" Bottom="171" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="ScrollViewer" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="pane" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="TextContainer" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="NormalOutput" Key="{447D432A-26DF-4D3E-802D-5FA1A79A2861}">
+																<Image FileName="590464029" Left="290" Top="94" Right="316" Bottom="156" />
+																<TypeInfo Item0="{FC57F3D8-A62E-4820-AA10-3413927FAC09}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="TextBlock" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="text" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="NormalOutput" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="browser" Key="{E322EACB-0203-48A2-AD9F-AD75AC2D4A40}">
+						<TypeInfo Item0="{494BF1D2-58A0-4943-A481-8E5A1588CEB4}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageConsumerSalesBudgetAnalysisS" Key="{FC15F64D-449E-4FC3-B948-01B25F140CAA}">
+								<Image FileName="2143089641" Left="8" Top="112" Right="1462" Bottom="1046" />
+								<TypeInfo Item0="{1F648DDB-3914-4F53-8204-8C4233417AD3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://sense-demo.qlik.com/sense/app/372cbc85-f7fb-4db6-a620-9a5367845dce/sheet/AjDCJg/state/analysis" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="articleTable" Key="{FCA26E50-B2F4-489F-A13C-0842F8478ECF}">
+										<Image FileName="2143089641" Left="739" Top="580" Right="1453" Bottom="1037" />
+										<TypeInfo Item0="{2A543BB1-0D47-48CC-81F5-67CA6C9A4A3C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Table&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/div/div/div/article[contains(@class, &apos;qv-object&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;grid-wrap&apos;]//div[5]/div/div/div/article" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/div/div/div/article" />
+											</Selector>
+										</Selectors>
 									</Child>
 								</Children>
 							</Child>
@@ -1723,16 +2384,85 @@
 						<Child Name="From_Gong_Subject_Your_calls_with_Oakridge_Interactive_ISNetworld_and_more_Received_Sat_10_22_Size_191_KB_Flag_Status_Unflagged_" Owner="{67381FAF-3B1F-4BAB-B1F7-019701E09EB7}" />
 						<Child Name="From_Mark_Robson_Subject_Automatic_reply_Run_Your_First_Test_with_TestComplete_Received_Fri_10_21_Size_73_KB_Flag_Status_Unflagged_" Owner="{D683EE39-FADA-4F55-8308-644BF927E458}" />
 					</Child>
+					<Child Name="Group_By_Expanded_Date_Today2" Owner="{E7F38FED-8BB1-4DEF-852C-E933CB10561D}">
+						<Child Name="To_Byron_Caine_Subject_Test_Sent_9_52_AM_Size_27_KB_Flag_Status_Unflagged_" Owner="{EFEA9EE6-F7B7-437F-BC0B-F1612ED485A0}" />
+					</Child>
+					<Child Name="Group_By_Expanded_Date_Last_Week2" Owner="{26690F1C-F705-4E9B-A397-E5D4144BD943}">
+						<Child Name="To_Ella_Biestek_Subject_Accepted_Mareana_SmartBear_TestComplete_Sync_Sent_Fri_11_4_Size_29_KB_Flag_Status_Unflagged_" Owner="{BBF6D764-F9F4-4712-9C8A-9D0D31D071A1}" />
+					</Child>
 				</Child>
 				<Child Name="rctrl_renwnd32" Owner="{98654335-56AB-4B27-AEB9-6A3D9F4FD626}">
 					<Child Name="AfxWndW" Owner="{38FA6727-96D0-4DB9-B7FF-DFD2FF23F244}">
 						<Child Name="AfxWndW" Owner="{EE60782B-DC4B-4454-828B-ED39D049C368}">
 							<Child Name="page32770" Owner="{ECCCD81E-BF52-4A89-8869-651CA0195537}">
 								<Child Name="editSubject" Owner="{42434F0D-947F-4477-AB3D-78865E6DCE9E}" />
+								<Child Name="editTo" Owner="{0AC87E4E-B2C7-4AAC-9FD7-D68886AC6CAE}" />
 							</Child>
 						</Child>
 					</Child>
 				</Child>
+				<Child Name="NUIDocumentWindow" Owner="{18651D13-118C-47AC-BB65-38415FD3C383}">
+					<Child Name="panel" Owner="{C3742AAA-F85D-429F-B346-F54035A10E2E}">
+						<Child Name="buttonSentItems" Owner="{AB92C17B-2524-4AEA-AF65-0BD6A1459AB0}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndrctrl_renwnd322" Owner="{2124595A-D38B-4D43-B6E1-EBA705F97018}">
+				<Child Name="AfxWndW" Owner="{3808F430-EAF7-4698-8425-20294BF39040}">
+					<Child Name="AfxWndW" Owner="{BF9CB99B-27AA-4759-B9FE-DAD3DE00AAD6}">
+						<Child Name="page32770" Owner="{1C78A3AA-7149-417F-8EB3-D2AE0A7FAAF1}">
+							<Child Name="AfxWndA" Owner="{DE37D30D-578A-41BA-A7AB-A88987909251}">
+								<Child Name="panelDocument9" Owner="{DB4BCE5A-9811-4255-82D7-FB9D934F8023}">
+									<Child Name="panelMessage" Owner="{3EB29ABA-A5C7-47C0-B1E9-9BD816B8004D}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndrctrl_renwnd323" Owner="{8582DBDB-87FB-49DA-AAD9-42B158210AE6}">
+				<Child Name="rctrl_renwnd32" Owner="{EF816944-7D9B-434C-A712-05A65F9FAAAD}">
+					<Child Name="AfxWndW" Owner="{06466DF6-6DD7-4217-9DB9-49ED9D20661D}">
+						<Child Name="AfxWndW" Owner="{608F8B08-BA2B-48F7-A852-6CBAA23A3A89}">
+							<Child Name="page32770" Owner="{5D8BAE10-1427-4C77-88E7-1EFBB27A6EC1}">
+								<Child Name="AfxWndA" Owner="{EB571FB7-AF34-40D3-990F-258C070E7F8A}">
+									<Child Name="panelUntitledMessage" Owner="{57B5D608-D130-4F57-AC5A-8154F204F311}">
+										<Child Name="panelMessage" Owner="{BB38293E-FF63-4A06-AE52-45084D69A836}" />
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="Microsoft_WindowsCalculator" Owner="{DADADD87-E58B-4E53-896C-54EF16C4B7E3}">
+			<Child Name="Calculator" Owner="{04F0BBE6-F7A8-49A3-AB98-33BA234F20D6}">
+				<Child Name="LandmarkTarget" Owner="{7AF63CEA-EC70-4310-B716-D5B0342113D9}">
+					<Child Name="Number_pad" Owner="{0B5C458E-A543-484A-8088-BD4110268B7A}">
+						<Child Name="Eight" Owner="{1D8FE53F-9F68-4488-8076-55D48BF75C9A}" />
+						<Child Name="Five" Owner="{D00D2B63-3417-45BA-9CFA-E9CF3A299E45}" />
+						<Child Name="Nine" Owner="{C057644C-EF61-430A-8083-1A7249E0D1DA}" />
+						<Child Name="Four" Owner="{65DCB8B8-103F-4B6D-BC48-5D6F0657FD38}" />
+						<Child Name="Six" Owner="{187FE3ED-A9A5-45CB-B726-DA957250DDA3}" />
+						<Child Name="One" Owner="{B118E742-050C-4E4C-91FD-5C04AD69DC42}" />
+					</Child>
+					<Child Name="Standard_operators" Owner="{0B2CF19C-81BB-4C49-A9FD-115B5CF3535E}">
+						<Child Name="Plus" Owner="{F3398434-3B2A-4570-8517-D4D16E441CE8}" />
+						<Child Name="Equals" Owner="{D58D324B-899A-4066-AFF5-294745D44315}" />
+						<Child Name="Multiply_by" Owner="{5FF0A1D2-53F7-4E4D-9CC9-0D6CABA193D4}" />
+					</Child>
+					<Child Name="Display_is_0" Owner="{D5B85C03-7542-477D-86F8-D587CC3F128B}">
+						<Child Name="TextContainer" Owner="{62108D00-8DBB-42A0-8F0C-4418FDB19110}">
+							<Child Name="NormalOutput" Owner="{447D432A-26DF-4D3E-802D-5FA1A79A2861}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="browser" Owner="{E322EACB-0203-48A2-AD9F-AD75AC2D4A40}">
+			<Child Name="pageConsumerSalesBudgetAnalysisS" Owner="{FC15F64D-449E-4FC3-B948-01B25F140CAA}">
+				<Child Name="articleTable" Owner="{FCA26E50-B2F4-489F-A13C-0842F8478ECF}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

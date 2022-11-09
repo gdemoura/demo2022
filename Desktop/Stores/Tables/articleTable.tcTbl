@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="articleTable">
+		<Source Object="Aliases.browser.pageConsumerSalesBudgetAnalysisS.articleTable">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="Automatic" SelectionPreference="NearestToCenter" HasHeader="True" />
+		</Source>
+		<Columns>
+			<Column>Product Sub Group Q</Column>
+			<Column>Sales Rep Q</Column>
+			<Column>Budget $</Column>
+			<Column>Actual Amount</Column>
+			<Column>Budget %</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">Totals</Cell>
+				<Cell Type="String"></Cell>
+				<Cell Type="String">$52,332,638</Cell>
+				<Cell Type="String">$46,258,458</Cell>
+				<Cell Type="String">88%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Crackers</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$628,743</Cell>
+				<Cell Type="String">$251,205</Cell>
+				<Cell Type="String">40%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Jam</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$977,185</Cell>
+				<Cell Type="String">$345,064</Cell>
+				<Cell Type="String">35%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Hamburger</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$975,960</Cell>
+				<Cell Type="String">$344,457</Cell>
+				<Cell Type="String">35%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Pretzels</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$686,578</Cell>
+				<Cell Type="String">$236,602</Cell>
+				<Cell Type="String">34%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Sardines</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$686,578</Cell>
+				<Cell Type="String">$236,602</Cell>
+				<Cell Type="String">34%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Bologna</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$1,329,399</Cell>
+				<Cell Type="String">$394,059</Cell>
+				<Cell Type="String">30%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Preserves</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$945,200</Cell>
+				<Cell Type="String">$263,880</Cell>
+				<Cell Type="String">28%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Eggs</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$943,975</Cell>
+				<Cell Type="String">$263,273</Cell>
+				<Cell Type="String">28%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Soda</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$943,975</Cell>
+				<Cell Type="String">$263,273</Cell>
+				<Cell Type="String">28%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Jelly</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$936,144</Cell>
+				<Cell Type="String">$254,624</Cell>
+				<Cell Type="String">27%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Chocolate Candy</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$934,919</Cell>
+				<Cell Type="String">$254,018</Cell>
+				<Cell Type="String">27%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Pizza</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$934,919</Cell>
+				<Cell Type="String">$254,018</Cell>
+				<Cell Type="String">27%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Pasta</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$936,071</Cell>
+				<Cell Type="String">$254,018</Cell>
+				<Cell Type="String">27%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Nuts</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$1,391,001</Cell>
+				<Cell Type="String">$359,061</Cell>
+				<Cell Type="String">26%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Wine</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$1,122,578</Cell>
+				<Cell Type="String">$277,877</Cell>
+				<Cell Type="String">25%</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Coffee</Cell>
+				<Cell Type="String">Amalia Craig</Cell>
+				<Cell Type="String">$1,180,413</Cell>
+				<Cell Type="String">$263,273</Cell>
+				<Cell Type="String">22%</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

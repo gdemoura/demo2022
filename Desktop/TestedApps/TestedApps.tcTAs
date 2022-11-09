@@ -52,5 +52,14 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{DF57625A-BC3A-4E93-A0B2-41EF80C2EC34}">
+			<config nodeName="WindowsCalculator" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="WinStore">
+					<param name="WinStore" parameters="" workFolder="" packageName="Microsoft.WindowsCalculator" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 	</children>
 </Root>
