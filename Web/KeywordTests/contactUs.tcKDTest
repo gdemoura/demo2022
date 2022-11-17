@@ -115,6 +115,9 @@
 					</Operation>
 				</Children>
 			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="WriteTextToFile" Unit="writeValues" />
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="4" Key="{CFB1CF9B-62A6-4A14-9781-0740C56E2998}">

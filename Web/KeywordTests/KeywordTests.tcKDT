@@ -24,6 +24,6 @@
 			<child name="zoom" key="{92B4E37B-34A6-4131-8292-F15DDDD45919}" path="zoom.tcKDTest" />
 			<child name="propertySelection" key="{A23D6170-834B-4755-B96D-5ED2F67287E6}" path="propertySelection.tcKDTest" />
 		</folder>
-		<child name="Test1" key="{82974A66-3417-42BF-AFAC-97083C7ABD2B}" path="Test1.tcKDTest" />
+		<child name="launchExcel" key="{1A634130-6215-4FC7-8A3C-4E6E88D53053}" path="launchExcel.tcKDTest" />
 	</children>
 </Root>

@@ -2234,7 +2234,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel280m2" Key="{DF07B7F8-15FD-4C10-A282-A7B73AA5DF04}">
+									<Child Name="Price" Key="{DF07B7F8-15FD-4C10-A282-A7B73AA5DF04}">
 										<Image FileName="740205287" Left="466" Top="399" Right="512" Bottom="417" />
 										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
 										<Selectors>
@@ -2386,6 +2386,21 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;home-detail-lightbox-container&apos;]//ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4140" Key="{A8687348-D7C0-42E7-835D-625A2075E99F}">
+										<Image FileName="1387945183" Left="1408" Top="211" Right="1449" Bottom="233" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;details-page-container&apos;]//span[4]/strong" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[4]/strong" />
+											</Selector>
+											<Selector>
+												<Value Value="//strong[.=&apos;4,140&apos;]" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -2901,6 +2916,371 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="WINWORD" Key="{7C8C071F-F2EE-4193-A128-4C07976D0733}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="WINWORD" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="formDocument1Word" Key="{D02F06D3-E48E-43CD-907A-C0DD3756A5A8}">
+								<Image FileName="1154648853" Left="0" Top="0" Right="1440" Bottom="759" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Form" />
+									</Property>
+									<Property Name="WndClass">
+										<Value Value="OpusApp" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{9FF64791-F71F-4BE0-9455-B24E08CDE43B}">
+										<Image FileName="1154648853" Left="1" Top="66" Right="1439" Bottom="736" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="_WwF" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelDocument1" Key="{55D7F261-8B3B-41CF-A886-C0C3D106C2AF}">
+												<Image FileName="1154648853" Left="-7" Top="35" Right="1447" Bottom="744" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Document1" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelMicrosoftWordDocument" Key="{C07F423C-5DBD-4EA4-B2E7-438647841B80}">
+														<Image FileName="1154648853" Left="1" Top="66" Right="1422" Bottom="736" />
+														<TypeInfo Item0="{854C6035-518C-4234-8281-C9E235FC74DF}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Microsoft Word Document" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="EXCEL" Key="{73E46AA3-8D1A-4F09-95AB-CCB3E2A6F355}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="EXCEL" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndExcel" Key="{04246271-6329-4DF6-91A5-D8D29A7DCF69}">
+								<Image FileName="822606175" Left="0" Top="0" Right="1440" Bottom="759" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Excel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="FullpageUIHost" Key="{C2F5BA3C-79B2-4248-9F40-41EEF5FA37B4}">
+										<Image FileName="822606175" Left="1" Top="1" Right="1439" Bottom="758" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="FullpageUIHost" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="pane" Key="{FA3AA8D1-F23C-4D46-A349-BEE1CDAB3B7E}">
+												<Image FileName="822606175" Left="1" Top="1" Right="1439" Bottom="758" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="NetUIHWND" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="paneBackstageView" Key="{0A84FACD-606A-498C-AE97-1B2884491376}">
+														<Image FileName="822606175" Left="141" Top="38" Right="1439" Bottom="758" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Pane" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Backstage view" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="client" Key="{86AC490D-ED85-453C-AE54-AEE43B1A5589}">
+																<Image FileName="822606175" Left="141" Top="38" Right="1439" Bottom="758" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Client" />
+																	</Property>
+																	<Property Name="ControlIndex">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="paneHome" Key="{954C4F5F-0EDB-4BF9-B6CF-151D3507E65B}">
+																		<Image FileName="822606175" Left="141" Top="38" Right="1439" Bottom="758" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Pane" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Home" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="groupingHome" Key="{51EB72B4-95DA-49B5-B7AA-04B289220478}">
+																				<Image FileName="822606175" Left="141" Top="84" Right="1439" Bottom="758" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Grouping" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Home" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="client" Key="{A759251D-91A9-4F29-88F6-0308490795D8}">
+																						<Image FileName="822606175" Left="141" Top="84" Right="1422" Bottom="758" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Client" />
+																							</Property>
+																							<Property Name="ControlIndex">
+																								<Value Value="0" Type="0" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="groupingRecommendedForYou" Key="{4AC3B054-DA0F-4508-9C68-B5C763E2C4BB}">
+																								<Image FileName="822606175" Left="141" Top="372" Right="1382" Bottom="643" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Grouping" />
+																									</Property>
+																									<Property Name="Caption">
+																										<Value Value="Recommended for You" />
+																									</Property>
+																									<Property Name="ObjectGroupIndex">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="listRecommended" Key="{17509338-3D89-497E-97DB-9FC7B1411870}">
+																										<Image FileName="822606175" Left="181" Top="420" Right="1382" Bottom="643" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="List" />
+																											</Property>
+																											<Property Name="Caption">
+																												<Value Value="Recommended" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="client" Key="{9D4ABDDE-CB8C-4A58-B7D9-BEEEFC824FEE}">
+																												<Image FileName="1990181580" Left="188" Top="427" Right="1848" Bottom="650" />
+																												<TypeInfo Item0="{7054CD15-AA37-4846-B89E-4A245E12ED7F}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Client" />
+																													</Property>
+																													<Property Name="ControlIndex">
+																														<Value Value="0" Type="0" />
+																													</Property>
+																													<Property Name="ObjectGroupIndex">
+																														<Value Value="1" Type="0" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="client" Key="{CB2F0B6F-01AC-4F4D-ACD7-F41EBADC89CE}">
+																														<Image FileName="1990181580" Left="188" Top="427" Right="1848" Bottom="650" />
+																														<TypeInfo Item0="{7054CD15-AA37-4846-B89E-4A245E12ED7F}" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Client" />
+																															</Property>
+																															<Property Name="ControlIndex">
+																																<Value Value="0" Type="0" />
+																															</Property>
+																															<Property Name="ObjectGroupIndex">
+																																<Value Value="1" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="listitemZillowresultsXlsx" Key="{999E3395-9B0B-4D40-B406-9C87989F6F96}">
+																																<Image FileName="1990181580" Left="188" Top="427" Right="450" Bottom="650" />
+																																<TypeInfo Item0="{A4CA9A35-C935-4873-9DB6-8266CFEA9FF9}" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="ListItem" />
+																																	</Property>
+																																	<Property Name="Caption">
+																																		<Value Value="zillowResults.xlsx" />
+																																	</Property>
+																																	<Property Name="ObjectGroupIndex">
+																																		<Value Value="1" Type="0" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndXLMAIN" Key="{35D9F6F6-5062-4339-AB3C-E110CD05DFAF}">
+								<Image FileName="1166177477" Left="0" Top="0" Right="1440" Bottom="759" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="zillowResults.xlsx - Excel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="EXCEL2" Key="{D12FF287-CC67-41BD-A763-086D544F9C78}">
+										<Image FileName="1166177477" Left="1" Top="1" Right="1439" Bottom="162" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="EXCEL2" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="2" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="toolbar" Key="{9A20E0DD-7DD3-41A0-8E98-E82B3ABA07D0}">
+												<Image FileName="1166177477" Left="1" Top="1" Right="1439" Bottom="162" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MsoCommandBar" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Ribbon" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Ribbon" Key="{C3ED5D0D-1866-4C05-B441-2EC5037E6C4F}">
+														<Image FileName="1166177477" Left="1" Top="1" Right="1439" Bottom="162" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MsoWorkPane" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Ribbon" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="NUIPane" Key="{B9789660-638E-4DC6-8D0A-E9A2A2BA9CBF}">
+																<Image FileName="1166177477" Left="1" Top="1" Right="1439" Bottom="162" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="NUIPane" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="propertypageRibbon" Key="{23BB0F37-A332-473C-BB3E-DCE37C24FBE3}">
+																		<Image FileName="1166177477" Left="1" Top="1" Right="1439" Bottom="162" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="PropertyPage" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Ribbon" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="buttonMinimize" Key="{5DDF0921-404D-4A78-A6C8-C04433D6E48A}">
+																				<Image FileName="1166177477" Left="1365" Top="7" Right="1389" Bottom="31" />
+																				<TypeInfo Item0="{2B8986D9-D49B-43B4-BD75-638488E4BC5D}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Button" />
+																					</Property>
+																					<Property Name="Caption">
+																						<Value Value="Minimize" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 			<Child Name="Mobile" Key="{F0351607-8661-4E34-8E18-D3399CCF0CA0}">
@@ -3048,6 +3428,200 @@
 											</Selector>
 											<Selector>
 												<Value Value="//android.widget.ListView/android.widget.TextView[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="processSmartBearQAAppsOrders" Key="{F1B2B207-EFC2-4B1A-91AE-843B7E57C90F}">
+								<TypeInfo Item0="{319DDBDC-3037-4C1A-BE63-DD156FAE71E9}" />
+								<Properties>
+									<Property Name="ProcessName">
+										<Value Value="SmartBear.QAApps.Orders" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="table" Key="{910E061C-78F5-41F2-B2BC-F850CAC8DF24}">
+										<Image FileName="-1403050286" Left="0" Top="0" Right="1284" Bottom="2529" />
+										<TypeInfo Item0="{F7F93F5E-201A-4F52-A4C2-C498B52A7E9E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeTable" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@label=&quot;PRODUCT INFO&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeTable" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="staticText8" Key="{177642F7-585B-48B4-B439-1936AC48C9FB}">
+										<Image FileName="-1403050286" Left="1167" Top="795" Right="1224" Bottom="840" />
+										<TypeInfo Item0="{F7F93F5E-201A-4F52-A4C2-C498B52A7E9E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;8%%&quot; or @label=&quot;8%%&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;8%%&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[3]/XCUIElementTypeStaticText[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;8%%&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navigationBarOrders" Key="{EC2C957D-5CB7-4475-A317-D5BB4F4C2DEB}">
+										<Image FileName="615593752" Left="0" Top="141" Right="1284" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@label=&quot;Edit&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeNavigationBar" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAdd" Key="{F09FB650-9545-43FB-ADD4-1CE3ADFE6428}">
+										<Image FileName="615593752" Left="1110" Top="141" Right="1248" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Add&quot; or @label=&quot;Add&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Add&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]/XCUIElementTypeButton[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Add&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="slider" Key="{A17B2801-F605-4EE9-A01E-8DE474700FD8}">
+										<Image FileName="-1591410756" Left="54" Top="1104" Right="1176" Bottom="1209" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeSlider" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[4]/XCUIElementTypeSlider" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textField" Key="{B4B44DA7-C5EB-4AA7-A906-8F44F3EEADAE}">
+										<Image FileName="990347540" Left="60" Top="1770" Right="1224" Bottom="1866" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[6]/XCUIElementTypeTextField" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="keyG" Key="{5858F575-2A56-49D7-B261-2BB7FC0996A9}">
+										<Image FileName="1193710045" Left="579" Top="2064" Right="708" Bottom="2211" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;g&quot; or @label=&quot;g&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;g&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeKey[15]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;g&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="keyA" Key="{701B663A-29E9-4E55-AC0C-2CB057291581}">
+										<Image FileName="912468992" Left="69" Top="2064" Right="198" Bottom="2211" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;a&quot; or @label=&quot;a&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;a&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeKey[11]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;a&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="keyB" Key="{C1B7ED93-5828-4DBA-89F9-74FB583F18BE}">
+										<Image FileName="-1926040805" Left="705" Top="2232" Right="834" Bottom="2379" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;b&quot; or @label=&quot;b&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;b&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeKey[24]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;b&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="keyE" Key="{5D5A2E5C-CF36-461C-B4F3-7741A706AB29}">
+										<Image FileName="269553588" Left="261" Top="1896" Right="390" Bottom="2043" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;e&quot; or @label=&quot;e&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;e&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeKey[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;e&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="scrollView" Key="{6E5ED69F-66A2-4EDD-9785-EB729A1CDAFE}">
+										<Image FileName="-132889560" Left="236" Top="1437" Right="1046" Bottom="1704" />
+										<TypeInfo Item0="{F7F93F5E-201A-4F52-A4C2-C498B52A7E9E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonYes" Key="{12E2D44F-3F5B-4E6A-B838-001A0DD94B25}">
+										<Image FileName="-132889560" Left="236" Top="1437" Right="1046" Bottom="1572" />
+										<TypeInfo Item0="{F7F93F5E-201A-4F52-A4C2-C498B52A7E9E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Yes&quot; or @label=&quot;Yes&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Yes&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther[1]/XCUIElementTypeButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Yes&quot;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3290,7 +3864,7 @@
 				<Child Name="panel888k" Owner="{0FC71A18-DB42-49BB-B4B9-186F473A2A8A}" />
 				<Child Name="panel379m" Owner="{5942F48B-2BC0-4F1D-8920-12C88529C40D}" />
 				<Child Name="panel280m" Owner="{44C44E6B-207E-4BC6-96EF-169B853A0FBA}" />
-				<Child Name="panel280m2" Owner="{DF07B7F8-15FD-4C10-A282-A7B73AA5DF04}" />
+				<Child Name="Price" Owner="{DF07B7F8-15FD-4C10-A282-A7B73AA5DF04}" />
 			</Child>
 			<Child Name="page2608FultonStSanFranciscoCa94" Owner="{D4E41D7B-97E3-4473-8C7A-CE87859273B6}">
 				<Child Name="textnode3500000" Owner="{9AF02C8E-918E-4578-BB70-9FD05B42657B}" />
@@ -3304,6 +3878,7 @@
 				<Child Name="textnode" Owner="{3D207B44-3805-4827-8223-E2FB8D4BACA6}">
 					<Child Name="textnode2" Owner="{015BDC69-8A92-4DC2-88B3-32DBD9440678}" />
 				</Child>
+				<Child Name="textnode4140" Owner="{A8687348-D7C0-42E7-835D-625A2075E99F}" />
 			</Child>
 			<Child Name="pageFlightawareFlightTrackerFlig" Owner="{99D470A3-56E4-43B2-9EB1-A211BD419A2B}">
 				<Child Name="linkZoomIn" Owner="{CB0B0BE4-2527-4890-BA9F-B05FCC90CAA2}" />
@@ -3358,6 +3933,23 @@
 					<Child Name="textViewText12" Owner="{E0BC85C6-2BF6-4C34-BDF3-9AE182B56AF5}" />
 				</Child>
 			</Child>
+			<Child Name="processSmartBearQAAppsOrders" Owner="{F1B2B207-EFC2-4B1A-91AE-843B7E57C90F}">
+				<Child Name="table" Owner="{910E061C-78F5-41F2-B2BC-F850CAC8DF24}">
+					<Child Name="staticText8" Owner="{177642F7-585B-48B4-B439-1936AC48C9FB}" />
+					<Child Name="slider" Owner="{A17B2801-F605-4EE9-A01E-8DE474700FD8}" />
+					<Child Name="textField" Owner="{B4B44DA7-C5EB-4AA7-A906-8F44F3EEADAE}" />
+				</Child>
+				<Child Name="navigationBarOrders" Owner="{EC2C957D-5CB7-4475-A317-D5BB4F4C2DEB}">
+					<Child Name="buttonAdd" Owner="{F09FB650-9545-43FB-ADD4-1CE3ADFE6428}" />
+				</Child>
+				<Child Name="keyG" Owner="{5858F575-2A56-49D7-B261-2BB7FC0996A9}" />
+				<Child Name="keyA" Owner="{701B663A-29E9-4E55-AC0C-2CB057291581}" />
+				<Child Name="keyB" Owner="{C1B7ED93-5828-4DBA-89F9-74FB583F18BE}" />
+				<Child Name="keyE" Owner="{5D5A2E5C-CF36-461C-B4F3-7741A706AB29}" />
+				<Child Name="scrollView" Owner="{6E5ED69F-66A2-4EDD-9785-EB729A1CDAFE}">
+					<Child Name="buttonYes" Owner="{12E2D44F-3F5B-4E6A-B838-001A0DD94B25}" />
+				</Child>
+			</Child>
 		</Child>
 		<Child Name="OUTLOOK" Owner="{49835CE3-F7E5-4052-B110-6CDE8238C743}">
 			<Child Name="formInboxGabrielDemouraSmartbear" Owner="{87805C24-6319-4E89-AF49-A5D619493389}">
@@ -3386,6 +3978,55 @@
 		<Child Name="TestExecute" Owner="{2D3DF91B-58DE-48B1-AD6F-38D97432BB46}">
 			<Child Name="TMessageForm" Owner="{C2259EF0-3ECD-4C7D-A2FC-48CB040EA5F0}">
 				<Child Name="Yes" Owner="{CEE00D5D-9522-4BF6-AAD2-893259A22753}" />
+			</Child>
+		</Child>
+		<Child Name="WINWORD" Owner="{7C8C071F-F2EE-4193-A128-4C07976D0733}">
+			<Child Name="formDocument1Word" Owner="{D02F06D3-E48E-43CD-907A-C0DD3756A5A8}">
+				<Child Name="panel" Owner="{9FF64791-F71F-4BE0-9455-B24E08CDE43B}">
+					<Child Name="panelDocument1" Owner="{55D7F261-8B3B-41CF-A886-C0C3D106C2AF}">
+						<Child Name="panelMicrosoftWordDocument" Owner="{C07F423C-5DBD-4EA4-B2E7-438647841B80}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="EXCEL" Owner="{73E46AA3-8D1A-4F09-95AB-CCB3E2A6F355}">
+			<Child Name="wndExcel" Owner="{04246271-6329-4DF6-91A5-D8D29A7DCF69}">
+				<Child Name="FullpageUIHost" Owner="{C2F5BA3C-79B2-4248-9F40-41EEF5FA37B4}">
+					<Child Name="pane" Owner="{FA3AA8D1-F23C-4D46-A349-BEE1CDAB3B7E}">
+						<Child Name="paneBackstageView" Owner="{0A84FACD-606A-498C-AE97-1B2884491376}">
+							<Child Name="client" Owner="{86AC490D-ED85-453C-AE54-AEE43B1A5589}">
+								<Child Name="paneHome" Owner="{954C4F5F-0EDB-4BF9-B6CF-151D3507E65B}">
+									<Child Name="groupingHome" Owner="{51EB72B4-95DA-49B5-B7AA-04B289220478}">
+										<Child Name="client" Owner="{A759251D-91A9-4F29-88F6-0308490795D8}">
+											<Child Name="groupingRecommendedForYou" Owner="{4AC3B054-DA0F-4508-9C68-B5C763E2C4BB}">
+												<Child Name="listRecommended" Owner="{17509338-3D89-497E-97DB-9FC7B1411870}">
+													<Child Name="client" Owner="{9D4ABDDE-CB8C-4A58-B7D9-BEEEFC824FEE}">
+														<Child Name="client" Owner="{CB2F0B6F-01AC-4F4D-ACD7-F41EBADC89CE}">
+															<Child Name="listitemZillowresultsXlsx" Owner="{999E3395-9B0B-4D40-B406-9C87989F6F96}" />
+														</Child>
+													</Child>
+												</Child>
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndXLMAIN" Owner="{35D9F6F6-5062-4339-AB3C-E110CD05DFAF}">
+				<Child Name="EXCEL2" Owner="{D12FF287-CC67-41BD-A763-086D544F9C78}">
+					<Child Name="toolbar" Owner="{9A20E0DD-7DD3-41A0-8E98-E82B3ABA07D0}">
+						<Child Name="Ribbon" Owner="{C3ED5D0D-1866-4C05-B441-2EC5037E6C4F}">
+							<Child Name="NUIPane" Owner="{B9789660-638E-4DC6-8D0A-E9A2A2BA9CBF}">
+								<Child Name="propertypageRibbon" Owner="{23BB0F37-A332-473C-BB3E-DCE37C24FBE3}">
+									<Child Name="buttonMinimize" Owner="{5DDF0921-404D-4A78-A6C8-C04433D6E48A}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>

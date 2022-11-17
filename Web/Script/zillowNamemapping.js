@@ -2,7 +2,7 @@
 {
   // Browsers.Item(btChrome).Run("https://www.zillow.com/homedetails/*");
 
-  var pnlProperty = Aliases.browser.pageSanFranciscoCaRealEstateSanF2.panel280m2;
+  var pnlProperty = Aliases.browser.pageSanFranciscoCaRealEstateSanF2.Price;
 
   // Do something that updates the web page and the pnlSpecialOffers object
   // ...

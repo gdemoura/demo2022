@@ -1,7 +1,8 @@
-﻿function close()
-{
-  //Closes the 'BrowserWindow' window.
-  Aliases.browser.BrowserWindow.Close();
-  //Delays the test execution for the specified time period.
-  Delay(500);
+﻿function open (){
+  
+var openDoc = Excel.Open("C:\\Users\\gabriel.demoura\\OneDrive - SmartBear Software, Inc\\Documents\\zillowResults.xlsx");
+
+aqFile.open()
+
+
 }
