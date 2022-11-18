@@ -195,6 +195,320 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="processSmartBearQAAppsOrders" Key="{7CC74BF5-2A20-41BF-A36E-87F0EADE2932}">
+								<TypeInfo Item0="{909F6A3B-4989-4945-B697-D03C1A0730B1}" />
+								<Properties>
+									<Property Name="ProcessName">
+										<Value Value="SmartBear.QAApps.Orders" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="table" Key="{4DAAA842-07D7-4197-B844-4B8E895C4784}">
+										<Image FileName="1030684799" Left="0" Top="0" Right="1284" Bottom="2529" />
+										<TypeInfo Item0="{00DADDBC-E63D-4888-A73A-60B0A9599FB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeTable" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@label=&quot;PRODUCT INFO&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeTable" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="staticText15" Key="{3B1D8504-E8F5-4B0B-8A7C-FB103591B715}">
+										<Image FileName="1030684799" Left="1149" Top="747" Right="1224" Bottom="792" />
+										<TypeInfo Item0="{00DADDBC-E63D-4888-A73A-60B0A9599FB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;15%%&quot; or @label=&quot;15%%&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;15%%&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[3]/XCUIElementTypeStaticText[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;15%%&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="staticText18FamilyAlbum20101203" Key="{7CCC4D30-EE8A-4E42-9036-7E9B01A22422}">
+										<Image FileName="1574959359" Left="60" Top="357" Right="555" Bottom="402" />
+										<TypeInfo Item0="{00DADDBC-E63D-4888-A73A-60B0A9599FB0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;18, FamilyAlbum, 2010-12-03&quot; or @label=&quot;18, FamilyAlbum, 2010-12-03&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[contains(@label, &quot;18&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[1]/XCUIElementTypeStaticText[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;18, FamilyAlbum, 2010-12-03&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="table2" Key="{21CE897A-9210-4243-B9FD-AF58F0020460}">
+										<Image FileName="-1369281427" Left="0" Top="0" Right="1284" Bottom="2529" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeTable" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[XCUIElementTypeCell]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeTable" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="other" Key="{3CE6DCF7-11A8-4919-A00A-35F26C673979}">
+										<Image FileName="-1369281427" Left="0" Top="273" Right="1284" Bottom="423" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="staticText1" Key="{8CBBDF4A-2DC7-4D28-9D46-3BBA3CAD04E5}">
+										<Image FileName="-110176459" Left="351" Top="876" Right="372" Bottom="930" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;1&quot; or @label=&quot;1&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;1&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[4]/XCUIElementTypeStaticText[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;1&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="other2" Key="{D306F164-258B-4489-9750-B28BFD38573B}">
+										<Image FileName="586969058" Left="0" Top="834" Right="1284" Bottom="969" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navigationBarDetail" Key="{BD0B3173-4668-49D2-BB62-B0AA7614D337}">
+										<Image FileName="-728025475" Left="0" Top="141" Right="1284" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@label=&quot;Detail&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Detail&quot;])[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeNavigationBar" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOrders" Key="{D729E4E0-29D9-4331-9F83-192D186649C2}">
+										<Image FileName="-728025475" Left="0" Top="141" Right="261" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Detail&quot;])[1]/XCUIElementTypeButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navigationBarOrders" Key="{A61049B9-5E9A-4D79-A3DB-524110DE3F7F}">
+										<Image FileName="1395343535" Left="0" Top="141" Right="1284" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@label=&quot;Edit&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeNavigationBar" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEdit" Key="{9D46F820-2EF2-437B-AA85-9A9ED309316A}">
+										<Image FileName="1395343535" Left="36" Top="141" Right="159" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Edit&quot; or @label=&quot;Edit&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Edit&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]/XCUIElementTypeButton[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Edit&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="staticText1FamilyAlbum20101203" Key="{63AF252D-0772-4F01-A793-73AF63378984}">
+										<Image FileName="-868473728" Left="180" Top="357" Right="653" Bottom="402" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;1, FamilyAlbum, 2010-12-03&quot; or @label=&quot;1, FamilyAlbum, 2010-12-03&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[1]/XCUIElementTypeStaticText[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;1, FamilyAlbum, 2010-12-03&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="slider" Key="{D1EDD652-92FD-402F-96BB-85FCE5CBE4D2}">
+										<Image FileName="1514790542" Left="54" Top="993" Right="1185" Bottom="1101" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeSlider" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[4]/XCUIElementTypeSlider" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navigationBarOrder" Key="{B0A1BD0B-6DA9-4676-A822-67E47B6AD860}">
+										<Image FileName="-1177081305" Left="0" Top="141" Right="1284" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@label=&quot;Order&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Order&quot;])[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeNavigationBar" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSave" Key="{09458B26-EF76-42C7-A73D-1A331A8D89AC}">
+										<Image FileName="-1177081305" Left="1113" Top="141" Right="1248" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Save&quot; or @label=&quot;Save&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Save&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Order&quot;])[1]/XCUIElementTypeButton[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Save&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="scrollView" Key="{527AAFEF-D05A-40AC-A514-46AF1CB13F4D}">
+										<Image FileName="-828519897" Left="236" Top="1464" Right="1046" Bottom="1599" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonYes" Key="{410DD71A-ACF8-4334-AAA9-EAC79895FE65}">
+										<Image FileName="-828519897" Left="642" Top="1464" Right="1047" Bottom="1599" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Yes&quot; or @label=&quot;Yes&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Yes&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther[3]/XCUIElementTypeButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Yes&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOrders2" Key="{860AB3D1-74EB-4893-9201-E3BBA32D33F5}">
+										<Image FileName="-1355321011" Left="0" Top="141" Right="261" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Order&quot;])[1]/XCUIElementTypeButton[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navigationBarOrders2" Key="{D48DBFF0-889B-4FBD-9609-697B61A2F365}">
+										<Image FileName="894396354" Left="0" Top="141" Right="1284" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[*[@label=&quot;Done&quot;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeOther/XCUIElementTypeNavigationBar" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDone" Key="{D3A1ECE4-96BC-45C0-B73C-5AECA4C8F6ED}">
+										<Image FileName="894396354" Left="33" Top="141" Right="195" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Done&quot; or @label=&quot;Done&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Done&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]/XCUIElementTypeButton[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Done&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -218,6 +532,35 @@
 				</Child>
 				<Child Name="listView" Owner="{8B2C9425-8371-4316-A00F-ED96F03F02B9}">
 					<Child Name="textViewText12" Owner="{32E3E97B-C3E1-485E-96DC-DDC86FB4BC59}" />
+				</Child>
+			</Child>
+			<Child Name="processSmartBearQAAppsOrders" Owner="{7CC74BF5-2A20-41BF-A36E-87F0EADE2932}">
+				<Child Name="table" Owner="{4DAAA842-07D7-4197-B844-4B8E895C4784}">
+					<Child Name="staticText15" Owner="{3B1D8504-E8F5-4B0B-8A7C-FB103591B715}" />
+					<Child Name="staticText18FamilyAlbum20101203" Owner="{7CCC4D30-EE8A-4E42-9036-7E9B01A22422}" />
+					<Child Name="staticText1" Owner="{8CBBDF4A-2DC7-4D28-9D46-3BBA3CAD04E5}" />
+					<Child Name="other2" Owner="{D306F164-258B-4489-9750-B28BFD38573B}" />
+					<Child Name="slider" Owner="{D1EDD652-92FD-402F-96BB-85FCE5CBE4D2}" />
+				</Child>
+				<Child Name="table2" Owner="{21CE897A-9210-4243-B9FD-AF58F0020460}">
+					<Child Name="other" Owner="{3CE6DCF7-11A8-4919-A00A-35F26C673979}" />
+					<Child Name="staticText1FamilyAlbum20101203" Owner="{63AF252D-0772-4F01-A793-73AF63378984}" />
+				</Child>
+				<Child Name="navigationBarDetail" Owner="{BD0B3173-4668-49D2-BB62-B0AA7614D337}">
+					<Child Name="buttonOrders" Owner="{D729E4E0-29D9-4331-9F83-192D186649C2}" />
+				</Child>
+				<Child Name="navigationBarOrders" Owner="{A61049B9-5E9A-4D79-A3DB-524110DE3F7F}">
+					<Child Name="buttonEdit" Owner="{9D46F820-2EF2-437B-AA85-9A9ED309316A}" />
+				</Child>
+				<Child Name="navigationBarOrder" Owner="{B0A1BD0B-6DA9-4676-A822-67E47B6AD860}">
+					<Child Name="buttonSave" Owner="{09458B26-EF76-42C7-A73D-1A331A8D89AC}" />
+					<Child Name="buttonOrders2" Owner="{860AB3D1-74EB-4893-9201-E3BBA32D33F5}" />
+				</Child>
+				<Child Name="scrollView" Owner="{527AAFEF-D05A-40AC-A514-46AF1CB13F4D}">
+					<Child Name="buttonYes" Owner="{410DD71A-ACF8-4334-AAA9-EAC79895FE65}" />
+				</Child>
+				<Child Name="navigationBarOrders2" Owner="{D48DBFF0-889B-4FBD-9609-697B61A2F365}">
+					<Child Name="buttonDone" Owner="{D3A1ECE4-96BC-45C0-B73C-5AECA4C8F6ED}" />
 				</Child>
 			</Child>
 		</Child>
