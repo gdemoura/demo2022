@@ -10,7 +10,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{EBC18FC4-64C5-426D-AD7E-2CD739F27E72}" version="14">
 		<children>
-			<testItem name="smartstoreFlow" key="{72E456CF-6777-46D2-9309-AE13205E75F2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="smartstoreFlow" key="{72E456CF-6777-46D2-9309-AE13205E75F2}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="login" key="{C46F6DCA-F8FB-4419-AB44-F18E46E192D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
@@ -58,6 +58,26 @@
 								</children>
 							</testItem>
 						</children>
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="IQ" key="{CC59D31D-13D0-4DA2-8738-C24353C76C77}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="OCRAction" key="{C0D2FCFB-AE1B-4CB3-8C68-7A09DC4C25FD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AEA2E0A0-158F-4D4D-A7CE-3D3CB2C85894}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="OCRCheck" key="{F932AA57-AB20-44F8-B40A-8D087E225462}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8B64DBC8-26D8-4B9B-A3CD-4BDEB1FA2AFE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+					<testItem name="PDF" key="{8A199B53-9914-478C-8363-A5207495F536}" group="False" parallel="False" enabled="True" testMoniker="KDT\{18D3091D-E4CB-4BD1-B575-172143BAB874}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
 					</testItem>
 				</children>
 			</testItem>

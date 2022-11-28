@@ -13,7 +13,6 @@
 			<child name="OCRCheck" key="{8B64DBC8-26D8-4B9B-A3CD-4BDEB1FA2AFE}" path="OCRCheck.tcKDTest" />
 			<child name="OCRAction" key="{AEA2E0A0-158F-4D4D-A7CE-3D3CB2C85894}" path="OCRAction.tcKDTest" />
 			<child name="PDF" key="{18D3091D-E4CB-4BD1-B575-172143BAB874}" path="PDF.tcKDTest" />
-			<child name="selfHeal" key="{2A0F59FA-A664-497F-9B75-997A36FC6CED}" path="selfHeal.tcKDTest" />
 		</folder>
 		<folder name="AzureOutlook">
 			<child name="Azure" key="{9307F490-E464-46C3-90C4-73A1D4F9D902}" path="Azure.tcKDTest" />
@@ -25,5 +24,6 @@
 			<child name="propertySelection" key="{A23D6170-834B-4755-B96D-5ED2F67287E6}" path="propertySelection.tcKDTest" />
 		</folder>
 		<child name="launchExcel" key="{1A634130-6215-4FC7-8A3C-4E6E88D53053}" path="launchExcel.tcKDTest" />
+		<child name="Test1" key="{8B6DFFBF-3478-4EA2-ACEC-825FF65D4455}" path="Test1.tcKDTest" />
 	</children>
 </Root>
