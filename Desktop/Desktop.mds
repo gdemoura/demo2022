@@ -647,7 +647,7 @@
 				<row val0="False" val1="*" />
 			</data>
 		</setting>
-		<setting name="Visualizer_AutoUpdate" type="1" value="False" />
+		<setting name="Visualizer_AutoUpdate" type="1" value="True" />
 		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />

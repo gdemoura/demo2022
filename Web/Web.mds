@@ -89,21 +89,6 @@
 				<Variable Name="Password1" Type="Password" Local="False">
 					<DefValue StrValue="380039003600310039003300440030004600340044003800340042004600350045004300390038003200370046003600440030004500340043004400350041004200380035004100440034003700420038003200370031003100410033004600360038004200420046004400440034003300370038003500" />
 				</Variable>
-				<Variable Name="excelData" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excelldata" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excellData2" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
 				<Variable Name="Adress" Type="String" Local="True">
 					<DefValue />
 				</Variable>
@@ -113,68 +98,8 @@
 				<Variable Name="propertyValue" Type="String" Local="True">
 					<DefValue />
 				</Variable>
-				<Variable Name="excelData1" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excelldata1" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excellData21" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excelData2" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excelldata3" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excellData22" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
 				<Variable Name="firstPrice" Type="String" Local="True">
 					<DefValue StrValue="0" />
-				</Variable>
-				<Variable Name="excelData3" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excelldata4" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excellData23" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excelData4" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excelldata5" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
-				</Variable>
-				<Variable Name="excellData24" Type="DB Table" Local="False">
-					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
-						<ConnectionInfo FileName="..\..\..\..\..\Desktop\ContactVar2.xlsx" Table="Sheet2$" HasColumnNames="True" />
-					</DefValue>
 				</Variable>
 			</Items>
 		</data>
