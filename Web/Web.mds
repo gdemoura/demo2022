@@ -10,7 +10,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{EBC18FC4-64C5-426D-AD7E-2CD739F27E72}" version="14">
 		<children>
-			<testItem name="smartstoreFlow" key="{72E456CF-6777-46D2-9309-AE13205E75F2}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="smartstoreFlow" key="{72E456CF-6777-46D2-9309-AE13205E75F2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="login" key="{C46F6DCA-F8FB-4419-AB44-F18E46E192D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
@@ -39,18 +39,18 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Zillow Project" key="{B6685747-FE68-4D85-9897-D48722B64AFB}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Zillow Project" key="{B6685747-FE68-4D85-9897-D48722B64AFB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="search" key="{26B7EEB8-F178-4396-BDF3-738BB6EBEF9D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8845AC89-57B5-4D4D-B343-B989265C07A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="search" key="{26B7EEB8-F178-4396-BDF3-738BB6EBEF9D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8845AC89-57B5-4D4D-B343-B989265C07A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children>
-							<testItem name="zoom" key="{1E8F9C43-CCBF-4BE6-A276-FD185C1A2A1A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{92B4E37B-34A6-4131-8292-F15DDDD45919}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+							<testItem name="zoom" key="{1E8F9C43-CCBF-4BE6-A276-FD185C1A2A1A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{92B4E37B-34A6-4131-8292-F15DDDD45919}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 								<testParameters />
 								<environments activeCloud="SWT" />
 								<children>
-									<testItem name="propertySelection" key="{2D3752EF-0299-450E-B73A-A7429B19050A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A23D6170-834B-4755-B96D-5ED2F67287E6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+									<testItem name="propertySelection" key="{2D3752EF-0299-450E-B73A-A7429B19050A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A23D6170-834B-4755-B96D-5ED2F67287E6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 										<testParameters />
 										<environments activeCloud="SWT" />
 										<children />
@@ -64,17 +64,17 @@
 			<testItem name="IQ" key="{CC59D31D-13D0-4DA2-8738-C24353C76C77}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="OCRAction" key="{C0D2FCFB-AE1B-4CB3-8C68-7A09DC4C25FD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{AEA2E0A0-158F-4D4D-A7CE-3D3CB2C85894}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="OCRAction" key="{C0D2FCFB-AE1B-4CB3-8C68-7A09DC4C25FD}" group="False" parallel="False" enabled="False" testMoniker="KDT\{AEA2E0A0-158F-4D4D-A7CE-3D3CB2C85894}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="OCRCheck" key="{F932AA57-AB20-44F8-B40A-8D087E225462}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8B64DBC8-26D8-4B9B-A3CD-4BDEB1FA2AFE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="OCRCheck" key="{F932AA57-AB20-44F8-B40A-8D087E225462}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8B64DBC8-26D8-4B9B-A3CD-4BDEB1FA2AFE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
 					</testItem>
-					<testItem name="PDF" key="{8A199B53-9914-478C-8363-A5207495F536}" group="False" parallel="False" enabled="True" testMoniker="KDT\{18D3091D-E4CB-4BD1-B575-172143BAB874}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="PDF" key="{8A199B53-9914-478C-8363-A5207495F536}" group="False" parallel="False" enabled="False" testMoniker="KDT\{18D3091D-E4CB-4BD1-B575-172143BAB874}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 						<testParameters />
 						<environments activeCloud="SWT" />
 						<children />
@@ -105,7 +105,7 @@
 		</data>
 	</variables>
 	<settings key="{1D944617-E4C9-49D6-83FE-E3CD25D152A3}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.46" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -762,7 +762,7 @@
 				<row val0="CrossBrowserTesting" />
 			</data>
 		</setting>
-		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_Cycle" type="5" value="Ad hoc" />
 		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
 		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
 		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
@@ -776,14 +776,14 @@
 				<row val0="Zephyr Squad Cloud" />
 			</data>
 		</setting>
-		<setting name="ZFJ_JiraLogin" type="5" value="" />
-		<setting name="ZFJ_JiraPassword" type="5" value="" />
-		<setting name="ZFJ_JiraProject" type="5" value="" />
-		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_JiraLogin" type="5" value="gabriel.demoura@smartbear.com" />
+		<setting name="ZFJ_JiraPassword" type="5" value="3A029EEB41C532BD5CA4C28F9AC0DD0BE58CFF8DEC308140DBEE90BA7AE8D09C6F9DA9FA6BB7A3543130B62520B7AF45A00EAF2DF258" />
+		<setting name="ZFJ_JiraProject" type="5" value="Gabe" />
+		<setting name="ZFJ_JiraUrl" type="5" value="https://smartbeardemo.atlassian.net/" />
 		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
-		<setting name="ZFJ_Version" type="5" value="" />
-		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
-		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+		<setting name="ZFJ_Version" type="5" value="&lt;Unscheduled&gt;" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="MzFkZTA1ZTgtMWRkZi0zNDY2LTk3OWUtYzg4OGQzMzhlNmI3IDYxMmQyYzc3NzY4MDhkMDA2YWY5YWVjNyBVU0VSX0RFRkFVTFRfTkFNRQ" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="cniyCMxl_ML07qaCpY5FLgupxFQVBnhzXL_tnEiyWh4" />
 	</settings>
 	<analysis key="{84343B3E-24A7-484D-91D7-D0F31FFC0C40}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">

@@ -2628,6 +2628,46 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageAvistepBirdlifeInternational" Key="{A8BD36AB-8BCE-4691-A6A6-2231D287431B}">
+								<Image FileName="1798282019" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{FE8EEA9F-AF0D-418B-9E41-288310EEB51A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://avistep.birdlife.org/map*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSelectASupportedCountry" Key="{32006624-1B84-4841-9493-79DE095BCA10}">
+										<Image FileName="1798282019" Left="0" Top="103" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Select a Supported Country&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel100" Key="{3FEF59F6-8063-423C-AC78-A9CD0D190FA9}">
+										<Image FileName="-953770876" Left="1594" Top="348" Right="1805" Bottom="377" />
+										<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;100%%&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;sentitivity-score-value&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{B78DAAA3-1D5F-4C22-BBDF-376E9A593728}">
@@ -3903,6 +3943,11 @@
 				</Child>
 				<Child Name="asideOffcanvasCart" Owner="{9F1837A4-FD2A-414D-93F7-3CF348066234}">
 					<Child Name="linkCheckout" Owner="{5AB27C73-47FA-4095-B5D8-2084A314C53F}" />
+				</Child>
+			</Child>
+			<Child Name="pageAvistepBirdlifeInternational" Owner="{A8BD36AB-8BCE-4691-A6A6-2231D287431B}">
+				<Child Name="sectionSelectASupportedCountry" Owner="{32006624-1B84-4841-9493-79DE095BCA10}">
+					<Child Name="panel100" Owner="{3FEF59F6-8063-423C-AC78-A9CD0D190FA9}" />
 				</Child>
 			</Child>
 		</Child>
