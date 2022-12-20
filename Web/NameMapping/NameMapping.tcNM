@@ -1467,6 +1467,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel" Key="{225828ED-EC47-413D-A26E-70595A2C93C8}">
+										<Image FileName="1525872086" Left="405" Top="179" Right="667" Bottom="226" />
+										<TypeInfo Item0="{9C85E83D-6E9E-4CF5-A5BB-481DDC67475E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;shop-logo&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//div/div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageConsumerSalesAppOverviewQlik" Key="{4517D9BF-C9D8-43BE-8C51-2D6A34557D68}">
@@ -3817,6 +3832,7 @@
 					<Child Name="link" Owner="{17FA0FB8-4F38-4A04-B7EE-5240B7D66999}">
 						<Child Name="imageSmartstore" Owner="{47F509A0-EE8E-431D-A7BB-E01FF0F8F24A}" />
 					</Child>
+					<Child Name="panel" Owner="{225828ED-EC47-413D-A26E-70595A2C93C8}" />
 				</Child>
 			</Child>
 			<Child Name="pageConsumerSalesAppOverviewQlik" Owner="{4517D9BF-C9D8-43BE-8C51-2D6A34557D68}">

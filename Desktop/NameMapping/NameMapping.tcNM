@@ -1302,6 +1302,41 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{A31425E1-DABE-4974-9F3D-F562C867AA2F}">
+								<Image FileName="1393775763" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WorkerW" Key="{920D8969-C31F-46D8-BB0D-626FA9BE0ED6}">
+										<Image FileName="1393775763" Left="144" Top="0" Right="1856" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskListWClass" Key="{9447BB37-2216-4842-9A19-2E9841CB014E}">
+												<Image FileName="1393775763" Left="144" Top="0" Right="1856" Bottom="40" />
+												<TypeInfo Item0="{AD3A4B7C-84CB-44DE-8F7B-6384A00348D1}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskListWClass" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="OUTLOOK" Key="{AA43C5D2-7636-4FC5-9624-A6627ED98979}">
@@ -2365,6 +2400,11 @@
 							<Child Name="buttonOutlook1RunningWindow" Owner="{9BD82B7B-099B-445B-AC29-C8A9FA875F0E}" />
 						</Child>
 					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{A31425E1-DABE-4974-9F3D-F562C867AA2F}">
+				<Child Name="WorkerW" Owner="{920D8969-C31F-46D8-BB0D-626FA9BE0ED6}">
+					<Child Name="MSTaskListWClass" Owner="{9447BB37-2216-4842-9A19-2E9841CB014E}" />
 				</Child>
 			</Child>
 		</Child>

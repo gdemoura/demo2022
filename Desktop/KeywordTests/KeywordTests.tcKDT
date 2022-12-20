@@ -14,5 +14,6 @@
 		</folder>
 		<child name="Test2" key="{6BFBF044-A94E-4E19-9A30-30DE6F58A028}" path="Test2.tcKDTest" />
 		<child name="Test3" key="{A1D3EE87-B717-48C6-8F68-5BC9FF03E7DC}" path="Test3.tcKDTest" />
+		<child name="Test4" key="{1784FF43-396E-45D3-8942-A26330631E98}" path="Test4.tcKDTest" />
 	</children>
 </Root>

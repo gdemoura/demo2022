@@ -22,10 +22,8 @@
 			<child name="search" key="{8845AC89-57B5-4D4D-B343-B989265C07A8}" path="search.tcKDTest" />
 			<child name="zoom" key="{92B4E37B-34A6-4131-8292-F15DDDD45919}" path="zoom.tcKDTest" />
 			<child name="propertySelection" key="{A23D6170-834B-4755-B96D-5ED2F67287E6}" path="propertySelection.tcKDTest" />
+			<child name="launchExcel" key="{1A634130-6215-4FC7-8A3C-4E6E88D53053}" path="launchExcel.tcKDTest" />
 		</folder>
-		<child name="launchExcel" key="{1A634130-6215-4FC7-8A3C-4E6E88D53053}" path="launchExcel.tcKDTest" />
-		<child name="Test1" key="{8B6DFFBF-3478-4EA2-ACEC-825FF65D4455}" path="Test1.tcKDTest" />
-		<child name="Test2" key="{24C43171-4B97-46AF-90FE-768083145130}" path="Test2.tcKDTest" />
-		<child name="Test3" key="{E695DCD4-61EE-4A81-8FD1-60FC391AB58F}" path="Test3.tcKDTest" />
+		<child name="Test1" key="{A9E3DE63-C2C0-43D3-97FD-F4787B7E69DF}" path="Test1.tcKDTest" />
 	</children>
 </Root>

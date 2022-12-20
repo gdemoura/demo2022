@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{8B6DFFBF-3478-4EA2-ACEC-825FF65D4455}" />
+	<data key="{4BD21F4F-3AB4-479F-A4B6-79C96B3A20E2}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44910.8709259259" objectName="Aliases.browser.BrowserWindow" objectLeft="-8" objectTop="-8" objectRight="1928" objectBottom="1048" clickPointX="1889" clickPointY="86" imageFileName="tcvi17633514092201.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

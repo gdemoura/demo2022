@@ -15,9 +15,7 @@
 				<children>
 					<testItem name="login" key="{C46F6DCA-F8FB-4419-AB44-F18E46E192D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
-						<environments activeCloud="SWT">
-							<cloud name="SWT" testedURL="https://bearstore-testsite.smartbear.com/" />
-						</environments>
+						<environments activeCloud="SWT" />
 						<children>
 							<testItem name="contactUsFlow" key="{A43AEAC1-DBDD-4DAC-8782-7DEDE2071CF3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F5D8442-BA69-436F-9280-EAE4F8A2B44E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 								<testParameters />
@@ -381,7 +379,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="12" colIndex="1">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
