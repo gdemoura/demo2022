@@ -7,7 +7,6 @@
 		<child name="Unit1" key="{3A9B9A8A-F214-4D5B-8CD1-E5FEDFF7D850}" path="Unit1.js" />
 		<child name="Unit4" key="{F5DF932D-5E0D-40D0-95AF-E45B4C53A658}" path="Unit4.js" />
 		<child name="launchExcel" key="{27147F14-A455-43E6-9DF0-D9924654B89E}" path="launchExcel.js" />
-		<child name="Unit5" key="{4B42B872-3029-4B95-B86D-38B3D5A2F353}" path="Unit5.js" />
 		<child name="Unit6" key="{7C7D36B1-BDC4-42E2-880C-5DE1EE7E80F5}" path="Unit6.js" />
 	</children>
 </Root>

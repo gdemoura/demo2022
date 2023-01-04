@@ -3336,6 +3336,23 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="Orders" Key="{34734209-D76F-4C70-8BBA-3FC08905691C}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{DF8325DD-5187-4076-BD3F-7C6AABBB78CD}">
+								<TypeInfo Item0="{8D4D72E7-2664-477F-80B1-8B07D5AD3703}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 			<Child Name="Mobile" Key="{F0351607-8661-4E34-8E18-D3399CCF0CA0}">
@@ -4089,6 +4106,9 @@
 					</Child>
 				</Child>
 			</Child>
+		</Child>
+		<Child Name="Orders" Owner="{34734209-D76F-4C70-8BBA-3FC08905691C}">
+			<Child Name="MainForm" Owner="{DF8325DD-5187-4076-BD3F-7C6AABBB78CD}" />
 		</Child>
 	</LogicalNodes>
 </Root>
