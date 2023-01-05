@@ -8,10 +8,6 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{5BCD5A73-505D-4F20-A2DE-6FD3E6A162B9}" version="14">
 		<children>
-			<testItem name="Android" key="{336D4BB1-7AC0-46D3-8F5E-7356D9A1599D}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
 			<testItem name="iOS" key="{898EB974-E1B9-46E3-99F0-5390043B4F21}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
@@ -19,9 +15,8 @@
 						<testParameters />
 						<environments activeCloud="BitBar">
 							<cloud name="BitBar">
-								<capabilities Enabled="True" AdvancedMode="True" Device="Apple iPhone 7 Plus A1784 15.3" Application="Orders.ipa (id: 158791517)" JSON="{&quot;platformName&quot;:&quot;IOS&quot;,&quot;bitbar_target&quot;:&quot;ios&quot;,&quot;bitbar_findDevice&quot;:true,&quot;bitbar_device&quot;:&quot;Apple iPhone 7 Plus A1784 15.3&quot;,&quot;deviceName&quot;:&quot;Apple iPhone 7 Plus A1784 15.3&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;,&quot;bitbar_app&quot;:&quot;158791517&quot;}" HubUrl="https://appium-us.bitbar.com/wd/hub/" CustomJSON="" OSName="IOS" />
-								<capabilities Enabled="True" AdvancedMode="True" Device="Apple iPhone 6 Plus A1524 12.5.5" Application="Orders.ipa (id: 158791517)" JSON="{&quot;platformName&quot;:&quot;IOS&quot;,&quot;bitbar_target&quot;:&quot;ios&quot;,&quot;bitbar_findDevice&quot;:true,&quot;bitbar_device&quot;:&quot;Apple iPhone 6 Plus A1524 12.5.5&quot;,&quot;deviceName&quot;:&quot;Apple iPhone 6 Plus A1524 12.5.5&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;,&quot;bitbar_app&quot;:&quot;158791517&quot;}" HubUrl="https://appium-us.bitbar.com/wd/hub/" CustomJSON="" OSName="IOS" />
 								<capabilities Enabled="True" AdvancedMode="True" Device="Apple iPhone 13 A2633 15.2" Application="Orders.ipa (id: 158791517)" JSON="{&quot;platformName&quot;:&quot;IOS&quot;,&quot;bitbar_target&quot;:&quot;ios&quot;,&quot;bitbar_findDevice&quot;:true,&quot;bitbar_device&quot;:&quot;Apple iPhone 13 A2633 15.2&quot;,&quot;deviceName&quot;:&quot;Apple iPhone 13 A2633 15.2&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;,&quot;bitbar_app&quot;:&quot;158791517&quot;}" HubUrl="https://appium-us.bitbar.com/wd/hub/" CustomJSON="" OSName="IOS" />
+								<capabilities Enabled="True" AdvancedMode="True" Device="Apple iPhone 11 Pro A2160 14.0.1 -US" Application="Orders.ipa (id: 158791517)" JSON="{&quot;platformName&quot;:&quot;IOS&quot;,&quot;bitbar_target&quot;:&quot;ios&quot;,&quot;bitbar_findDevice&quot;:true,&quot;bitbar_device&quot;:&quot;Apple iPhone 11 Pro A2160 14.0.1 -US&quot;,&quot;deviceName&quot;:&quot;Apple iPhone 11 Pro A2160 14.0.1 -US&quot;,&quot;automationName&quot;:&quot;XCUITest&quot;,&quot;bitbar_app&quot;:&quot;158791517&quot;}" HubUrl="https://appium-us.bitbar.com/wd/hub/" CustomJSON="" OSName="IOS" />
 							</cloud>
 						</environments>
 						<children />
@@ -32,7 +27,7 @@
 	</testItems>
 	<variables key="{1B06F04D-6E76-4018-8640-9F656D946242}" />
 	<settings key="{20430D20-B7C3-46CE-9EBB-360EFF8E7E31}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.46" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

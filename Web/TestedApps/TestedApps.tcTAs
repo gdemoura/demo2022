@@ -28,5 +28,17 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{EB9F0BAC-C12A-42E3-B2F1-1B0A0E1732AC}">
+			<config nodeName="chrome" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="-allow-file-access-from-files" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-allow-file-access-from-files" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="-allow-file-access-from-files" workFolder="" />
+					<param name="Simple" fileName="chrome.exe" filePath="C:\Program Files\Google\Chrome\Application\" parameters="-allow-file-access-from-files" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 	</children>
 </Root>
