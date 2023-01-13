@@ -507,7 +507,135 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonAdd" Key="{826900A2-5F6E-4C39-AB3F-3FE8F6CCAD9B}">
+										<Image FileName="-2039712935" Left="1122" Top="141" Right="1248" Bottom="273" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Add&quot; or @label=&quot;Add&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Add&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//*[@name=&quot;Orders&quot;])[2]/XCUIElementTypeButton[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeNavigationBar/XCUIElementTypeButton[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Add&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textField" Key="{82A37B1A-9BDB-485B-B47D-1D6DBDD2D2D7}">
+										<Image FileName="-1291794917" Left="60" Top="1551" Right="1224" Bottom="1647" />
+										<Selectors>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[6]/XCUIElementTypeTextField" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+			<Child Name="Sys" Key="{0C64FA5B-8BC9-4BA3-85BF-0E6F2939F6C3}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{A199F193-8E81-43A4-855F-713B830B0A76}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{0117176F-395F-4495-9B42-431DEEC17C1C}">
+								<Image FileName="1393604945" Left="0" Top="0" Right="1920" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="WorkerW" Key="{A7E8290C-2824-4F1A-9B96-BF7D99AE8D4E}">
+										<Image FileName="1393604945" Left="144" Top="0" Right="1856" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="WorkerW" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskListWClass" Key="{562C074F-F092-45AB-B220-EC2BAF6E9A9B}">
+												<Image FileName="1393604945" Left="144" Top="0" Right="1856" Bottom="40" />
+												<TypeInfo Item0="{CBA3C7DC-E37E-4B96-8159-C2490564FE92}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskListWClass" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndTaskListThumbnailWnd" Key="{AEFB52BC-BAE3-4889-8D15-3D8EE6CB85DE}">
+								<Image FileName="427038379" Left="0" Top="0" Right="1920" Bottom="211" />
+								<TypeInfo Item0="{52791D0F-D25B-4FF6-AF24-E7322BEB1F89}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TaskListThumbnailWnd" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Zoom" Key="{017007C1-63C1-4810-8DBC-ABC245D1B9F9}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Zoom" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndzPlistWndClass" Key="{B4D40541-39B1-4854-96CD-5FB04620F84C}">
+								<TypeInfo Item0="{09136926-937C-41A5-99C3-4FB42C0EDD24}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="zPlistWndClass" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Participants (3)" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndZPFloatToolbarClass" Key="{7A8FE89C-0B4E-47AE-8B75-F20EBA5E8C64}">
+								<Image FileName="-1163860908" Left="0" Top="0" Right="908" Bottom="75" />
+								<TypeInfo Item0="{341C1CA2-02A4-44DA-B861-F3CA29E868FD}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ZPFloatToolbarClass" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Meeting Controls" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -541,6 +669,7 @@
 					<Child Name="staticText1" Owner="{8CBBDF4A-2DC7-4D28-9D46-3BBA3CAD04E5}" />
 					<Child Name="other2" Owner="{D306F164-258B-4489-9750-B28BFD38573B}" />
 					<Child Name="slider" Owner="{D1EDD652-92FD-402F-96BB-85FCE5CBE4D2}" />
+					<Child Name="textField" Owner="{82A37B1A-9BDB-485B-B47D-1D6DBDD2D2D7}" />
 				</Child>
 				<Child Name="table2" Owner="{21CE897A-9210-4243-B9FD-AF58F0020460}">
 					<Child Name="other" Owner="{3CE6DCF7-11A8-4919-A00A-35F26C673979}" />
@@ -548,6 +677,7 @@
 				</Child>
 				<Child Name="navigationBarDetail" Owner="{BD0B3173-4668-49D2-BB62-B0AA7614D337}">
 					<Child Name="buttonOrders" Owner="{D729E4E0-29D9-4331-9F83-192D186649C2}" />
+					<Child Name="buttonAdd" Owner="{826900A2-5F6E-4C39-AB3F-3FE8F6CCAD9B}" />
 				</Child>
 				<Child Name="navigationBarOrders" Owner="{A61049B9-5E9A-4D79-A3DB-524110DE3F7F}">
 					<Child Name="buttonEdit" Owner="{9D46F820-2EF2-437B-AA85-9A9ED309316A}" />
@@ -560,9 +690,21 @@
 					<Child Name="buttonYes" Owner="{410DD71A-ACF8-4334-AAA9-EAC79895FE65}" />
 				</Child>
 				<Child Name="navigationBarOrders2" Owner="{D48DBFF0-889B-4FBD-9609-697B61A2F365}">
-					<Child Name="buttonDone" Owner="{D3A1ECE4-96BC-45C0-B73C-5AECA4C8F6ED}" />
+					<Child Name="buttonEdit" Owner="{D3A1ECE4-96BC-45C0-B73C-5AECA4C8F6ED}" />
 				</Child>
 			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{A199F193-8E81-43A4-855F-713B830B0A76}">
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{0117176F-395F-4495-9B42-431DEEC17C1C}">
+				<Child Name="WorkerW" Owner="{A7E8290C-2824-4F1A-9B96-BF7D99AE8D4E}">
+					<Child Name="MSTaskListWClass" Owner="{562C074F-F092-45AB-B220-EC2BAF6E9A9B}" />
+				</Child>
+			</Child>
+			<Child Name="wndTaskListThumbnailWnd" Owner="{AEFB52BC-BAE3-4889-8D15-3D8EE6CB85DE}" />
+		</Child>
+		<Child Name="Zoom" Owner="{017007C1-63C1-4810-8DBC-ABC245D1B9F9}">
+			<Child Name="wndzPlistWndClass" Owner="{B4D40541-39B1-4854-96CD-5FB04620F84C}" />
+			<Child Name="wndZPFloatToolbarClass" Owner="{7A8FE89C-0B4E-47AE-8B75-F20EBA5E8C64}" />
 		</Child>
 	</LogicalNodes>
 </Root>
