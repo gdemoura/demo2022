@@ -9,5 +9,6 @@
 		<child name="launchExcel" key="{27147F14-A455-43E6-9DF0-D9924654B89E}" path="launchExcel.js" />
 		<child name="Unit6" key="{7C7D36B1-BDC4-42E2-880C-5DE1EE7E80F5}" path="Unit6.js" />
 		<child name="Unit7" key="{C6090442-D305-434E-BEC9-20C5BCE4C6E4}" path="Unit7.js" />
+		<child name="Unit8" key="{0DAE6B34-B575-428D-9CD0-00DE8F9FDF81}" path="Unit8.js" />
 	</children>
 </Root>
