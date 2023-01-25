@@ -2849,7 +2849,7 @@
 										</Selectors>
 										<Children>
 											<Child Name="formForm1" Key="{0BDA7CD1-4DE3-44E3-9EAB-2E3169C28FCB}">
-												<Image FileName="-766157332" Left="0" Top="-127" Right="1903" Bottom="1246" />
+												<Image FileName="231262159" Left="273" Top="348" Right="1911" Bottom="1539" />
 												<Selectors>
 													<Selector>
 														<Value Value="#form1" />
@@ -3346,15 +3346,6 @@
 													</Selector>
 												</Selectors>
 											</Child>
-											<Child Name="cellDetailcell1020100008060" Key="{49A172C5-59AD-4CA6-A2AC-0B5789FB8CA0}">
-												<Image FileName="454725020" Left="298" Top="758" Right="673" Bottom="790" />
-												<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
-												<Selectors>
-													<Selector>
-														<Value Value="#DetailCell_1020100008060" />
-													</Selector>
-												</Selectors>
-											</Child>
 											<Child Name="buttonClose" Key="{AFF70156-732A-4945-BF78-CDC7A6FDED4E}">
 												<Image FileName="493826572" Left="282" Top="744" Right="402" Bottom="774" />
 												<TypeInfo Item0="{062BF320-127B-46EA-949A-FF6ACFA35924}" />
@@ -3424,21 +3415,15 @@
 													</Selector>
 												</Selectors>
 											</Child>
-											<Child Name="cellDetailcell1023100008060" Key="{25EF1642-BA6F-4663-B6DC-DEC256E5191B}">
-												<Image FileName="-1248043160" Left="298" Top="758" Right="673" Bottom="790" />
-												<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
-												<Selectors>
-													<Selector>
-														<Value Value="#DetailCell_1023100008060" />
-													</Selector>
-												</Selectors>
-											</Child>
-											<Child Name="cellDetailcell1030100008060" Key="{AC501285-A3BB-4D48-BBD2-39F0EBBE9E56}">
-												<Image FileName="-1134737809" Left="306" Top="766" Right="681" Bottom="798" />
+											<Child Name="cellstatus" Key="{AC501285-A3BB-4D48-BBD2-39F0EBBE9E56}">
+												<Image FileName="731689756" Left="306" Top="766" Right="681" Bottom="798" />
 												<TypeInfo Item0="{D88245F2-8671-48A0-9561-CC76A9908733}" />
 												<Selectors>
 													<Selector>
-														<Value Value="#DetailCell_1030100008060" />
+														<Value Value="#DetailCell_1032100008060" Enabled="False" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=//div [@class=’DetailCell DropDown InputReadOnly’]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -5040,7 +5025,7 @@
 					<Child Name="formForm1" Owner="{0BDA7CD1-4DE3-44E3-9EAB-2E3169C28FCB}">
 						<Child Name="textnodeProficiencyTesting" Owner="{7497751A-E751-403B-BB44-FC1B74EAA7F7}" />
 						<Child Name="panelProficiencyTesting" Owner="{01A27B80-0891-4FBD-B97E-90BB11492047}" />
-						<Child Name="cellDetailcell1030100008060" Owner="{AC501285-A3BB-4D48-BBD2-39F0EBBE9E56}" />
+						<Child Name="cellstatus" Owner="{AC501285-A3BB-4D48-BBD2-39F0EBBE9E56}" />
 					</Child>
 					<Child Name="formForm12" Owner="{CA66F232-E239-468D-AF26-6069E6A2548B}">
 						<Child Name="selectLinkto10201000078561" Owner="{85BC1793-BDC7-4D91-8F66-1048013C5859}" />
@@ -5073,13 +5058,11 @@
 						<Child Name="buttonProceed" Owner="{B9549BB4-5284-475A-A2AA-CBF2A319C075}" />
 						<Child Name="buttonSubmitForReview" Owner="{6F6D4679-D010-4FDF-99ED-1D3A74637A58}" />
 						<Child Name="cellSpacer1023100007832172" Owner="{DC5F4390-0DC2-42DA-B429-29AD43CD002B}" />
-						<Child Name="cellDetailcell1023100008060" Owner="{25EF1642-BA6F-4663-B6DC-DEC256E5191B}" />
 					</Child>
 					<Child Name="formForm13" Owner="{F0ECD82A-286C-4464-A6E4-72C94680D0F5}">
 						<Child Name="textnodeTabcontainerHeader" Owner="{AD5EB46D-9151-40C6-82F7-09CEEAE09226}">
 							<Child Name="textnodeTestResults" Owner="{7714DEFF-FB71-449E-9A8B-E2C20C372861}" />
 						</Child>
-						<Child Name="cellDetailcell1020100008060" Owner="{49A172C5-59AD-4CA6-A2AC-0B5789FB8CA0}" />
 						<Child Name="buttonClose" Owner="{AFF70156-732A-4945-BF78-CDC7A6FDED4E}" />
 					</Child>
 					<Child Name="formForm14" Owner="{718D96E2-CF61-45E8-B4BA-D21CF515DF12}" />
