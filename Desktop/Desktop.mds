@@ -41,7 +41,7 @@
 		</data>
 	</variables>
 	<settings key="{339AC2CF-A382-41CB-B5E2-B13199DA079A}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.47" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -317,13 +317,13 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="12" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="False" val1="*" />
+				<row val0="True" val1="*" />
 				<row val0="True" val1="MsoCommandBar*" />
 				<row val0="True" val1="_Ww*" />
 				<row val0="True" val1="OpusApp" />

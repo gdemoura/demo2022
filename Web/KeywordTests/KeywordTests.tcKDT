@@ -24,7 +24,6 @@
 			<child name="propertySelection" key="{A23D6170-834B-4755-B96D-5ED2F67287E6}" path="propertySelection.tcKDTest" />
 			<child name="launchExcel" key="{1A634130-6215-4FC7-8A3C-4E6E88D53053}" path="launchExcel.tcKDTest" />
 		</folder>
-		<child name="Test1" key="{E7662842-9C52-4B90-854C-3E6D4F3BED84}" path="Test1.tcKDTest" />
-		<child name="Test2" key="{5911667D-DC8C-496C-882D-14508EF7BE2C}" path="Test2.tcKDTest" />
+		<child name="intellect" key="{09827828-12FE-4C3D-B177-EB794EFDAD27}" path="intellect.tcKDTest" />
 	</children>
 </Root>

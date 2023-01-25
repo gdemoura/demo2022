@@ -115,6 +115,9 @@
 													<Property Name="WinFormsControlName">
 														<Value Value="State" />
 													</Property>
+													<Property Name="Text">
+														<Value Value="Kansas" />
+													</Property>
 												</Properties>
 											</Child>
 											<Child Name="Zip" Key="{FAD2260E-F0AC-44F9-B6D4-62021477E441}">
