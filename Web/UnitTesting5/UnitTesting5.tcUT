@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" version="15.0">
+	<children>
+		<child name="DUnit1" key="{9E6CE6FF-2210-4D4E-ABBD-893458F0514B}" type="DUnit" typeId="{9D8941CB-BF2F-4F66-BFF6-A8E647CE92B0}" pluginName="DUnit Runner" path="DUnit1\DUnit1.tcDUnit" />
+	</children>
+</Root>
