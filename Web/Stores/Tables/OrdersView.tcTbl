@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="OrdersView">
+		<Source Object="Aliases.Orders.MainForm.OrdersView" />
+		<Columns>
+			<Column>Customer Name</Column>
+			<Column>Product</Column>
+			<Column>Quantity</Column>
+			<Column>Date</Column>
+			<Column>Street</Column>
+			<Column>City</Column>
+			<Column>State</Column>
+			<Column>Zip</Column>
+			<Column>Card</Column>
+			<Column>Card No</Column>
+			<Column>Expiration Date</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">Kenyon Welch</Cell>
+				<Cell Type="String">MyMoney</Cell>
+				<Cell Type="String">1</Cell>
+				<Cell Type="String">4/6/2005</Cell>
+				<Cell Type="String">54649 South Cantu Ave.</Cell>
+				<Cell Type="String">West Warwick</Cell>
+				<Cell Type="String">Alaska</Cell>
+				<Cell Type="String">81307</Cell>
+				<Cell Type="String">Visa</Cell>
+				<Cell Type="String">1945661901</Cell>
+				<Cell Type="String">2/5/2024</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Yolanda Collier</Cell>
+				<Cell Type="String">MyMoney</Cell>
+				<Cell Type="String">1</Cell>
+				<Cell Type="String">4/6/2005</Cell>
+				<Cell Type="String">47563 West Rodriquez Ln.</Cell>
+				<Cell Type="String">Manassas Park</Cell>
+				<Cell Type="String">Idaho</Cell>
+				<Cell Type="String">78749</Cell>
+				<Cell Type="String">Visa</Cell>
+				<Cell Type="String">2001770940</Cell>
+				<Cell Type="String">1/30/2026</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Stephen Ferrell</Cell>
+				<Cell Type="String">MyMoney</Cell>
+				<Cell Type="String">1</Cell>
+				<Cell Type="String">4/6/2005</Cell>
+				<Cell Type="String">82338 North Mali Ave.</Cell>
+				<Cell Type="String">Webster Groves</Cell>
+				<Cell Type="String">Pennsylvania</Cell>
+				<Cell Type="String">10474-4879</Cell>
+				<Cell Type="String">Visa</Cell>
+				<Cell Type="String">1230287469</Cell>
+				<Cell Type="String">2/17/2024</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

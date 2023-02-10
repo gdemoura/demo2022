@@ -3420,10 +3420,25 @@
 												<TypeInfo Item0="{D88245F2-8671-48A0-9561-CC76A9908733}" />
 												<Selectors>
 													<Selector>
+														<Value Value="xpath=//*[@id=&quot;DetailCell_10*&quot;]/table" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=//*[@class=&quot;DetailCell DropDown InputReadOnly&quot;]" Enabled="False" />
+													</Selector>
+													<Selector>
 														<Value Value="#DetailCell_1032100008060" Enabled="False" />
 													</Selector>
 													<Selector>
-														<Value Value="xpath=//div [@class=’DetailCell DropDown InputReadOnly’]" />
+														<Value Value="xpath=//div [@class=’DetailCell DropDown InputReadOnly’]" Enabled="False" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="tableGrade" Key="{9188DFC5-5E21-4D3A-AC4C-A7249A2B5389}">
+												<Image FileName="-1576836481" Left="291" Top="733" Right="726" Bottom="798" />
+												<TypeInfo Item0="{5FEDEB84-7745-4E9E-896E-262DA69C90A3}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//td[3]//table/tbody/tr[2]/td/table[contains(@class, &apos;FieldSectionTable&apos;)]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -3655,6 +3670,15 @@
 												<Selectors>
 													<Selector>
 														<Value Value="#DetailCell_1027100008060" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodePass" Key="{184B94E8-5EA7-4A61-891D-C3088AD3B432}">
+												<Image FileName="-571016165" Left="304" Top="766" Right="331" Bottom="784" />
+												<TypeInfo Item0="{D74E9306-744F-41EB-989A-91E2C730F9EE}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[.=&apos;Pass&apos;]" />
 													</Selector>
 												</Selectors>
 											</Child>
@@ -4376,6 +4400,17 @@
 										<Value Value="MainForm" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="OrdersView" Key="{C444B0DD-9768-48FD-B5E3-9AB8F5C47690}">
+										<Image FileName="684147498" Left="8" Top="79" Right="600" Bottom="378" />
+										<TypeInfo Item0="{8368F441-FB4B-4C11-B26E-2FF6B15A464E}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="OrdersView" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 						</Children>
 					</Child>
@@ -5026,6 +5061,7 @@
 						<Child Name="textnodeProficiencyTesting" Owner="{7497751A-E751-403B-BB44-FC1B74EAA7F7}" />
 						<Child Name="panelProficiencyTesting" Owner="{01A27B80-0891-4FBD-B97E-90BB11492047}" />
 						<Child Name="cellstatus" Owner="{AC501285-A3BB-4D48-BBD2-39F0EBBE9E56}" />
+						<Child Name="tableGrade" Owner="{9188DFC5-5E21-4D3A-AC4C-A7249A2B5389}" />
 					</Child>
 					<Child Name="formForm12" Owner="{CA66F232-E239-468D-AF26-6069E6A2548B}">
 						<Child Name="selectLinkto10201000078561" Owner="{85BC1793-BDC7-4D91-8F66-1048013C5859}" />
@@ -5084,6 +5120,7 @@
 					<Child Name="formForm1" Owner="{273C63CC-0D98-4BB4-B49F-34B165FDE70B}">
 						<Child Name="panel" Owner="{989591AC-482C-4D14-9B02-C6069B27005F}" />
 						<Child Name="cellDetailcell1027100008060" Owner="{8E04421D-D5AC-40C3-8912-27D5E8B0BCFC}" />
+						<Child Name="textnodePass" Owner="{184B94E8-5EA7-4A61-891D-C3088AD3B432}" />
 					</Child>
 				</Child>
 				<Child Name="textnodeClosure" Owner="{8B87515D-82F0-4B67-8966-86B83CC7E9B9}" />
@@ -5216,7 +5253,9 @@
 			</Child>
 		</Child>
 		<Child Name="Orders" Owner="{34734209-D76F-4C70-8BBA-3FC08905691C}">
-			<Child Name="MainForm" Owner="{DF8325DD-5187-4076-BD3F-7C6AABBB78CD}" />
+			<Child Name="MainForm" Owner="{DF8325DD-5187-4076-BD3F-7C6AABBB78CD}">
+				<Child Name="OrdersView" Owner="{C444B0DD-9768-48FD-B5E3-9AB8F5C47690}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>

@@ -11,5 +11,6 @@
 		<child name="Unit7" key="{C6090442-D305-434E-BEC9-20C5BCE4C6E4}" path="Unit7.js" />
 		<child name="Unit8" key="{0DAE6B34-B575-428D-9CD0-00DE8F9FDF81}" path="Unit8.js" />
 		<child name="Unit9" key="{21062541-2AD4-41C7-A362-54A137EC3EBC}" path="Unit9.js" />
+		<child name="Unit10" key="{F2D44C5E-67F8-407E-961C-B3302A3B6C79}" path="Unit10.js" />
 	</children>
 </Root>

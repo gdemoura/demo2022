@@ -25,5 +25,6 @@
 			<child name="launchExcel" key="{1A634130-6215-4FC7-8A3C-4E6E88D53053}" path="launchExcel.tcKDTest" />
 		</folder>
 		<child name="intellect" key="{09827828-12FE-4C3D-B177-EB794EFDAD27}" path="intellect.tcKDTest" />
+		<child name="Test1" key="{EC3FAC13-C0A4-4065-8C48-00168D8A539A}" path="Test1.tcKDTest" />
 	</children>
 </Root>

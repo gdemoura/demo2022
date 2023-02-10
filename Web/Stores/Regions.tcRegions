@@ -7,5 +7,11 @@
 		<child name="panel_Mask" key="{4DD09DE6-6D30-4DFC-AF61-009B6ED57A86}">
 			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="panel_Mask" ID="{4DD09DE6-6D30-4DFC-AF61-009B6ED57A86}" FileName="Regions\panel_Mask.png" Update="False" />
 		</child>
+		<child name="imageShowProductsInCategory" key="{723DBDFD-5E1D-4AA8-BAF9-95FE2E9C0D7C}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="imageShowProductsInCategory" ID="{723DBDFD-5E1D-4AA8-BAF9-95FE2E9C0D7C}" FileName="Regions\imageShowProductsInCategory.png" Update="False" />
+		</child>
+		<child name="imageShowProductsInCategory_Mask" key="{16C67ED6-8745-478A-B6EE-789AA3278779}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="imageShowProductsInCategory_Mask" ID="{16C67ED6-8745-478A-B6EE-789AA3278779}" FileName="Regions\imageShowProductsInCategory_Mask.png" Update="False" />
+		</child>
 	</children>
 </Root>

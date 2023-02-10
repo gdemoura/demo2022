@@ -3,5 +3,7 @@
 	<children>
 		<child name="panelGrid" key="{1AADB87E-B1F5-4968-B5B8-44BBA77386FC}" path="panelGrid.tcTbl" />
 		<child name="ContactVar21" key="{AB2C95CA-6EB1-4CBC-9E96-45C504B44FD4}" path="ContactVar21.tcTbl" />
+		<child name="OrdersView" key="{786D2E9B-852D-484C-9360-183C0CB4DE7C}" path="OrdersView.tcTbl" />
+		<child name="OrdersView1" key="{08E4C773-E47A-458C-BD75-6ADB3CDB083B}" path="OrdersView1.tcTbl" />
 	</children>
 </Root>
