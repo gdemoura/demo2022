@@ -27,7 +27,7 @@
 	</testItems>
 	<variables key="{1B06F04D-6E76-4018-8640-9F656D946242}" />
 	<settings key="{20430D20-B7C3-46CE-9EBB-360EFF8E7E31}">
-		<settingsVersion value="15.46" />
+		<settingsVersion value="15.48" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -54,7 +54,7 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="" />
-		<setting name="BitBar_APIKey" type="5" value="3A02A0411CAE82DD0C431B1E39316925DCB0B92D4306819475DF7392B570428B4ED2BF475D81E451FB1F344AFC9519C6AAEECD60E33ECC97535D008DFEC30350623506" />
+		<setting name="BitBar_APIKey" type="5" value="3A02A04190AF82DD0CC62B023361C36F37F6EA68220DD59AEB9223C4F0C61714F90E975E6E69D8EC0CCE019F86480E5B4315B4B36A7B18FCC2413F2237C807B9" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
@@ -71,6 +71,7 @@
 				<row val0="Via proxy" />
 			</data>
 		</setting>
+		<setting name="CBT_Authkey" type="5" value="3A02A04190AF82DD0CC62B023361C36F37F6EA68220DD59AEB9223C4F0C61714F90E975E6E69D8EC0CCE019F86480E5B4315B4B36A7B18FCC2413F2237C807B9" />
 		<setting name="CBT_LocalHtmlDir" type="5" value="" />
 		<setting name="CBT_ProxyAddress" type="5" value="" />
 		<setting name="CBT_ProxyLogin" type="5" value="" />

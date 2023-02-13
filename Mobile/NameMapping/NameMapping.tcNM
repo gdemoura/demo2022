@@ -535,6 +535,40 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="staticText0" Key="{BA63325F-E1DA-42B8-A75D-552A2757B0F4}">
+										<Image FileName="1257776783" Left="352" Top="785" Right="418" Bottom="839" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;0%%&quot; or @label=&quot;0%%&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;0%%&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[3]/XCUIElementTypeStaticText[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;0%%&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="staticTextBobFeather" Key="{B132D2FD-5A20-4159-925A-0366D3A45A3E}">
+										<Image FileName="-1506259853" Left="180" Top="332" Right="475" Bottom="398" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@name=&quot;Bob Feather&quot; or @label=&quot;Bob Feather&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@label=&quot;Bob Feather&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@name=&quot;Bob Feather&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -670,6 +704,8 @@
 					<Child Name="other2" Owner="{D306F164-258B-4489-9750-B28BFD38573B}" />
 					<Child Name="slider" Owner="{D1EDD652-92FD-402F-96BB-85FCE5CBE4D2}" />
 					<Child Name="textField" Owner="{82A37B1A-9BDB-485B-B47D-1D6DBDD2D2D7}" />
+					<Child Name="staticText0" Owner="{BA63325F-E1DA-42B8-A75D-552A2757B0F4}" />
+					<Child Name="staticTextBobFeather" Owner="{B132D2FD-5A20-4159-925A-0366D3A45A3E}" />
 				</Child>
 				<Child Name="table2" Owner="{21CE897A-9210-4243-B9FD-AF58F0020460}">
 					<Child Name="other" Owner="{3CE6DCF7-11A8-4919-A00A-35F26C673979}" />

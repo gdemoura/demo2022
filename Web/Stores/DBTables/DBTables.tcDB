@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{C3BE8E0F-FB1F-487B-9AE3-BCFEB91CBEFF}" version="15.0">
+	<children>
+		<child name="DBTable1" key="{060EE094-5CDC-4844-B92F-2ACDBFA94156}" path="DBTable1.tcBTable" />
+	</children>
+</Root>

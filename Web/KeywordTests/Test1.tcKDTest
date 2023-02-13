@@ -7,11 +7,13 @@
 			</Extenders>
 		</Data>
 		<Children>
-			<Operation Type="{29FFF95E-2F7A-4F60-9DCD-35FFD1DD1716}">
-				<Data Description="Compares the %n Stores item with the contents of the control." Checkpoint="OrdersView" />
+			<Operation Type="{AE794690-DDF6-4B63-8E92-60B253E7F7CA}">
+				<Data Description="Compares the %n Stores element with values stored in the database specified by the element properties." Checkpoint="DBTable1">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
-			<Operation Type="{29FFF95E-2F7A-4F60-9DCD-35FFD1DD1716}">
-				<Data Description="Compares the %n Stores item with the contents of the control." Checkpoint="OrdersView1" />
+			<Operation Type="{AE794690-DDF6-4B63-8E92-60B253E7F7CA}">
+				<Data Description="Compares the %n Stores element with values stored in the database specified by the element properties." Checkpoint="DBTable1" />
 			</Operation>
 		</Children>
 	</TestData>

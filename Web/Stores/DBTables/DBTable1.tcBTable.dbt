@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Table Name="DBTable1" Description="SQLDB">
+		<Source ConnectionString="Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=TCSQL_demo;Data Source=SB-MA-8XN46D3\SQLEXPRESS01" Object="Table" DataObjectContent="TCSQL_demo&#13;&#10;dbo">
+			<DataExtraction Type="" />
+		</Source>
+		<Columns>
+			<Column>Name</Column>
+			<Column>Street</Column>
+			<Column>City</Column>
+			<Column>State</Column>
+			<Column>Zip</Column>
+			<Column>CardNo</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">Jack</Cell>
+				<Cell Type="String">123 Main St</Cell>
+				<Cell Type="String">Boston</Cell>
+				<Cell Type="String">MA</Cell>
+				<Cell Type="String">02144</Cell>
+				<Cell Type="String">1213141519</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Emma</Cell>
+				<Cell Type="String">12 Orchard St</Cell>
+				<Cell Type="String">Boston</Cell>
+				<Cell Type="String">MA</Cell>
+				<Cell Type="String">02144</Cell>
+				<Cell Type="String">1244441516</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Dan</Cell>
+				<Cell Type="String">7 Artisan St</Cell>
+				<Cell Type="String">Boston</Cell>
+				<Cell Type="String">MA</Cell>
+				<Cell Type="String">02144</Cell>
+				<Cell Type="String">1355551517</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

@@ -4,5 +4,6 @@
 		<child name="Files" key="{4EACA68E-09A8-4676-951A-E1E3D8C94AF7}" type="Files" typeId="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" pluginName="Stores" path="Files.tcFiles" />
 		<child name="Tables" key="{0BB6DDA4-A1F2-4BB2-82EC-D70C0941F3B9}" type="Tables" typeId="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" pluginName="Stores" path="Tables\Tables.tcTbls" />
 		<child name="Regions" key="{742C70E4-2C3F-4D1E-9182-7D2D8997EF33}" type="Regions" typeId="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" pluginName="Stores" path="Regions.tcRegions" />
+		<child name="DBTables" key="{17F2D648-4D46-414D-A5D0-1249E44D1760}" type="DB tables" typeId="{C3BE8E0F-FB1F-487B-9AE3-BCFEB91CBEFF}" pluginName="Stores" path="DBTables\DBTables.tcDB" />
 	</children>
 </Root>
