@@ -27,5 +27,6 @@
 		<child name="intellect" key="{09827828-12FE-4C3D-B177-EB794EFDAD27}" path="intellect.tcKDTest" />
 		<child name="Test1" key="{EC3FAC13-C0A4-4065-8C48-00168D8A539A}" path="Test1.tcKDTest" />
 		<child name="Test2" key="{EE131ADC-484C-47A6-846B-2BBC30472B23}" path="Test2.tcKDTest" />
+		<child name="Test3" key="{2CC63582-82A1-4B5E-9523-72B18599BE22}" path="Test3.tcKDTest" />
 	</children>
 </Root>

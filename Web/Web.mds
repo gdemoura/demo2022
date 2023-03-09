@@ -1,112 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="15.0">
 	<children>
-		<child name="Script" key="{233C039B-09C6-4494-AF36-67F00B50DD89}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
-		<child name="KeywordTests" key="{78B18800-D883-4E42-8141-00A90CA983DF}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
-		<child name="NameMapping" key="{03D1C69F-29BD-48D8-A496-2272ED1D4D49}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
-		<child name="Stores" key="{CE3236AD-A049-468C-9791-FF17F4C43866}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
-		<child name="TestedApps" key="{11776294-AB29-4AF5-98CA-0B95EC89B46D}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
-		<child name="ReadyAPI5" key="{271DE8CC-2963-422D-86C6-48E4C55FBDFE}" type="ReadyAPI or SoapUI" typeId="{D5F2AF2E-BADF-483C-AB3E-DE7F0B6FBB55}" pluginName="ReadyAPI Runner" path="ReadyAPI5\ReadyAPI5.tcReadyAPI" />
+		<child name="Script" key="{9ED10473-3BA8-46CB-A8ED-CD935B8961D7}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+		<child name="KeywordTests" key="{242FBB73-F1B8-472E-BE4D-063EA3F6C2C7}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
-	<testItems key="{EBC18FC4-64C5-426D-AD7E-2CD739F27E72}" version="14">
-		<children>
-			<testItem name="smartstoreFlow" key="{72E456CF-6777-46D2-9309-AE13205E75F2}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="login" key="{C46F6DCA-F8FB-4419-AB44-F18E46E192D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6B434AAA-5675-4852-B68B-9C916E71CF15}" count="1" timeout="0" stopOnError="4" stopOnException="2" description="" tmsData="" testCase="True">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="contactUsFlow" key="{A43AEAC1-DBDD-4DAC-8782-7DEDE2071CF3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6F5D8442-BA69-436F-9280-EAE4F8A2B44E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children />
-							</testItem>
-							<testItem name="logout" key="{2C2464AE-F53B-4D72-8FA8-3E8489E38A16}" group="False" parallel="False" enabled="True" testMoniker="KDT\{05245389-4007-4BD2-8A06-372C6A7AD769}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children>
-									<testItem name="close" key="{FC7A7CA4-BF37-4A58-9EFE-B90BC056BA1E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{46F57EC7-9337-4184-8FE0-E790F80BBDF6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-										<testParameters />
-										<environments activeCloud="SWT" />
-										<children />
-									</testItem>
-								</children>
-							</testItem>
-						</children>
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="Zillow Project" key="{B6685747-FE68-4D85-9897-D48722B64AFB}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="search" key="{26B7EEB8-F178-4396-BDF3-738BB6EBEF9D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8845AC89-57B5-4D4D-B343-B989265C07A8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children>
-							<testItem name="zoom" key="{1E8F9C43-CCBF-4BE6-A276-FD185C1A2A1A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{92B4E37B-34A6-4131-8292-F15DDDD45919}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
-								<testParameters />
-								<environments activeCloud="SWT" />
-								<children>
-									<testItem name="propertySelection" key="{2D3752EF-0299-450E-B73A-A7429B19050A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A23D6170-834B-4755-B96D-5ED2F67287E6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
-										<testParameters />
-										<environments activeCloud="SWT" />
-										<children />
-									</testItem>
-								</children>
-							</testItem>
-						</children>
-					</testItem>
-				</children>
-			</testItem>
-			<testItem name="IQ" key="{CC59D31D-13D0-4DA2-8738-C24353C76C77}" group="True" parallel="False" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children>
-					<testItem name="OCRAction" key="{C0D2FCFB-AE1B-4CB3-8C68-7A09DC4C25FD}" group="False" parallel="False" enabled="False" testMoniker="KDT\{AEA2E0A0-158F-4D4D-A7CE-3D3CB2C85894}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="OCRCheck" key="{F932AA57-AB20-44F8-B40A-8D087E225462}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8B64DBC8-26D8-4B9B-A3CD-4BDEB1FA2AFE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-					<testItem name="PDF" key="{8A199B53-9914-478C-8363-A5207495F536}" group="False" parallel="False" enabled="False" testMoniker="KDT\{18D3091D-E4CB-4BD1-B575-172143BAB874}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
-						<testParameters />
-						<environments activeCloud="SWT" />
-						<children />
-					</testItem>
-				</children>
-			</testItem>
-		</children>
+	<testItems key="{AC6DCBF6-37D5-41A0-A244-6FE9DB9D8084}" version="14">
+		<children />
 	</testItems>
-	<variables key="{1B741AED-ABF4-4494-B058-AD9444DEDD63}">
-		<data Version="4">
-			<Items>
-				<Variable Name="Password1" Type="Password" Local="False">
-					<DefValue StrValue="380039003600310039003300440030004600340044003800340042004600350045004300390038003200370046003600440030004500340043004400350041004200380035004100440034003700420038003200370031003100410033004600360038004200420046004400440034003300370038003500" />
-				</Variable>
-				<Variable Name="Adress" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="sqFeet" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="propertyValue" Type="String" Local="True">
-					<DefValue />
-				</Variable>
-				<Variable Name="firstPrice" Type="String" Local="True">
-					<DefValue StrValue="0" />
-				</Variable>
-				<Variable Name="Password2" Type="Password" Local="False">
-					<DefValue StrValue="3800390036003100450033004400330046003400440038004200330046003100410034004600440045004600380033003100320041004300" />
-				</Variable>
-			</Items>
-		</data>
-	</variables>
-	<settings key="{1D944617-E4C9-49D6-83FE-E3CD25D152A3}">
+	<variables key="{B429E53C-55A2-49C4-9228-6E0A7C0FD1F0}" />
+	<settings key="{32AF1789-065C-40A3-AEF9-2328590E87C7}">
 		<settingsVersion value="15.48" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
@@ -151,13 +54,13 @@
 				<row val0="Via proxy" />
 			</data>
 		</setting>
-		<setting name="CBT_Authkey" type="5" value="" />
+		<setting name="CBT_Authkey" type="5" value="3A02A04190AF82DD0CC62B023361C36F37F6EA68220DD59AEB9223C4F0C61714F90E975E6E69D8EC0CCE019F86480E5B4315B4B36A7B18FCC2413F2237C807B9" />
 		<setting name="CBT_LocalHtmlDir" type="5" value="" />
 		<setting name="CBT_ProxyAddress" type="5" value="" />
 		<setting name="CBT_ProxyLogin" type="5" value="" />
 		<setting name="CBT_ProxyPassword" type="5" value="" />
 		<setting name="CBT_ProxyPort" type="2" value="0" />
-		<setting name="CBT_UserName" type="5" value="gabriel.demoura@smartbear.com" />
+		<setting name="CBT_UserName" type="5" value="" />
 		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -384,7 +287,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -402,7 +305,6 @@
 				<row val0="True" val1="XTPTaskPanel" />
 				<row val0="True" val1="XTPReport" />
 				<row val0="True" val1="XTPPopupBar" />
-				<row val0="True" val1="NetUIHWND" />
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
@@ -446,7 +348,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="3" colIndex="1">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -455,7 +357,6 @@
 				<row val0="False" val1="*" />
 				<row val0="True" val1="DirectUIHWND" />
 				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
-				<row val0="True" val1="OutlookGrid" />
 			</data>
 		</setting>
 		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
@@ -472,7 +373,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="True" />
-		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="37" colIndex="4">
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="37" colIndex="9">
 			<columns>
 				<column type="2" enabled="True" />
 				<column type="2" enabled="True" />
@@ -681,7 +582,7 @@
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
-		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
@@ -765,7 +666,7 @@
 				<row val0="CrossBrowserTesting" />
 			</data>
 		</setting>
-		<setting name="ZFJ_Cycle" type="5" value="Ad hoc" />
+		<setting name="ZFJ_Cycle" type="5" value="" />
 		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
 		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
 		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
@@ -779,25 +680,25 @@
 				<row val0="Zephyr Squad Cloud" />
 			</data>
 		</setting>
-		<setting name="ZFJ_JiraLogin" type="5" value="gabriel.demoura@smartbear.com" />
-		<setting name="ZFJ_JiraPassword" type="5" value="3A029EEB41C532BD5CA4C28F9AC0DD0BE58CFF8DEC308140DBEE90BA7AE8D09C6F9DA9FA6BB7A3543130B62520B7AF45A00EAF2DF258" />
-		<setting name="ZFJ_JiraProject" type="5" value="Gabe" />
-		<setting name="ZFJ_JiraUrl" type="5" value="https://smartbeardemo.atlassian.net/" />
+		<setting name="ZFJ_JiraLogin" type="5" value="" />
+		<setting name="ZFJ_JiraPassword" type="5" value="" />
+		<setting name="ZFJ_JiraProject" type="5" value="" />
+		<setting name="ZFJ_JiraUrl" type="5" value="" />
 		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
-		<setting name="ZFJ_Version" type="5" value="&lt;Unscheduled&gt;" />
-		<setting name="ZFJ_ZephyrAccessKey" type="5" value="MzFkZTA1ZTgtMWRkZi0zNDY2LTk3OWUtYzg4OGQzMzhlNmI3IDYxMmQyYzc3NzY4MDhkMDA2YWY5YWVjNyBVU0VSX0RFRkFVTFRfTkFNRQ" />
-		<setting name="ZFJ_ZephyrSecretKey" type="5" value="cniyCMxl_ML07qaCpY5FLgupxFQVBnhzXL_tnEiyWh4" />
+		<setting name="ZFJ_Version" type="5" value="" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{84343B3E-24A7-484D-91D7-D0F31FFC0C40}" />
+	<analysis key="{FE168976-B190-492F-92A0-F7AB4F0E9DCC}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{62DA3946-FADF-4C54-B17E-07AEBB8979C4}">
+	<issueTracking key="{648FA4E5-EF84-4150-97B6-AB3FE689EE18}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>
-					<Field ItemId="{043F8960-CFD6-469B-89D7-CC33A4F369F1}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
-					<Field ItemId="{684DB27F-5B83-4013-8844-BF141EF67ADA}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+					<Field ItemId="{694F5986-F79E-4DA8-B875-FB2803E03364}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{9A42442F-78E3-4540-9268-5A3384D6B3EC}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
 				</Fields>
 			</Template>
 		</Templates>
